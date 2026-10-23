@@ -1,8 +1,15 @@
 # Layer-Gate BEV: critical-miss evaluation
 
-[中文说明](README.zh-CN.md) · [Paper PDF](paper/critical-miss-evaluation.pdf) · [LaTeX](paper/latex/) · [Reproduction guide](docs/reproducibility.md) · [Versioned release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.0)
+[中文说明](README.zh-CN.md) · [Paper PDF](paper/critical-miss-evaluation.pdf) · [LaTeX](paper/latex/) · [Reproduction guide](docs/reproducibility.md) · [Versioned release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.1)
 
 **Critical-Miss Evaluation in Small-Sample BEV: Log-Weight Sensitivity and Risk-Monitor Limits**
+
+**Author:** Xiaotong Wu  
+**Affiliation:** Illinois Risk Lab (IRisk Lab), University of Illinois Urbana-Champaign  
+**Email:** [xiaotongwu116@gmail.com](mailto:xiaotongwu116@gmail.com)  
+**Research Advisor:** Dr. Zhiyu Quan
+
+Version 1.0.1 adds the author's name, affiliation, contact information and research-advisor attribution to the manuscript and repository metadata. Dr. Zhiyu Quan is acknowledged as the research advisor and is not listed as a coauthor. The scientific content and results are unchanged; the [version 1.0.0 release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.0) remains available. See the [v1.0.1 release notes](docs/release-notes-v1.0.1.md).
 
 This repository accompanies a completed exploratory research report on **404 nuScenes mini frames from eight capture logs**. It documents negative and mixed findings, rather than a validated safety improvement. The three monitor seeds use the same logs and are not three independent datasets. The report is a learning/research manuscript; **no peer-reviewed acceptance, DOI, SOTA result, or deployed safety guarantee is claimed**.
 
@@ -63,8 +70,8 @@ This is a **compact analysis companion**, not an end-to-end detector training re
 
 ## Paper, provenance, and citation
 
-The released 11-page PDF and `main.tex` match the accepted final R3 files. Full-precision results, exact copied inputs, and public-path deidentification are mapped in [the provenance record](provenance/SOURCE_COPY_RECORD.json); [the release manifest](provenance/PUBLIC_RELEASE_MANIFEST.json) binds the public files. Any path-redacted copy has its own hash and is not represented as byte-identical to its archive source.
+The released compiled PDF and `main.tex` contain the final R3 scientific report with the v1.0.1 author metadata correction. Full-precision results, exact copied inputs, and public-path deidentification are mapped in [the provenance record](provenance/SOURCE_COPY_RECORD.json); [the release manifest](provenance/PUBLIC_RELEASE_MANIFEST.json) binds the public files. Any path-redacted copy has its own hash and is not represented as byte-identical to its archive source. The authorship correction changes the manuscript/PDF bytes without changing the reported methods, numerical results, tables, figures or conclusions.
 
 The LaTeX source uses IEEEtran from a normal TeX distribution; third-party class/style files are not vendored. See [build instructions](paper/latex/README.md). References and upstream attribution are in [references.bib](paper/latex/references.bib).
 
-Use [CITATION.cff](CITATION.cff) for the versioned repository citation. It identifies the GitHub maintainer account and does not invent a personal author identity, ORCID, publication venue, or DOI. Academic Writing Toolkit provides offline manuscript/README language-logic and BibTeX-structure checks recorded in `provenance/academic-writing-toolkit/`; these are not scientific peer review or online verification of the results. No repository-wide relicensing of the paper, code or upstream data is implied.
+Use [CITATION.cff](CITATION.cff) for the versioned repository citation, identifying Xiaotong Wu as the author. The research-advisor attribution does not add a coauthor, and no ORCID, publication venue or DOI is asserted. Academic Writing Toolkit provided offline manuscript/README language-logic and BibTeX-structure checks for the initial public release, recorded with their historical scope in `provenance/academic-writing-toolkit/`; these are not scientific peer review or online verification of the results. No repository-wide relicensing of the paper, code or upstream data is implied.

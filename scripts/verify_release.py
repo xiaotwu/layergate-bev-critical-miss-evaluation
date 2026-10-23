@@ -15,8 +15,8 @@ for r in records:
         assert not re.search(r'[A-Za-z]:[\\/](?:Users|home)[\\/]|/home/[A-Za-z0-9_]+/',text),r['path']
         assert not re.search(r'gh[pousr]_[A-Za-z0-9]{25,}|github_pat_[A-Za-z0-9_]{30,}|-----BEGIN [A-Z ]*PRIVATE KEY-----',text),r['path']
     if p.suffix=='.json':json.loads(p.read_text(encoding='utf-8-sig'))
-assert sha(ROOT/'paper/critical-miss-evaluation.pdf')=='04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654'
-assert sha(ROOT/'paper/latex/main.tex')=='739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099'
+assert sha(ROOT/'paper/critical-miss-evaluation.pdf')=='4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715'
+assert sha(ROOT/'paper/latex/main.tex')=='f0e19eedf24b9c424537ab8e47072f63ae739969bd43d13605bc50b73fbcb80a'
 assert sha(ROOT/'paper/latex/references.bib')=='664b580977e311bbc41581a4e179295abac1991c16700b996b56010960eb0343'
 source=json.loads((ROOT/'provenance/SOURCE_COPY_RECORD.json').read_text(encoding='utf-8'))
 for r in source['source_files']:assert sha(ROOT/r['path'])==r['public_sha256'],r['path']

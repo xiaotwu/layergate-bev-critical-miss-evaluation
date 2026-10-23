@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "release": "v1.0.0",
-  "prepared_at_utc": "2026-10-23T22:29:27.793341+00:00",
-  "scope": "Curated public compact-analysis companion; final paper bytes unchanged. No raw sensor/complete annotation/checkpoint/prediction payload or private orchestration.",
-  "count": 108,
-  "bytes": 7320147,
+  "release": "v1.0.1",
+  "prepared_at_utc": "2026-10-23T23:33:27.752852+00:00",
+  "scope": "Curated compact-analysis companion; user-requested author metadata added. Scientific body/tables/figures/bibliography/analysis unchanged from v1.0.0. No raw sensors, full annotations, checkpoints, large prediction payloads or private execution controls.",
+  "count": 110,
+  "bytes": 7329400,
   "files": [
     {
       "path": ".gitattributes",
@@ -348,13 +348,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 675,
-      "sha256": "c91ae822aa90045d50acd48b2f2875c17fd303a04e43aebbe2092646dce1a5c0"
+      "bytes": 1393,
+      "sha256": "e3dc8f39c13e317f80917684a17c639e48a7cd7b752e69579ca5f70c0ede5b99"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 853,
-      "sha256": "da8466ad8ad0a6c87133c369d420407a804ab409adaefe1aa1fcf9d593ac3032"
+      "bytes": 1072,
+      "sha256": "096ebc41da329349fece8e580c7ebd13f1e739de1760387a5d98aafd6cd0292a"
     },
     {
       "path": "docs/figures/miss-transitions.png",
@@ -365,6 +365,11 @@
       "path": "docs/figures/risk-coverage.png",
       "bytes": 99990,
       "sha256": "daa75e60033b73f508bb6842fd47106e4a5a8eab37c13d2311b56ea0eca0c8f7"
+    },
+    {
+      "path": "docs/release-notes-v1.0.1.md",
+      "bytes": 1686,
+      "sha256": "9354de425bbc148e20142362f2512002efeddd4d330c8c5a0cf46bb6f4eca181"
     },
     {
       "path": "docs/release-notes.md",
@@ -388,8 +393,8 @@
     },
     {
       "path": "paper/critical-miss-evaluation.pdf",
-      "bytes": 163924,
-      "sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654"
+      "bytes": 165303,
+      "sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715"
     },
     {
       "path": "paper/latex/images/gate_weighting.pdf",
@@ -413,13 +418,13 @@
     },
     {
       "path": "paper/latex/main.tex",
-      "bytes": 41867,
-      "sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099"
+      "bytes": 42334,
+      "sha256": "f0e19eedf24b9c424537ab8e47072f63ae739969bd43d13605bc50b73fbcb80a"
     },
     {
       "path": "paper/latex/README.md",
-      "bytes": 964,
-      "sha256": "d3098cd0edea4c21c461c6cf1bfda20d72cef498a6278fc9ab5c37c75a527e0a"
+      "bytes": 1212,
+      "sha256": "29763f75da0db36437ce7add99ef2f56c10f4f21a02a72b026976b9d5080f6a2"
     },
     {
       "path": "paper/latex/references.bib",
@@ -488,8 +493,13 @@
     },
     {
       "path": "provenance/academic-writing-toolkit/REVIEW_SCOPE.md",
-      "bytes": 1147,
-      "sha256": "2bc5eb13912946c37af1f31cb40069f5b237c3ce24e20752fa13e5bf18dcd708"
+      "bytes": 1489,
+      "sha256": "910d15d0fd14a59cb9edbda6e9aef26ab188755feaea6351943692bff440096b"
+    },
+    {
+      "path": "provenance/AUTHOR_METADATA_v1.0.1.json",
+      "bytes": 1205,
+      "sha256": "095c16f2bb3c66591b3ef9481fe79fed9218ea3a08cfc1032a8a390c7950129f"
     },
     {
       "path": "provenance/PORTABILITY_CHECKS.json",
@@ -513,23 +523,23 @@
     },
     {
       "path": "provenance/README.md",
-      "bytes": 1434,
-      "sha256": "2e0016c3e5f6973e58f90cc7e215dbe85e31d2db8f944721d76e0bc617b4960c"
+      "bytes": 1925,
+      "sha256": "5609615898faf7012f61b631d8f8be0b475e739ae30f4296590e95117ac87fd3"
     },
     {
       "path": "provenance/SOURCE_COPY_RECORD.json",
-      "bytes": 41621,
-      "sha256": "3393a996e990f529b53097c6e327d922ac812b341ca0cb7d9558618eb97ceaa8"
+      "bytes": 42402,
+      "sha256": "0947c4fa947017d7fb77e2d74adfe05f6a4a14df542d08e70a353155ef933e48"
     },
     {
       "path": "README.md",
-      "bytes": 7974,
-      "sha256": "467dcf1338296d6ee672be083a567697daee32ba7c030d8230af3d1726028be0"
+      "bytes": 8962,
+      "sha256": "26859dd543fa6bad7e7226f0544bf77678b6a77558e004990d2c93d4e6d0c5bc"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 3736,
-      "sha256": "d147831802ac4925bfc1f294132edb2db46471c0b230cd0f7b394ac32e23d11a"
+      "bytes": 4465,
+      "sha256": "a089848fa6fafa6349f63da9e721cfce58a5291d7b883139a165c52028a87628"
     },
     {
       "path": "reports/miss-recovery-conclusions.zh-CN.md",
@@ -544,10 +554,7 @@
     {
       "path": "scripts/verify_release.py",
       "bytes": 2097,
-      "sha256": "db8eca5fdbacae875ec2d8db874d02eabb797f3784a4cce58009ac072c7eb17b"
+      "sha256": "a8422dc56eaa8995e83143cedc69c04f77de7a0e20db59ad4c489b3ee22349cf"
     }
-  ],
-  "self_and_SHA256SUMS_excluded_to_avoid_circular_hashes": true,
-  "scientific_result_changes_for_publication": false,
-  "publication_scope": "Compact checks completed locally; no GitHub Actions workflow or hosted-CI pass is claimed."
+  ]
 }

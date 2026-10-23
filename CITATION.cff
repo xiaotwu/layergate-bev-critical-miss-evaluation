@@ -2,14 +2,17 @@ cff-version: 1.2.0
 message: "Please cite the versioned research companion and describe it as an exploratory report, not a peer-reviewed safety validation."
 type: software
 title: "Layer-Gate BEV: Critical-Miss Evaluation in Small-Sample BEV"
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-23
 authors:
-  - name: "xiaotwu"
+  - family-names: "Wu"
+    given-names: "Xiaotong"
+    affiliation: "Illinois Risk Lab (IRisk Lab), University of Illinois Urbana-Champaign"
+    email: "xiaotongwu116@gmail.com"
     website: "https://github.com/xiaotwu"
 repository-code: "https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation"
 url: "https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation"
-abstract: "Exploratory evaluation companion: log-weight sensitivity, recall/AnyMiss disagreement, and frozen risk-score ranking/alarm limits on nuScenes mini. Maintainer is identified by the GitHub account; no DOI or peer-reviewed acceptance is asserted."
+abstract: "Exploratory evaluation companion: log-weight sensitivity, recall/AnyMiss disagreement, and frozen risk-score ranking/alarm limits on nuScenes mini. Version 1.0.1 adds author metadata and research-advisor attribution without changing the scientific content. No DOI or peer-reviewed acceptance is asserted."
 keywords:
   - BEV
   - nuScenes

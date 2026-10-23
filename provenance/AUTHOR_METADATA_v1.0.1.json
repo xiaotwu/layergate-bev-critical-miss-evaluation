@@ -1,0 +1,28 @@
+{
+  "formal_text": [
+    "Xiaotong Wu",
+    "Illinois Risk Lab (IRisk Lab)",
+    "University of Illinois Urbana-Champaign",
+    "Email: xiaotongwu116@gmail.com",
+    "Research Advisor: Dr. Zhiyu Quan"
+  ],
+  "only_named_author": "Xiaotong Wu",
+  "advisor_is_coauthor": false,
+  "source": "Direct user instruction for personal metadata; official institutional websites for name spelling only",
+  "official_name_sources": [
+    "https://asrm.illinois.edu/illinois-risk-lab/illinois-risk-lab-home",
+    "https://brand.illinois.edu/name-and-boilerplate"
+  ],
+  "main_sha256": "f0e19eedf24b9c424537ab8e47072f63ae739969bd43d13605bc50b73fbcb80a",
+  "scientific_body_from_abstract_byte_identical": true,
+  "training_sdk_scientific_audit_executions": 0,
+  "version": "v1.0.1",
+  "previous_version": "v1.0.0",
+  "pdf_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715",
+  "previous_anonymous_pdf_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
+  "pages": 11,
+  "scientific_public_files_unchanged": 77,
+  "body_from_abstract_byte_identical": true,
+  "all_pages_visually_reviewed": true,
+  "external_scientific_review_claimed": false
+}

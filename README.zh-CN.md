@@ -4,6 +4,13 @@
 
 论文：**小样本 BEV 关键漏检评估：日志加权敏感性与风险监测边界**。
 
+**作者：** Xiaotong Wu  
+**所属机构：** Illinois Risk Lab (IRisk Lab), University of Illinois Urbana-Champaign  
+**电子邮箱：** [xiaotongwu116@gmail.com](mailto:xiaotongwu116@gmail.com)  
+**研究导师（Research Advisor）：** Dr. Zhiyu Quan
+
+v1.0.1 补充论文及仓库的作者、机构、联系方式和研究导师信息。Dr. Zhiyu Quan 以研究导师身份列出，不列为共同作者。研究方法、数值结果和结论不变；[v1.0.0 历史发布](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.0)继续保留。详见 [v1.0.1 发布说明](docs/release-notes-v1.0.1.md)。
+
 这是一个已收尾的学习／探索性研究案例，使用 nuScenes mini 的404帧、8条日志。三seed使用同一批日志，并非三份独立数据。本仓库不宣称论文已被同行评审接受，也不宣称SOTA、稳定门控收益或已验证的安全系统。
 
 ## 最有价值的发现
@@ -26,7 +33,7 @@ A主矩阵176/192，缺16组；完整404帧门控比较只有seed0/1，seed2仅2
 
 ## 文件与复核
 
-`paper/`提供11页英文论文及LaTeX；`analysis/r1/`提供冻结模型评分、日志加权和全精度结果；`analysis/recovery/`提供恢复漏检／新增失败计数与界；`analysis/risk_ranking/`提供全部排序、预算、开发阈值及逐日志／逐折结果；`reports/`提供详细中文结论。
+`paper/`提供已编译的英文论文及LaTeX；`analysis/r1/`提供冻结模型评分、日志加权和全精度结果；`analysis/recovery/`提供恢复漏检／新增失败计数与界；`analysis/risk_ranking/`提供全部排序、预算、开发阈值及逐日志／逐折结果；`reports/`提供详细中文结论。署名修订改变论文源码和PDF的字节哈希，未改变科学内容。
 
 按[复现指南](docs/reproducibility.md)运行标准库检查，无需GPU、SDK或新增训练。这些是同作者数值复核，不等于外部独立复现。停止候选扩张，自动跟进不在仓库中恢复。
 

@@ -1,26 +1,30 @@
 {
-  "at_utc": "2026-10-23T22:26:11.667906+00:00",
-  "scope": "Curated publication copies from accepted final report and compact R1-R3 archive. No original source modified.",
+  "at_utc": "2026-10-23T23:32:27.491864+00:00",
+  "scope": "Curated publication copies; v1.0.1 updates only user-supplied authorship metadata and compiled layout, preserving the R3 scientific text and results.",
   "source_files": [
     {
       "path": "paper/critical-miss-evaluation.pdf",
       "archive_source": "P/output/pdf/main.pdf",
-      "archive_source_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
-      "public_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
-      "bytes": 163924,
+      "archive_source_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715",
+      "public_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715",
+      "bytes": 165303,
       "byte_identical": true,
-      "transformation": "Verbatim copy",
-      "path_fields_deidentified": []
+      "transformation": "Verbatim copy of user-requested author-metadata revision; scientific body/inputs unchanged; earlier anonymous bytes preserved in v1.0.0.",
+      "path_fields_deidentified": [],
+      "previous_v1_0_0_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
+      "previous_anonymous_archive_source": "P/output/pdf/main.pdf"
     },
     {
       "path": "paper/latex/main.tex",
       "archive_source": "P/main.tex",
-      "archive_source_sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099",
-      "public_sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099",
-      "bytes": 41867,
+      "archive_source_sha256": "f0e19eedf24b9c424537ab8e47072f63ae739969bd43d13605bc50b73fbcb80a",
+      "public_sha256": "f0e19eedf24b9c424537ab8e47072f63ae739969bd43d13605bc50b73fbcb80a",
+      "bytes": 42334,
       "byte_identical": true,
-      "transformation": "Verbatim copy",
-      "path_fields_deidentified": []
+      "transformation": "Verbatim copy of user-requested author-metadata revision; scientific body/inputs unchanged; earlier anonymous bytes preserved in v1.0.0.",
+      "path_fields_deidentified": [],
+      "previous_v1_0_0_sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099",
+      "previous_anonymous_archive_source": "P/main.tex"
     },
     {
       "path": "paper/latex/references.bib",
@@ -885,9 +889,10 @@
   "large_raw_predictions_checkpoints_or_execution_controls_included": false,
   "original_PDF_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
   "source_aliases": {
-    "P": "Accepted final eleven-page manuscript project",
+    "P": "Accepted final eleven-page manuscript project, including the user-requested v1.0.1 author-metadata revision",
     "R1": "Original enhancement compact archive",
     "R2": "Saved-count recovery compact archive",
     "R3": "Frozen-score ranking compact archive"
-  }
+  },
+  "current_author_metadata_pdf_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715"
 }
