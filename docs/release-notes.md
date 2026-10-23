@@ -1,6 +1,6 @@
 # v1.0.0: completed exploratory evaluation companion
 
-This first public release includes the final11-page paper, complete authored LaTeX build inputs (IEEEtran is a distribution dependency), English/Chinese academic READMEs, and compact R1–R3 analysis reproduction material. Full precision results include every seed/baseline and missingness/stop explanations. The publication does not add model fits, training, detector inference, SDK calls or GT matching.
+This first public release includes the final11-page paper, complete authored LaTeX build inputs (IEEEtran is a distribution dependency), academic documentation, and compact R1–R3 analysis reproduction material. Full precision results include every seed/baseline and missingness/stop explanations. The publication does not add model fits, training, detector inference, SDK calls or GT matching.
 
 The predefined fixed-budget consistency criterion failed. Development-fixed thresholds have limited internal failure enrichment, with outer alarm drift and log concentration; this is not calibrated or deployable safety evidence. The three seeds share the same eight historically exposed mini logs. See the paper and README for complete limitations.
 

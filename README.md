@@ -1,6 +1,6 @@
 # Layer-Gate BEV: critical-miss evaluation
 
-[中文说明](README.zh-CN.md) · [Paper PDF](paper/critical-miss-evaluation.pdf) · [LaTeX](paper/latex/) · [Reproduction guide](docs/reproducibility.md) · [Versioned release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.1)
+[Paper PDF](paper/critical-miss-evaluation.pdf) · [LaTeX](paper/latex/) · [Reproduction guide](docs/reproducibility.md) · [Versioned release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.2)
 
 **Critical-Miss Evaluation in Small-Sample BEV: Log-Weight Sensitivity and Risk-Monitor Limits**
 
@@ -50,7 +50,7 @@ Fractional alarm/capture counts are analytic expectations under uniform, label-i
 - Mandatory P1 execution failure preserves the original **NO_PROMOTION** decision. B2/B3 remain conditionally stopped for the recorded resource/support/implementation limits.
 - **Not established:** stable gate efficacy, consistent fixed-budget screening, calibrated safety risk, deployed alarm benefit, collision-risk reduction, causal effects, significance, or external generalization. No iid-frame confidence intervals or p-values are supplied.
 
-See [study status](docs/study-status.md), [Chinese conclusions](reports/risk-ranking-conclusions.zh-CN.md), and all full-precision outputs rather than isolated positive examples.
+See [study status](docs/study-status.md), [risk-ranking analysis](analysis/risk_ranking/README.md), [matched recovery analysis](analysis/recovery/README.md), and all full-precision outputs rather than isolated positive examples.
 
 ## Reproduce the compact analysis
 
