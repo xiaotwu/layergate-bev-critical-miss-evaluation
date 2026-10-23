@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Frozen-score ranking and primary alarm budget. Each seed has 404 frames/eight logs; all rows flag exactly 80 expected frames (19.802\%). LR is the saved logistic/fallback score; Dev is development prevalence; Conf is one minus maximum pedestrian confidence. $\mathrm{AP}_{risk}$ is threshold-grouped failure AP, distinct from detector mAP/pedAP. Lower AURC is better. Capture counts are uniform boundary-tie expectations; random uses the same 80 alarms, not an AP reference.}
+\label{tab:ranking}
+\centering\footnotesize
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{ccrrrrr}\toprule
+Seed & Score & AUROC & $\mathrm{AP}_{risk}$ & AURC & Capture/$P$ & Random\\\midrule
+0 & LR & 0.4596 & 0.6910 & 0.7282 & 57.58/270 & 53.47 \\
+0 & Dev & 0.4390 & 0.6413 & 0.7126 & 40.49/270 & 53.47 \\
+0 & Conf & 0.4136 & 0.6159 & 0.7463 & 47.00/270 & 53.47 \\
+1 & LR & 0.5353 & 0.6720 & 0.6131 & 43.56/272 & 53.86 \\
+1 & Dev & 0.4568 & 0.6423 & 0.6762 & 39.51/272 & 53.86 \\
+1 & Conf & 0.3702 & 0.6062 & 0.7784 & 46.00/272 & 53.86 \\
+2 & LR & 0.5704 & 0.7004 & 0.5695 & 51.47/266 & 52.67 \\
+2 & Dev & 0.4907 & 0.6414 & 0.6260 & 36.54/266 & 52.67 \\
+2 & Conf & 0.3898 & 0.5755 & 0.7323 & 35.00/266 & 52.67 \\
+\bottomrule\end{tabular}
+\end{table}

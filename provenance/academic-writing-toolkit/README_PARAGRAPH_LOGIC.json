@@ -1,0 +1,20 @@
+{
+  "scope": "Offline deterministic paragraph-level logic assistance for README; not scientific validation.",
+  "input_file": "README.md",
+  "tool": "Academic Writing Toolkit review_paragraph_logic",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"summary\": \"Paragraph logic review: no issues found.\",\n  \"issue_count\": 0,\n  \"issues\": []\n}"
+      }
+    ],
+    "structuredContent": {
+      "schema_version": 1,
+      "issues": [],
+      "issue_count": 0,
+      "summary": "Paragraph logic review: no issues found."
+    },
+    "isError": false
+  }
+}

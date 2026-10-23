@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Fixed monitor scores; lower Brier/NLL is better. All seeds and declared scopes are shown.}\label{tab:risk}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrrr}\toprule
+Scope & Seed & Const. Brier & Monitor Brier & $\Delta$Brier & Const. NLL & Monitor NLL & $\Delta$NLL\\\midrule
+Full404 & 0 & 0.275350 & 0.373000 & +0.097650 & 0.884444 & 1.273168 & +0.388724\\
+Full404 & 1 & 0.258868 & 0.280616 & +0.021748 & 0.855498 & 0.919890 & +0.064392\\
+Full404 & 2 & 0.259172 & 0.249927 & -0.009245 & 0.867522 & 0.856694 & -0.010828\\
+Target307 & 0 & 0.171024 & 0.273844 & +0.102820 & 0.535739 & 0.909421 & +0.373682\\
+Target307 & 1 & 0.143362 & 0.194701 & +0.051339 & 0.484779 & 0.603868 & +0.119089\\
+Target307 & 2 & 0.131977 & 0.129628 & -0.002348 & 0.468314 & 0.435056 & -0.033258\\
+Equal-log & 0 & 0.289153 & 0.409802 & +0.120649 & 0.947197 & 1.402110 & +0.454913\\
+Equal-log & 1 & 0.266280 & 0.309417 & +0.043137 & 0.906077 & 1.020997 & +0.114920\\
+Equal-log & 2 & 0.267446 & 0.268341 & +0.000895 & 0.922289 & 0.931540 & +0.009251\\
+\bottomrule\end{tabular}
+\par\vspace{3pt}\begin{minipage}{0.98\textwidth}\footnotesize Each seed uses the same eight outer logs: 404 frames, with 270/272/266 AnyMiss events for seeds 0/1/2. Target307 uses only the original target-containing stratum with the same event numerators. Equal-log first computes each log loss, then averages eight logs equally. Const. is the corresponding development prevalence. The monitor includes nine actual fits and three predetermined constant fallbacks. NLL uses natural logs; no iid intervals, seed-averaged inference, new detection, SDK, or acceptance policy is implied.\end{minipage}
+\end{table*}

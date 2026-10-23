@@ -1,0 +1,1376 @@
+{
+  "status": "COMPLETE_NEW_FIXED_PROTOCOL_INTERNAL_RISK_PILOT_NOT_PROMOTION",
+  "at_utc": "2026-10-21T05:55:19.146934+00:00",
+  "results": [
+    {
+      "seed": 0,
+      "scope": "all404",
+      "metrics": {
+        "logistic_p": {
+          "n": 404,
+          "positive": 270,
+          "negative": 134,
+          "Brier": 0.3729997199583942,
+          "NLL": 1.2731680043355305
+        },
+        "dev_prevalence_p": {
+          "n": 404,
+          "positive": 270,
+          "negative": 134,
+          "Brier": 0.27534992195860597,
+          "NLL": 0.8844443027659483
+        },
+        "uninformative_p": {
+          "n": 404,
+          "positive": 270,
+          "negative": 134,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599454
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": 0.09764979799978823,
+      "logistic_minus_dev_prevalence_NLL": 0.38872370156958214
+    },
+    {
+      "seed": 0,
+      "scope": "original_target_frames_only",
+      "metrics": {
+        "logistic_p": {
+          "n": 307,
+          "positive": 270,
+          "negative": 37,
+          "Brier": 0.27384369272962056,
+          "NLL": 0.9094213229393245
+        },
+        "dev_prevalence_p": {
+          "n": 307,
+          "positive": 270,
+          "negative": 37,
+          "Brier": 0.17102391198753072,
+          "NLL": 0.5357394672433954
+        },
+        "uninformative_p": {
+          "n": 307,
+          "positive": 270,
+          "negative": 37,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599453
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": 0.10281978074208983,
+      "logistic_minus_dev_prevalence_NLL": 0.37368185569592915
+    },
+    {
+      "seed": 1,
+      "scope": "all404",
+      "metrics": {
+        "logistic_p": {
+          "n": 404,
+          "positive": 272,
+          "negative": 132,
+          "Brier": 0.2806159046048254,
+          "NLL": 0.9198900795740732
+        },
+        "dev_prevalence_p": {
+          "n": 404,
+          "positive": 272,
+          "negative": 132,
+          "Brier": 0.2588676447818189,
+          "NLL": 0.8554983510446306
+        },
+        "uninformative_p": {
+          "n": 404,
+          "positive": 272,
+          "negative": 132,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599454
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": 0.02174825982300649,
+      "logistic_minus_dev_prevalence_NLL": 0.06439172852944264
+    },
+    {
+      "seed": 1,
+      "scope": "original_target_frames_only",
+      "metrics": {
+        "logistic_p": {
+          "n": 307,
+          "positive": 272,
+          "negative": 35,
+          "Brier": 0.1947013014377886,
+          "NLL": 0.603868032365511
+        },
+        "dev_prevalence_p": {
+          "n": 307,
+          "positive": 272,
+          "negative": 35,
+          "Brier": 0.14336181605408094,
+          "NLL": 0.4847794307870635
+        },
+        "uninformative_p": {
+          "n": 307,
+          "positive": 272,
+          "negative": 35,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599453
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": 0.05133948538370767,
+      "logistic_minus_dev_prevalence_NLL": 0.11908860157844753
+    },
+    {
+      "seed": 2,
+      "scope": "all404",
+      "metrics": {
+        "logistic_p": {
+          "n": 404,
+          "positive": 266,
+          "negative": 138,
+          "Brier": 0.24992736433094787,
+          "NLL": 0.8566937686844317
+        },
+        "dev_prevalence_p": {
+          "n": 404,
+          "positive": 266,
+          "negative": 138,
+          "Brier": 0.2591720836732539,
+          "NLL": 0.86752168385982
+        },
+        "uninformative_p": {
+          "n": 404,
+          "positive": 266,
+          "negative": 138,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599454
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": -0.00924471934230603,
+      "logistic_minus_dev_prevalence_NLL": -0.01082791517538828
+    },
+    {
+      "seed": 2,
+      "scope": "original_target_frames_only",
+      "metrics": {
+        "logistic_p": {
+          "n": 307,
+          "positive": 266,
+          "negative": 41,
+          "Brier": 0.12962841212202791,
+          "NLL": 0.43505604962948086
+        },
+        "dev_prevalence_p": {
+          "n": 307,
+          "positive": 266,
+          "negative": 41,
+          "Brier": 0.13197686923741336,
+          "NLL": 0.4683137941187219
+        },
+        "uninformative_p": {
+          "n": 307,
+          "positive": 266,
+          "negative": 41,
+          "Brier": 0.25,
+          "NLL": 0.6931471805599453
+        }
+      },
+      "logistic_minus_dev_prevalence_Brier": -0.0023484571153854494,
+      "logistic_minus_dev_prevalence_NLL": -0.03325774448924107
+    }
+  ],
+  "per_log": [
+    {
+      "seed": 0,
+      "log_token": "3a43824b84534c98bda1d07548db5817",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 23,
+          "negative": 18,
+          "Brier": 0.41820345032718614,
+          "NLL": 1.6442006656160018
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 23,
+          "negative": 18,
+          "Brier": 0.41820345032718614,
+          "NLL": 1.6442006656160018
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 24,
+          "positive": 23,
+          "negative": 1,
+          "Brier": 0.04022903033908388,
+          "NLL": 0.17839592317845218
+        },
+        "dev_prevalence_p": {
+          "n": 24,
+          "positive": 23,
+          "negative": 1,
+          "Brier": 0.04022903033908388,
+          "NLL": 0.17839592317845218
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "53cf9c55dd8644bea67b9f009fc1ee38",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.06542879068932311,
+          "NLL": 0.2630844067645089
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.07787993510005412,
+          "NLL": 0.3272129112084162
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.06542879068932311,
+          "NLL": 0.2630844067645089
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.07787993510005412,
+          "NLL": 0.3272129112084162
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "5bd40b613ac740cd9dbacdfbc3d68201",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.4104165427709263,
+          "NLL": 1.3524042834970593
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.23778179371842395,
+          "NLL": 0.6686151333388504
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.5145046160456788,
+          "NLL": 1.7631887926097964
+        },
+        "dev_prevalence_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.19524067063277448,
+          "NLL": 0.5831462853456169
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "6f7fe59adf984e55a82571ab4f17e4e2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 24,
+          "negative": 17,
+          "Brier": 0.47943258989408694,
+          "NLL": 1.3185977241327838
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 24,
+          "negative": 17,
+          "Brier": 0.26330646756981363,
+          "NLL": 0.7198964421347905
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 31,
+          "positive": 24,
+          "negative": 7,
+          "Brier": 0.46931310363595286,
+          "NLL": 1.2603291727724042
+        },
+        "dev_prevalence_p": {
+          "n": 31,
+          "positive": 24,
+          "negative": 7,
+          "Brier": 0.28526317625918113,
+          "NLL": 0.7640093959377497
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "7e25a2c8ea1f41c5b0da1e69ecfa71a2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.6459804063431983,
+          "NLL": 1.9121488594204668
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.31151974040021635,
+          "NLL": 0.8167611365271219
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.6459804063431983,
+          "NLL": 1.9121488594204668
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.31151974040021635,
+          "NLL": 0.8167611365271219
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "881dd2f8aaec49b681eb54be5bf3b3e2",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 18,
+          "negative": 23,
+          "Brier": 0.508216278622483,
+          "NLL": 1.915262271432518
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 18,
+          "negative": 23,
+          "Brier": 0.260470392697437,
+          "NLL": 0.7141985189352417
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 18,
+          "negative": 23,
+          "Brier": 0.508216278622483,
+          "NLL": 1.915262271432518
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 18,
+          "negative": 23,
+          "Brier": 0.260470392697437,
+          "NLL": 0.7141985189352417
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 121,
+          "positive": 82,
+          "negative": 39,
+          "Brier": 0.22697397879201758,
+          "NLL": 0.7576080722119131
+        },
+        "dev_prevalence_p": {
+          "n": 121,
+          "positive": 82,
+          "negative": 39,
+          "Brier": 0.22029777096397873,
+          "NLL": 0.6331149081769177
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 83,
+          "positive": 82,
+          "negative": 1,
+          "Brier": 0.0212247701030479,
+          "NLL": 0.08870444271603026
+        },
+        "dev_prevalence_p": {
+          "n": 83,
+          "positive": 82,
+          "negative": 1,
+          "Brier": 0.08320355516169603,
+          "NLL": 0.3386476166866951
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "log_token": "8ff48ad1df8e4966a2151730c92b7f3c",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 18,
+          "negative": 22,
+          "Brier": 0.5237656157049375,
+          "NLL": 2.0535763123530364
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 18,
+          "negative": 22,
+          "Brier": 0.5237656157049375,
+          "NLL": 2.0535763123530364
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 23,
+          "positive": 18,
+          "negative": 5,
+          "Brier": 0.20738173447482086,
+          "NLL": 0.8266229287020966
+        },
+        "dev_prevalence_p": {
+          "n": 23,
+          "positive": 18,
+          "negative": 5,
+          "Brier": 0.20738173447482086,
+          "NLL": 0.8266229287020966
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "3a43824b84534c98bda1d07548db5817",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 21,
+          "negative": 20,
+          "Brier": 0.46460440214158233,
+          "NLL": 1.8241460048410718
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 21,
+          "negative": 20,
+          "Brier": 0.46460440214158233,
+          "NLL": 1.8241460048410718
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 24,
+          "positive": 21,
+          "negative": 3,
+          "Brier": 0.1194973230220107,
+          "NLL": 0.48580254435461345
+        },
+        "dev_prevalence_p": {
+          "n": 24,
+          "positive": 21,
+          "negative": 3,
+          "Brier": 0.1194973230220107,
+          "NLL": 0.48580254435461345
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "53cf9c55dd8644bea67b9f009fc1ee38",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.08644932625198452,
+          "NLL": 0.30759662837328083
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.10600324499729585,
+          "NLL": 0.3939042857070884
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.08644932625198452,
+          "NLL": 0.30759662837328083
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.10600324499729585,
+          "NLL": 0.3939042857070884
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "5bd40b613ac740cd9dbacdfbc3d68201",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.29773538581803877,
+          "NLL": 0.8423193724108287
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.23778179371842395,
+          "NLL": 0.6686151333388504
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.45384708415699504,
+          "NLL": 1.2377885962204116
+        },
+        "dev_prevalence_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.19524067063277448,
+          "NLL": 0.5831462853456169
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "6f7fe59adf984e55a82571ab4f17e4e2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 22,
+          "negative": 19,
+          "Brier": 0.3857839475358295,
+          "NLL": 1.048125069187917
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 22,
+          "negative": 19,
+          "Brier": 0.3132345763695603,
+          "NLL": 0.8507806398168862
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 31,
+          "positive": 22,
+          "negative": 9,
+          "Brier": 0.294212450114648,
+          "NLL": 0.8037772285502136
+        },
+        "dev_prevalence_p": {
+          "n": 31,
+          "positive": 22,
+          "negative": 9,
+          "Brier": 0.2125996615432928,
+          "NLL": 0.6207177693199648
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "7e25a2c8ea1f41c5b0da1e69ecfa71a2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.16505069152735208,
+          "NLL": 0.4964213246569027
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.04380746349378044,
+          "NLL": 0.23483959107740107
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.16505069152735208,
+          "NLL": 0.4964213246569027
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.04380746349378044,
+          "NLL": 0.23483959107740107
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "881dd2f8aaec49b681eb54be5bf3b3e2",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 25,
+          "negative": 16,
+          "Brier": 0.4157723564808242,
+          "NLL": 1.1878864203940291
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 25,
+          "negative": 16,
+          "Brier": 0.2406178685908006,
+          "NLL": 0.6743130565383993
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 25,
+          "negative": 16,
+          "Brier": 0.4157723564808242,
+          "NLL": 1.1878864203940291
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 25,
+          "negative": 16,
+          "Brier": 0.2406178685908006,
+          "NLL": 0.6743130565383993
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 121,
+          "positive": 80,
+          "negative": 41,
+          "Brier": 0.15995645085680738,
+          "NLL": 0.5001286840593383
+        },
+        "dev_prevalence_p": {
+          "n": 121,
+          "positive": 80,
+          "negative": 41,
+          "Brier": 0.2242042828600673,
+          "NLL": 0.6406627858328721
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 83,
+          "positive": 80,
+          "negative": 3,
+          "Brier": 0.06294670639941234,
+          "NLL": 0.25225951019486625
+        },
+        "dev_prevalence_p": {
+          "n": 83,
+          "positive": 80,
+          "negative": 3,
+          "Brier": 0.1186118188275004,
+          "NLL": 0.42022615921448175
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "log_token": "8ff48ad1df8e4966a2151730c92b7f3c",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 19,
+          "negative": 21,
+          "Brier": 0.49998512790005945,
+          "NLL": 1.9613543260001876
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 19,
+          "negative": 21,
+          "Brier": 0.49998512790005945,
+          "NLL": 1.9613543260001876
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 23,
+          "positive": 19,
+          "negative": 4,
+          "Brier": 0.16602436437938078,
+          "NLL": 0.6662368654797516
+        },
+        "dev_prevalence_p": {
+          "n": 23,
+          "positive": 19,
+          "negative": 4,
+          "Brier": 0.16602436437938078,
+          "NLL": 0.6662368654797516
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "3a43824b84534c98bda1d07548db5817",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 19,
+          "negative": 22,
+          "Brier": 0.5110053539559786,
+          "NLL": 2.004091344066142
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 19,
+          "negative": 22,
+          "Brier": 0.5110053539559786,
+          "NLL": 2.004091344066142
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 24,
+          "positive": 19,
+          "negative": 5,
+          "Brier": 0.19876561570493753,
+          "NLL": 0.7932091655307748
+        },
+        "dev_prevalence_p": {
+          "n": 24,
+          "positive": 19,
+          "negative": 5,
+          "Brier": 0.19876561570493753,
+          "NLL": 0.7932091655307748
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "53cf9c55dd8644bea67b9f009fc1ee38",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.0802118197225144,
+          "NLL": 0.3058380655897581
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.07787993510005412,
+          "NLL": 0.3272129112084162
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.0802118197225144,
+          "NLL": 0.3058380655897581
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 40,
+          "negative": 0,
+          "Brier": 0.07787993510005412,
+          "NLL": 0.3272129112084162
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "5bd40b613ac740cd9dbacdfbc3d68201",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.237412990422455,
+          "NLL": 0.6688671529195145
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.23778179371842395,
+          "NLL": 0.6686151333388504
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.20498155648945862,
+          "NLL": 0.6005960968051571
+        },
+        "dev_prevalence_p": {
+          "n": 26,
+          "positive": 26,
+          "negative": 0,
+          "Brier": 0.19524067063277448,
+          "NLL": 0.5831462853456169
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "6f7fe59adf984e55a82571ab4f17e4e2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.2429555533630599,
+          "NLL": 0.8115096036713935
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 26,
+          "negative": 15,
+          "Brier": 0.28322494690604016,
+          "NLL": 0.8158279750308634
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 31,
+          "positive": 26,
+          "negative": 5,
+          "Brier": 0.12600380944469897,
+          "NLL": 0.4352440244531102
+        },
+        "dev_prevalence_p": {
+          "n": 31,
+          "positive": 26,
+          "negative": 5,
+          "Brier": 0.1357490535424554,
+          "NLL": 0.44369485521323626
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "7e25a2c8ea1f41c5b0da1e69ecfa71a2",
+      "fold": "F1",
+      "allframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.04929064461543659,
+          "NLL": 0.1984611530313676
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.01946998377501353,
+          "NLL": 0.150282203049338
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.04929064461543659,
+          "NLL": 0.1984611530313676
+        },
+        "dev_prevalence_p": {
+          "n": 39,
+          "positive": 39,
+          "negative": 0,
+          "Brier": 0.01946998377501353,
+          "NLL": 0.150282203049338
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "881dd2f8aaec49b681eb54be5bf3b3e2",
+      "fold": "F2",
+      "allframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 16,
+          "negative": 25,
+          "Brier": 0.3313647700700908,
+          "NLL": 0.8685348759782624
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 16,
+          "negative": 25,
+          "Brier": 0.26614254244219027,
+          "NLL": 0.7255943653343394
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 41,
+          "positive": 16,
+          "negative": 25,
+          "Brier": 0.3313647700700908,
+          "NLL": 0.8685348759782624
+        },
+        "dev_prevalence_p": {
+          "n": 41,
+          "positive": 16,
+          "negative": 25,
+          "Brier": 0.26614254244219027,
+          "NLL": 0.7255943653343394
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "8fefc430cbfa4c2191978c0df302eb98",
+      "fold": "F0",
+      "allframes": {
+        "logistic_p": {
+          "n": 121,
+          "positive": 82,
+          "negative": 39,
+          "Brier": 0.17071848968866013,
+          "NLL": 0.5414429786820455
+        },
+        "dev_prevalence_p": {
+          "n": 121,
+          "positive": 82,
+          "negative": 39,
+          "Brier": 0.22029777096397873,
+          "NLL": 0.6331149081769177
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 83,
+          "positive": 82,
+          "negative": 1,
+          "Brier": 0.02775139504018404,
+          "NLL": 0.13037782074049273
+        },
+        "dev_prevalence_p": {
+          "n": 83,
+          "positive": 82,
+          "negative": 1,
+          "Brier": 0.08320355516169603,
+          "NLL": 0.3386476166866951
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "log_token": "8ff48ad1df8e4966a2151730c92b7f3c",
+      "fold": "F3",
+      "allframes": {
+        "logistic_p": {
+          "n": 40,
+          "positive": 18,
+          "negative": 22,
+          "Brier": 0.5237656157049375,
+          "NLL": 2.0535763123530364
+        },
+        "dev_prevalence_p": {
+          "n": 40,
+          "positive": 18,
+          "negative": 22,
+          "Brier": 0.5237656157049375,
+          "NLL": 2.0535763123530364
+        }
+      },
+      "targetframes": {
+        "logistic_p": {
+          "n": 23,
+          "positive": 18,
+          "negative": 5,
+          "Brier": 0.20738173447482086,
+          "NLL": 0.8266229287020966
+        },
+        "dev_prevalence_p": {
+          "n": 23,
+          "positive": 18,
+          "negative": 5,
+          "Brier": 0.20738173447482086,
+          "NLL": 0.8266229287020966
+        }
+      }
+    }
+  ],
+  "per_fold": [
+    {
+      "seed": 0,
+      "fold": "F0",
+      "metrics": {
+        "logistic_p": {
+          "n": 161,
+          "positive": 122,
+          "negative": 39,
+          "Brier": 0.1868385283317208,
+          "NLL": 0.6347450497405083
+        },
+        "dev_prevalence_p": {
+          "n": 161,
+          "positive": 122,
+          "negative": 39,
+          "Brier": 0.18491445770586082,
+          "NLL": 0.5571144120356751
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "fold": "F1",
+      "metrics": {
+        "logistic_p": {
+          "n": 80,
+          "positive": 63,
+          "negative": 17,
+          "Brier": 0.5606246504130288,
+          "NLL": 1.6079539025855294
+        },
+        "dev_prevalence_p": {
+          "n": 80,
+          "positive": 63,
+          "negative": 17,
+          "Brier": 0.2868104380746349,
+          "NLL": 0.7671179806510521
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "fold": "F2",
+      "metrics": {
+        "logistic_p": {
+          "n": 82,
+          "positive": 44,
+          "negative": 38,
+          "Brier": 0.45931641069670465,
+          "NLL": 1.6338332774647888
+        },
+        "dev_prevalence_p": {
+          "n": 82,
+          "positive": 44,
+          "negative": 38,
+          "Brier": 0.24912609320793044,
+          "NLL": 0.6914068261370461
+        }
+      }
+    },
+    {
+      "seed": 0,
+      "fold": "F3",
+      "metrics": {
+        "logistic_p": {
+          "n": 81,
+          "positive": 41,
+          "negative": 40,
+          "Brier": 0.4703329147112609,
+          "NLL": 1.8463614788194755
+        },
+        "dev_prevalence_p": {
+          "n": 81,
+          "positive": 41,
+          "negative": 40,
+          "Brier": 0.4703329147112609,
+          "NLL": 1.8463614788194755
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "fold": "F0",
+      "metrics": {
+        "logistic_p": {
+          "n": 161,
+          "positive": 120,
+          "negative": 41,
+          "Brier": 0.14169381120343524,
+          "NLL": 0.45229463295721223
+        },
+        "dev_prevalence_p": {
+          "n": 161,
+          "positive": 120,
+          "negative": 41,
+          "Brier": 0.19483756537863342,
+          "NLL": 0.5793563261742923
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "fold": "F1",
+      "metrics": {
+        "logistic_p": {
+          "n": 80,
+          "positive": 61,
+          "negative": 19,
+          "Brier": 0.27817648523169675,
+          "NLL": 0.7791694937290474
+        },
+        "dev_prevalence_p": {
+          "n": 80,
+          "positive": 61,
+          "negative": 19,
+          "Brier": 0.18188885884261763,
+          "NLL": 0.5505093785563873
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "fold": "F2",
+      "metrics": {
+        "logistic_p": {
+          "n": 82,
+          "positive": 51,
+          "negative": 31,
+          "Brier": 0.3567538711494315,
+          "NLL": 1.0151028964024291
+        },
+        "dev_prevalence_p": {
+          "n": 82,
+          "positive": 51,
+          "negative": 31,
+          "Brier": 0.23919983115461224,
+          "NLL": 0.6714640949386249
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "fold": "F3",
+      "metrics": {
+        "logistic_p": {
+          "n": 81,
+          "positive": 40,
+          "negative": 41,
+          "Brier": 0.48207636547910193,
+          "NLL": 1.891903200475203
+        },
+        "dev_prevalence_p": {
+          "n": 81,
+          "positive": 40,
+          "negative": 41,
+          "Brier": 0.48207636547910193,
+          "NLL": 1.891903200475203
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "fold": "F0",
+      "metrics": {
+        "logistic_p": {
+          "n": 161,
+          "positive": 122,
+          "negative": 39,
+          "Brier": 0.14823236050452454,
+          "NLL": 0.48290759654731563
+        },
+        "dev_prevalence_p": {
+          "n": 161,
+          "positive": 122,
+          "negative": 39,
+          "Brier": 0.18491445770586082,
+          "NLL": 0.5571144120356751
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "fold": "F1",
+      "metrics": {
+        "logistic_p": {
+          "n": 80,
+          "positive": 65,
+          "negative": 15,
+          "Brier": 0.14854391034859354,
+          "NLL": 0.5126484839843809
+        },
+        "dev_prevalence_p": {
+          "n": 80,
+          "positive": 65,
+          "negative": 15,
+          "Brier": 0.15464440237966467,
+          "NLL": 0.4913744111898698
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "fold": "F2",
+      "metrics": {
+        "logistic_p": {
+          "n": 82,
+          "positive": 42,
+          "negative": 40,
+          "Brier": 0.2843888802462729,
+          "NLL": 0.7687010144488884
+        },
+        "dev_prevalence_p": {
+          "n": 82,
+          "positive": 42,
+          "negative": 40,
+          "Brier": 0.2519621680803071,
+          "NLL": 0.6971047493365949
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "fold": "F3",
+      "metrics": {
+        "logistic_p": {
+          "n": 81,
+          "positive": 37,
+          "negative": 44,
+          "Brier": 0.5173067177826249,
+          "NLL": 2.0285283654423862
+        },
+        "dev_prevalence_p": {
+          "n": 81,
+          "positive": 37,
+          "negative": 44,
+          "Brier": 0.5173067177826249,
+          "NLL": 2.0285283654423862
+        }
+      }
+    }
+  ],
+  "equal_log_descriptions": [
+    {
+      "seed": 0,
+      "logs": 8,
+      "metrics": {
+        "logistic_p": {
+          "Brier": 0.40980220664301986,
+          "NLL": 1.402110324428536
+        },
+        "dev_prevalence_p": {
+          "Brier": 0.2891531458102559,
+          "NLL": 0.9471970035362971
+        }
+      },
+      "inference": "descriptive equal-log mean; no iid interval/p-value"
+    },
+    {
+      "seed": 1,
+      "logs": 8,
+      "metrics": {
+        "logistic_p": {
+          "Brier": 0.3094172110640598,
+          "NLL": 1.0209972287404445
+        },
+        "dev_prevalence_p": {
+          "Brier": 0.2662798450089463,
+          "NLL": 0.9060769778940946
+        }
+      },
+      "inference": "descriptive equal-log mean; no iid interval/p-value"
+    },
+    {
+      "seed": 2,
+      "logs": 8,
+      "metrics": {
+        "logistic_p": {
+          "Brier": 0.2683406546928916,
+          "NLL": 0.93154018578644
+        },
+        "dev_prevalence_p": {
+          "Brier": 0.2674459928208271,
+          "NLL": 0.922289394069738
+        }
+      },
+      "inference": "descriptive equal-log mean; no iid interval/p-value"
+    }
+  ],
+  "all3_seeds_all404_Brier_and_NLL_direction_improved": false,
+  "all3_seeds_target_only_Brier_and_NLL_direction_improved": false,
+  "new_detector_updates": 0,
+  "new_GPU": 0,
+  "new_SDK": 0,
+  "new_GT_matching": 0,
+  "risk_fit_candidates": 1,
+  "risk_model_attempts": 12,
+  "one_class_fallbacks": 3,
+  "original_B2_B3_or_Promotion_accepted": false,
+  "external_generalisation_established": false,
+  "acceptance_policy": null,
+  "unknown_output_policy": null,
+  "calibration_guarantee": null,
+  "historical_mini_exposure": true,
+  "same_eight_logs_and_repeated_instances_not_iid": true,
+  "no_postresult_tuning_or_additional_candidate": true
+}

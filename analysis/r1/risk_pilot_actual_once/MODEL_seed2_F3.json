@@ -1,0 +1,27 @@
+{
+  "kind": "one_class_dev_constant_fallback",
+  "p": 0.975609756097561,
+  "mean": [
+    4.279672394692083,
+    0.2068440302575057,
+    0.4410296961283072
+  ],
+  "scale": [
+    0.06302447623100088,
+    0.016799817023634995,
+    0.0626769645545514
+  ],
+  "beta": null,
+  "iterations": 0,
+  "dev_n": 39,
+  "dev_positive": 39,
+  "seed": 2,
+  "fold": "F3",
+  "fit_logs": [
+    "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+  ],
+  "test_logs": [
+    "3a43824b84534c98bda1d07548db5817",
+    "8ff48ad1df8e4966a2151730c92b7f3c"
+  ]
+}

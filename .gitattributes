@@ -1,0 +1,4 @@
+# Preserve accepted byte hashes across Windows and Linux checkouts.
+* -text
+*.pdf binary
+*.png binary

@@ -1,0 +1,11 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Matched fixed-8,000-update clean development screen only.}\label{tab:p}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrrrrrrr}\toprule
+Detector & mAP\% & NDS\% & PedAP\% & Ped hits & VRU hits & AnyMiss target & All frames & Ped out. & Ped unm.\\\midrule
+B1 fixed 8k & 2.1758 & 7.2406 & 0.0000 & 8/67 & 8/67 & 30/31 & 30/41 & 2175 & 2165\\
+P2 fixed 8k & 2.5328 & 9.2326 & 0.0000 & 15/67 & 15/67 & 30/31 & 30/41 & 2177 & 2160\\
+\bottomrule\end{tabular}
+\par\vspace{3pt}\begin{minipage}{0.98\textwidth}\footnotesize Each row: F0/seed0, 41 frames, 1 log, 6 critical pedestrian instances, 67 observations; 31 target frames. Motorcycle/bicycle support 0, three-class macro unresolved. Both states uncalibrated. Outputs/unmatched at score$\geq0.1$ are all-range diagnostics, not official FP/precision. One recovered and one new AnyMiss frame leave the count unchanged; no outer promotion.\end{minipage}
+\end{table*}

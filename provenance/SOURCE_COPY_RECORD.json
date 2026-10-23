@@ -1,0 +1,893 @@
+{
+  "at_utc": "2026-10-23T22:26:11.667906+00:00",
+  "scope": "Curated publication copies from accepted final report and compact R1-R3 archive. No original source modified.",
+  "source_files": [
+    {
+      "path": "paper/critical-miss-evaluation.pdf",
+      "archive_source": "P/output/pdf/main.pdf",
+      "archive_source_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
+      "public_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
+      "bytes": 163924,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/main.tex",
+      "archive_source": "P/main.tex",
+      "archive_source_sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099",
+      "public_sha256": "739a9b6749f3d3437d60c3314ea11403d42b34fcf44e82671d746b06f645d099",
+      "bytes": 41867,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/references.bib",
+      "archive_source": "P/references.bib",
+      "archive_source_sha256": "664b580977e311bbc41581a4e179295abac1991c16700b996b56010960eb0343",
+      "public_sha256": "664b580977e311bbc41581a4e179295abac1991c16700b996b56010960eb0343",
+      "bytes": 4420,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/agates.tex",
+      "archive_source": "P/tables/agates.tex",
+      "archive_source_sha256": "586938fdc650b92d927b089367615a0d77d0dbb686c47561eff04727feacb174",
+      "public_sha256": "586938fdc650b92d927b089367615a0d77d0dbb686c47561eff04727feacb174",
+      "bytes": 1754,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/bclean.tex",
+      "archive_source": "P/tables/bclean.tex",
+      "archive_source_sha256": "e43bbd1fd06f449e751a4bc9f80d7c7e692be2298b0904430d790cc9e7e14922",
+      "public_sha256": "e43bbd1fd06f449e751a4bc9f80d7c7e692be2298b0904430d790cc9e7e14922",
+      "bytes": 950,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/inventory.tex",
+      "archive_source": "P/tables/inventory.tex",
+      "archive_source_sha256": "24062adb30e8ab8c86fe2b14e962f3850d942c85acc69621c53573e63605e6e9",
+      "public_sha256": "24062adb30e8ab8c86fe2b14e962f3850d942c85acc69621c53573e63605e6e9",
+      "bytes": 1355,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/p_screen.tex",
+      "archive_source": "P/tables/p_screen.tex",
+      "archive_source_sha256": "b550016ec0347f66e0365266f67a54b9dcf3fb78aa7abc815c467ec3331c535a",
+      "public_sha256": "b550016ec0347f66e0365266f67a54b9dcf3fb78aa7abc815c467ec3331c535a",
+      "bytes": 961,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/recovery_decomposition.tex",
+      "archive_source": "P/tables/recovery_decomposition.tex",
+      "archive_source_sha256": "a8cafaacb9e69c78520ff4e31ca06235f4cd6b0bc37ce2e60fe41f9fd8a762b8",
+      "public_sha256": "a8cafaacb9e69c78520ff4e31ca06235f4cd6b0bc37ce2e60fe41f9fd8a762b8",
+      "bytes": 1257,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/risk_fixed_policy.tex",
+      "archive_source": "P/tables/risk_fixed_policy.tex",
+      "archive_source_sha256": "71c9bc1d69c271c8fefd13f287c91b11a7189aacdc36fbc7ecd6189578ffba2b",
+      "public_sha256": "71c9bc1d69c271c8fefd13f287c91b11a7189aacdc36fbc7ecd6189578ffba2b",
+      "bytes": 1665,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/risk_ranking.tex",
+      "archive_source": "P/tables/risk_ranking.tex",
+      "archive_source_sha256": "4be7708ab6ee95b2c9b06ee464b71aef346651272452d25fa42390b409161f2a",
+      "public_sha256": "4be7708ab6ee95b2c9b06ee464b71aef346651272452d25fa42390b409161f2a",
+      "bytes": 1270,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/risk_scores.tex",
+      "archive_source": "P/tables/risk_scores.tex",
+      "archive_source_sha256": "b01cae95d65dc06ca1520203937cbf5e3ae18bdd5a6e142c1c9c034bbc9eeeef",
+      "public_sha256": "b01cae95d65dc06ca1520203937cbf5e3ae18bdd5a6e142c1c9c034bbc9eeeef",
+      "bytes": 1716,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/risk_support.tex",
+      "archive_source": "P/tables/risk_support.tex",
+      "archive_source_sha256": "7151366eb399989f823c19d8b17dd462efef5060f32358032e4c909a7b7b4b68",
+      "public_sha256": "7151366eb399989f823c19d8b17dd462efef5060f32358032e4c909a7b7b4b68",
+      "bytes": 847,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/tables/status.tex",
+      "archive_source": "P/tables/status.tex",
+      "archive_source_sha256": "e39e42062f28b8f20351d812aafad70e643960892ff01bb48c3bb4b154eb85e5",
+      "public_sha256": "e39e42062f28b8f20351d812aafad70e643960892ff01bb48c3bb4b154eb85e5",
+      "bytes": 975,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/images/gate_weighting.pdf",
+      "archive_source": "P/images/gate_weighting.pdf",
+      "archive_source_sha256": "2dbb31fab9027f66d86f70d2076d7988a949d0d696e99e6e1f9a01812d09654f",
+      "public_sha256": "2dbb31fab9027f66d86f70d2076d7988a949d0d696e99e6e1f9a01812d09654f",
+      "bytes": 17142,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/images/recovery_frame_transitions.pdf",
+      "archive_source": "P/images/recovery_frame_transitions.pdf",
+      "archive_source_sha256": "18bfe2f78af36fc508501d96790b1a77f4f7a272e5ad263977ecc7ac0fb8c708",
+      "public_sha256": "18bfe2f78af36fc508501d96790b1a77f4f7a272e5ad263977ecc7ac0fb8c708",
+      "bytes": 20920,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/images/risk_differences.pdf",
+      "archive_source": "P/images/risk_differences.pdf",
+      "archive_source_sha256": "078cebf448f745f417eabde9fb5b3a3230bb7e7794b1683182e142a848b25ef5",
+      "public_sha256": "078cebf448f745f417eabde9fb5b3a3230bb7e7794b1683182e142a848b25ef5",
+      "bytes": 15341,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/latex/images/risk_ranking_coverage_r3.pdf",
+      "archive_source": "P/images/risk_ranking_coverage_r3.pdf",
+      "archive_source_sha256": "e5458f593e978512c93f70ae6fa9d1b83700657da8113d35c1e07eb03cbe3aee",
+      "public_sha256": "e5458f593e978512c93f70ae6fa9d1b83700657da8113d35c1e07eb03cbe3aee",
+      "bytes": 22918,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "docs/figures/risk-coverage.png",
+      "archive_source": "P/images/risk_ranking_coverage_r3.png",
+      "archive_source_sha256": "daa75e60033b73f508bb6842fd47106e4a5a8eab37c13d2311b56ea0eca0c8f7",
+      "public_sha256": "daa75e60033b73f508bb6842fd47106e4a5a8eab37c13d2311b56ea0eca0c8f7",
+      "bytes": 99990,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "docs/figures/miss-transitions.png",
+      "archive_source": "P/images/recovery_frame_transitions.png",
+      "archive_source_sha256": "bc846604d0afc546769e0d5531c5daae1fd80a3ac42e549ebf4c364cee5f09ec",
+      "public_sha256": "bc846604d0afc546769e0d5531c5daae1fd80a3ac42e549ebf4c364cee5f09ec",
+      "bytes": 114330,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "reports/risk-ranking-conclusions.zh-CN.md",
+      "archive_source": "R3/R3_风险排序与报警效用报告.md",
+      "archive_source_sha256": "a7271804cf0a5202bbb677b224ccd40d1da6cd4a840448edde01f5672b6fecfa",
+      "public_sha256": "a7271804cf0a5202bbb677b224ccd40d1da6cd4a840448edde01f5672b6fecfa",
+      "bytes": 8620,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "reports/miss-recovery-conclusions.zh-CN.md",
+      "archive_source": "R2/R2_恢复漏检与新增失败分析.md",
+      "archive_source_sha256": "b9aa24e2668b5064a8678ba5ac9f5c521527aa0b50848181fb22e0c63acec73b",
+      "public_sha256": "b9aa24e2668b5064a8678ba5ac9f5c521527aa0b50848181fb22e0c63acec73b",
+      "bytes": 5826,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/verify_ranking_alarm.py",
+      "archive_source": "R3/verify_ranking_alarm.py",
+      "archive_source_sha256": "d5d693b1212bc405c8ab1a178801094edf62c71bd5d831cec3fb27f644c15a00",
+      "public_sha256": "d5d693b1212bc405c8ab1a178801094edf62c71bd5d831cec3fb27f644c15a00",
+      "bytes": 15079,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analyze_ranking_alarm.py",
+      "archive_source": "R3/analyze_ranking_alarm.py",
+      "archive_source_sha256": "b6d6386432af2949a2d2c9f8e87975ad79915557e5e83c4de8888438b56745ff",
+      "public_sha256": "b6d6386432af2949a2d2c9f8e87975ad79915557e5e83c4de8888438b56745ff",
+      "bytes": 12336,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/PROTOCOL_FROZEN_RISK_RANKING.md",
+      "archive_source": "R3/PROTOCOL_FROZEN_RISK_RANKING.md",
+      "archive_source_sha256": "76a349a51e01d76529ebe9a5fca1a2f37cbbad73dd0ba477fa0f56456145413b",
+      "public_sha256": "76a349a51e01d76529ebe9a5fca1a2f37cbbad73dd0ba477fa0f56456145413b",
+      "bytes": 6988,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/actual_compact_extraction/FROZEN_ANALYSIS_SCORE_ROWS.json",
+      "archive_source": "R3/actual_compact_extraction/FROZEN_ANALYSIS_SCORE_ROWS.json",
+      "archive_source_sha256": "20e78006ba147fa4fd3b7f4febbeb8e12a5c146cbfd09245de9d4ff850fce1ea",
+      "public_sha256": "20e78006ba147fa4fd3b7f4febbeb8e12a5c146cbfd09245de9d4ff850fce1ea",
+      "bytes": 1134584,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/DEVELOPMENT_FIXED_THRESHOLDS.json",
+      "archive_source": "R3/analysis/DEVELOPMENT_FIXED_THRESHOLDS.json",
+      "archive_source_sha256": "265d90a45779748036fccf18c467491b88c01b49d73388561227b3b98601d2f8",
+      "public_sha256": "265d90a45779748036fccf18c467491b88c01b49d73388561227b3b98601d2f8",
+      "bytes": 23028,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/EQUAL_LOG_DESCRIPTIONS.csv",
+      "archive_source": "R3/analysis/EQUAL_LOG_DESCRIPTIONS.csv",
+      "archive_source_sha256": "613382aa06eb5ef90047262fd9b1f1b925255a73be81f5f3d7945f0deb54778b",
+      "public_sha256": "613382aa06eb5ef90047262fd9b1f1b925255a73be81f5f3d7945f0deb54778b",
+      "bytes": 9545,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/EQUAL_LOG_DESCRIPTIONS.json",
+      "archive_source": "R3/analysis/EQUAL_LOG_DESCRIPTIONS.json",
+      "archive_source_sha256": "7a3fbfa0cd3c7eae884dcf010f57c73ef3ab6ecf0a40853747d850c982bc8307",
+      "public_sha256": "7a3fbfa0cd3c7eae884dcf010f57c73ef3ab6ecf0a40853747d850c982bc8307",
+      "bytes": 30459,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/EXPECTED_TIE_RISK_COVERAGE_CURVES.csv",
+      "archive_source": "R3/analysis/EXPECTED_TIE_RISK_COVERAGE_CURVES.csv",
+      "archive_source_sha256": "c53a437663ed50c4351cfcfcf9140e06852eeda47716c77cce7ebe6c0efdeffb",
+      "public_sha256": "c53a437663ed50c4351cfcfcf9140e06852eeda47716c77cce7ebe6c0efdeffb",
+      "bytes": 387285,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/FIXED_POLICY_LOG_CONDITIONAL_DIAGNOSTIC.json",
+      "archive_source": "R3/analysis/FIXED_POLICY_LOG_CONDITIONAL_DIAGNOSTIC.json",
+      "archive_source_sha256": "01cfd32d94d07a2830d773cfa4fbfefaaf078313e4bcee046c1dbebbb8fdd89e",
+      "public_sha256": "01cfd32d94d07a2830d773cfa4fbfefaaf078313e4bcee046c1dbebbb8fdd89e",
+      "bytes": 3153,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/FIXED_POLICY_PER_FOLD.csv",
+      "archive_source": "R3/analysis/FIXED_POLICY_PER_FOLD.csv",
+      "archive_source_sha256": "fb878acc609922e791c14a028b1bc6f99bcfb74a6860e5e4c55f1e49206a76d2",
+      "public_sha256": "fb878acc609922e791c14a028b1bc6f99bcfb74a6860e5e4c55f1e49206a76d2",
+      "bytes": 7389,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/FIXED_POLICY_PER_LOG.csv",
+      "archive_source": "R3/analysis/FIXED_POLICY_PER_LOG.csv",
+      "archive_source_sha256": "73ec9b26aa4f743692904c5d4183ccdd8157a5a321a0ee7094905b11e00ff414",
+      "public_sha256": "73ec9b26aa4f743692904c5d4183ccdd8157a5a321a0ee7094905b11e00ff414",
+      "bytes": 15019,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/FIXED_POLICY_SEED_SUMMARY.csv",
+      "archive_source": "R3/analysis/FIXED_POLICY_SEED_SUMMARY.csv",
+      "archive_source_sha256": "b5c74c28fcd780a25a2ee7ddc0853e83c1ac796f5d3be6d9c34060b7f4167657",
+      "public_sha256": "b5c74c28fcd780a25a2ee7ddc0853e83c1ac796f5d3be6d9c34060b7f4167657",
+      "bytes": 2659,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/FIXED_POLICY_SEED_SUMMARY.json",
+      "archive_source": "R3/analysis/FIXED_POLICY_SEED_SUMMARY.json",
+      "archive_source_sha256": "6664e322bdbf0f408272e8f8063e02a6d2c360b598ffcfb07e4252a1d2d2bd9e",
+      "public_sha256": "6664e322bdbf0f408272e8f8063e02a6d2c360b598ffcfb07e4252a1d2d2bd9e",
+      "bytes": 7952,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/PER_FOLD_RANKING.csv",
+      "archive_source": "R3/analysis/PER_FOLD_RANKING.csv",
+      "archive_source_sha256": "86fcd7aa9ae817217e319298567546267808e08e20c88cd64ca9bdef27e7545d",
+      "public_sha256": "86fcd7aa9ae817217e319298567546267808e08e20c88cd64ca9bdef27e7545d",
+      "bytes": 10054,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/PER_LOG_RANKING.csv",
+      "archive_source": "R3/analysis/PER_LOG_RANKING.csv",
+      "archive_source_sha256": "c4f3667d83c53c215cdc66713ce7f392919ea08b1d91e291cf2a8c9a774fe8e3",
+      "public_sha256": "c4f3667d83c53c215cdc66713ce7f392919ea08b1d91e291cf2a8c9a774fe8e3",
+      "bytes": 21526,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/RESULTS_AND_STOP.json",
+      "archive_source": "R3/analysis/RESULTS_AND_STOP.json",
+      "archive_source_sha256": "80dc34b35c4aa0fd7127398db3678719133eb7fc946ca059219b7f3539113733",
+      "public_sha256": "80dc34b35c4aa0fd7127398db3678719133eb7fc946ca059219b7f3539113733",
+      "bytes": 2446,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/SCOPE_SCORE_METRICS.csv",
+      "archive_source": "R3/analysis/SCOPE_SCORE_METRICS.csv",
+      "archive_source_sha256": "b659e62b58fbb0c2be61149fec2c94ade03616b5fc8669d94f755a13cfda27ba",
+      "public_sha256": "b659e62b58fbb0c2be61149fec2c94ade03616b5fc8669d94f755a13cfda27ba",
+      "bytes": 2865,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/SCOPE_SCORE_METRICS.json",
+      "archive_source": "R3/analysis/SCOPE_SCORE_METRICS.json",
+      "archive_source_sha256": "41824dd1de9dca72a1e818bd2498b17b6c8664ad4cca98858ec1b4cc9b5d0187",
+      "public_sha256": "41824dd1de9dca72a1e818bd2498b17b6c8664ad4cca98858ec1b4cc9b5d0187",
+      "bytes": 8596,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/SCREENING_BUDGETS.csv",
+      "archive_source": "R3/analysis/SCREENING_BUDGETS.csv",
+      "archive_source_sha256": "bcf0e0fc8b70b5ec6cc91a823eb05cfcb288f7f0bd15322aa2e89b40029e67f0",
+      "public_sha256": "bcf0e0fc8b70b5ec6cc91a823eb05cfcb288f7f0bd15322aa2e89b40029e67f0",
+      "bytes": 12356,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/analysis/SCREENING_BUDGETS.json",
+      "archive_source": "R3/analysis/SCREENING_BUDGETS.json",
+      "archive_source_sha256": "464afe8b16078e3f116105fe2bff7d27a3f711e5bb8aa04a0dc7020b7cc72b45",
+      "public_sha256": "464afe8b16078e3f116105fe2bff7d27a3f711e5bb8aa04a0dc7020b7cc72b45",
+      "bytes": 43597,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/risk_ranking/verification/R3_SEPARATE_NUMERICAL_VERIFICATION.json",
+      "archive_source": "R3/verification/R3_SEPARATE_NUMERICAL_VERIFICATION.json",
+      "archive_source_sha256": "46ff32bd382492173b14228a854954bbad4876e823167f1c324f05b6ac2eb2ab",
+      "public_sha256": "46ff32bd382492173b14228a854954bbad4876e823167f1c324f05b6ac2eb2ab",
+      "bytes": 3181,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "provenance/r3-compact-extraction-summary.json",
+      "archive_source": "R3/actual_compact_extraction/END.json",
+      "archive_source_sha256": "5429a7c2c1f0526e8f20b3b874f42e410d154bc9b45dcbe9fa2261987288c4b7",
+      "public_sha256": "5429a7c2c1f0526e8f20b3b874f42e410d154bc9b45dcbe9fa2261987288c4b7",
+      "bytes": 589,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/reproduce_recovery_compact.py",
+      "archive_source": "R2/reproduce_recovery_compact.py",
+      "archive_source_sha256": "7192f459ae75afd6806ed909378ce66325a92dc74df48cf6bb9224272f808788",
+      "public_sha256": "7192f459ae75afd6806ed909378ce66325a92dc74df48cf6bb9224272f808788",
+      "bytes": 6365,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/verify_group_tables_sqlite.py",
+      "archive_source": "R2/verify_group_tables_sqlite.py",
+      "archive_source_sha256": "a886c81a9c294a61fb1afe86b44c65e6affa689cb80efb9fb54795ca369a8b77",
+      "public_sha256": "a886c81a9c294a61fb1afe86b44c65e6affa689cb80efb9fb54795ca369a8b77",
+      "bytes": 3162,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/A_1056_LOG_CLASS_DECOMPOSITIONS.csv",
+      "archive_source": "R2/analysis_r2/A_1056_LOG_CLASS_DECOMPOSITIONS.csv",
+      "archive_source_sha256": "7bee96b6e0a04ebd444e248050aa424fe07c625e0bcdadf25b129e0cd3d93bc9",
+      "public_sha256": "7bee96b6e0a04ebd444e248050aa424fe07c625e0bcdadf25b129e0cd3d93bc9",
+      "bytes": 196815,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/A_144_SCOPE_CLASS_DECOMPOSITIONS.csv",
+      "archive_source": "R2/analysis_r2/A_144_SCOPE_CLASS_DECOMPOSITIONS.csv",
+      "archive_source_sha256": "575b708181a940f8a626b3520704a92ae1dbb756792ef359b0a65674fb853991",
+      "public_sha256": "575b708181a940f8a626b3520704a92ae1dbb756792ef359b0a65674fb853991",
+      "bytes": 83166,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/A_36_SCOPE_CLASS_DECOMPOSITIONS.json",
+      "archive_source": "R2/analysis_r2/A_36_SCOPE_CLASS_DECOMPOSITIONS.json",
+      "archive_source_sha256": "9a2da678a185cc289d41db84a495e9bce33373b688aa18788e45eae1c2acc73f",
+      "public_sha256": "9a2da678a185cc289d41db84a495e9bce33373b688aa18788e45eae1c2acc73f",
+      "bytes": 396972,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/A_528_FOLD_CLASS_DECOMPOSITIONS.csv",
+      "archive_source": "R2/analysis_r2/A_528_FOLD_CLASS_DECOMPOSITIONS.csv",
+      "archive_source_sha256": "852b986f80b014210b7e4f55f9d8b9fe958d83aefb417ade1de98ab69d4be9d0",
+      "public_sha256": "852b986f80b014210b7e4f55f9d8b9fe958d83aefb417ade1de98ab69d4be9d0",
+      "bytes": 87571,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/A_PAIRED_FRAME_COUNTS.csv",
+      "archive_source": "R2/analysis_r2/A_PAIRED_FRAME_COUNTS.csv",
+      "archive_source_sha256": "9def9ced1a0465dbe19a1c010da0ecd2b54f137918f7e68d7ece1bb8e9a249db",
+      "public_sha256": "9def9ced1a0465dbe19a1c010da0ecd2b54f137918f7e68d7ece1bb8e9a249db",
+      "bytes": 2131444,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/ANALYSIS_RESULT.json",
+      "archive_source": "R2/analysis_r2/ANALYSIS_RESULT.json",
+      "archive_source_sha256": "a1737c3498b700dca58b23ed67fc3d29c4b0a751bc7ab660f3920a8a1b46c2bf",
+      "public_sha256": "a58b0d6e30d058d40acf6580f849447565bb3a96781e9051e7b06f53e8989d27",
+      "bytes": 9717,
+      "byte_identical": false,
+      "transformation": "Local path strings only; numerical values, opaque dataset IDs and scientific labels unchanged",
+      "path_fields_deidentified": [
+        "$.read_ledger[0].path",
+        "$.read_ledger[1].path",
+        "$.read_ledger[2].path"
+      ]
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/P2_DEVELOPMENT_DECOMPOSITION.json",
+      "archive_source": "R2/analysis_r2/P2_DEVELOPMENT_DECOMPOSITION.json",
+      "archive_source_sha256": "b65bf19d04b86c9359a5f8da6827da3ab5ea099cff69c48355c0c1af1c3c805f",
+      "public_sha256": "b65bf19d04b86c9359a5f8da6827da3ab5ea099cff69c48355c0c1af1c3c805f",
+      "bytes": 7520,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/analysis_r2/P2_PAIRED_FRAME_COUNTS.csv",
+      "archive_source": "R2/analysis_r2/P2_PAIRED_FRAME_COUNTS.csv",
+      "archive_source_sha256": "64c2306232a6bee9137df1e2401e8882c8f269d6a741a200d0d8b8c4aad20f8c",
+      "public_sha256": "64c2306232a6bee9137df1e2401e8882c8f269d6a741a200d0d8b8c4aad20f8c",
+      "bytes": 7754,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/recovery/PROTOCOL_MATCHED_RECOVERY.md",
+      "archive_source": "R2/PROTOCOL_MATCHED_RECOVERY.md",
+      "archive_source_sha256": "9fa7c4ec29bca6194fca8eb1848824e10445f94e415ae6e95d978458efd02f37",
+      "public_sha256": "9fa7c4ec29bca6194fca8eb1848824e10445f94e415ae6e95d978458efd02f37",
+      "bytes": 5290,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "provenance/r2-original-compact-verification.json",
+      "archive_source": "R2/RECOVERY_COMPACT_VERIFICATION.json",
+      "archive_source_sha256": "ea67fea01b1c1ec8dbd4e351e64e0c79bdb2597294c1fa5b09c912d590871301",
+      "public_sha256": "d9a57d32693788893a0f60b4a004e4b1a4215775b0f88cdaff28cb7a628b3689",
+      "bytes": 1665,
+      "byte_identical": false,
+      "transformation": "Local path strings only; numerical values, opaque dataset IDs and scientific labels unchanged",
+      "path_fields_deidentified": [
+        "$.sources[0].path",
+        "$.sources[1].path",
+        "$.sources[2].path",
+        "$.sources[3].path"
+      ]
+    },
+    {
+      "path": "provenance/r2-original-group-verification.json",
+      "archive_source": "R2/GROUP_TABLE_SQL_VERIFICATION.json",
+      "archive_source_sha256": "92709a5a1b0f24c0354541bc328dced25ff7c0c27f195ceb480b8d23d91ec914",
+      "public_sha256": "92709a5a1b0f24c0354541bc328dced25ff7c0c27f195ceb480b8d23d91ec914",
+      "bytes": 318,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/FROZEN_FRAME_INPUTS.json",
+      "archive_source": "R1/risk_pilot_actual_once/FROZEN_FRAME_INPUTS.json",
+      "archive_source_sha256": "1a07683aefbc2ca9f7195a660adb7e83b52bc591f6ea31a36f7b92e2d705e359",
+      "public_sha256": "1a07683aefbc2ca9f7195a660adb7e83b52bc591f6ea31a36f7b92e2d705e359",
+      "bytes": 1024506,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/OUTER_RISK_PROBABILITIES.json",
+      "archive_source": "R1/risk_pilot_actual_once/OUTER_RISK_PROBABILITIES.json",
+      "archive_source_sha256": "2e85fd49920f92f0ccc3588f59ccab6e70f8e26c5be771f018d0f945b35cf803",
+      "public_sha256": "2e85fd49920f92f0ccc3588f59ccab6e70f8e26c5be771f018d0f945b35cf803",
+      "bytes": 869219,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/RESULTS.json",
+      "archive_source": "R1/risk_pilot_actual_once/RESULTS.json",
+      "archive_source_sha256": "a8e844d56250fb2db39f5edd5d00df346f44c91f02bcf8c91f2bcf1fbb37dabf",
+      "public_sha256": "a8e844d56250fb2db39f5edd5d00df346f44c91f02bcf8c91f2bcf1fbb37dabf",
+      "bytes": 33596,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed0_F0.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed0_F0.json",
+      "archive_source_sha256": "b3f583854d8333e1f93661bf8d49fe8f7e1ff0591e353d6b136028f14445e754",
+      "public_sha256": "b3f583854d8333e1f93661bf8d49fe8f7e1ff0591e353d6b136028f14445e754",
+      "bytes": 1231,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed0_F1.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed0_F1.json",
+      "archive_source_sha256": "e7ca53985bd2a59eba6fe4b97208db5cb918348fb2c121664e8230144ebf3cad",
+      "public_sha256": "e7ca53985bd2a59eba6fe4b97208db5cb918348fb2c121664e8230144ebf3cad",
+      "bytes": 1117,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed0_F2.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed0_F2.json",
+      "archive_source_sha256": "b9d3de4fb4107fb07bb32573d51c1d70066b96ca2e52b49182569c35846e1deb",
+      "public_sha256": "b9d3de4fb4107fb07bb32573d51c1d70066b96ca2e52b49182569c35846e1deb",
+      "bytes": 1237,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed0_F3.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed0_F3.json",
+      "archive_source_sha256": "5f3e2644a6fe40c730ab5e4b15a3c0a3a1a308a147de78501fe5c13476eeda98",
+      "public_sha256": "5f3e2644a6fe40c730ab5e4b15a3c0a3a1a308a147de78501fe5c13476eeda98",
+      "bytes": 517,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed1_F0.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed1_F0.json",
+      "archive_source_sha256": "813f65851e547b6a443b58b2bf67f99b2ff9c969083c01efa75d92ab94926f36",
+      "public_sha256": "813f65851e547b6a443b58b2bf67f99b2ff9c969083c01efa75d92ab94926f36",
+      "bytes": 1356,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed1_F1.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed1_F1.json",
+      "archive_source_sha256": "4d1969721d863a6dd0c96c982c189aeebbe50e6272cc55c9d21f70537d75577c",
+      "public_sha256": "4d1969721d863a6dd0c96c982c189aeebbe50e6272cc55c9d21f70537d75577c",
+      "bytes": 1237,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed1_F2.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed1_F2.json",
+      "archive_source_sha256": "573d4871dd6ed4dedfb756806c0fcf3dd995620449441feafd63555d08a6057d",
+      "public_sha256": "573d4871dd6ed4dedfb756806c0fcf3dd995620449441feafd63555d08a6057d",
+      "bytes": 1239,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed1_F3.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed1_F3.json",
+      "archive_source_sha256": "df191e65ccbb018a020eb23ec2321c9db8f7b9ed24b9c3738c974eb770d4eff1",
+      "public_sha256": "df191e65ccbb018a020eb23ec2321c9db8f7b9ed24b9c3738c974eb770d4eff1",
+      "bytes": 518,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed2_F0.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed2_F0.json",
+      "archive_source_sha256": "f00f216626a4fbeb576b1fa2215ce0a3224dbf21ba6dd4f65c377ac9896e7113",
+      "public_sha256": "f00f216626a4fbeb576b1fa2215ce0a3224dbf21ba6dd4f65c377ac9896e7113",
+      "bytes": 1354,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed2_F1.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed2_F1.json",
+      "archive_source_sha256": "f022de5bccc2b38ede26bf1087b128b684be84f847192fed47c837ed770c9f68",
+      "public_sha256": "f022de5bccc2b38ede26bf1087b128b684be84f847192fed47c837ed770c9f68",
+      "bytes": 1235,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed2_F2.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed2_F2.json",
+      "archive_source_sha256": "9ef75c3fb364a79b0185679607e0133bbe398b7dc20d5edfca98a65fc4d12ce9",
+      "public_sha256": "9ef75c3fb364a79b0185679607e0133bbe398b7dc20d5edfca98a65fc4d12ce9",
+      "bytes": 1113,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/risk_pilot_actual_once/MODEL_seed2_F3.json",
+      "archive_source": "R1/risk_pilot_actual_once/MODEL_seed2_F3.json",
+      "archive_source_sha256": "911477d1e296459c6c1c550fe36e28a2649809bce00f050fea01fe53864beb00",
+      "public_sha256": "911477d1e296459c6c1c550fe36e28a2649809bce00f050fea01fe53864beb00",
+      "bytes": 515,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/verify_saved_risk.py",
+      "archive_source": "R1/reproduce_compact_results.py",
+      "archive_source_sha256": "e6600b164b8b181380d7f977462e1cb1dda3737131ffb5326c9c542c54e4007c",
+      "public_sha256": "0be96d56fd04d8865ae260371d21e402aa76a989b0fc2331d231d73036203a12",
+      "bytes": 3542,
+      "byte_identical": false,
+      "transformation": "Optional --refit argument/branch removed, unused import removed, module docstring updated; original default inference and score arithmetic unchanged"
+    },
+    {
+      "path": "analysis/r1/A_192_PAIRED_LOG_DESCRIPTIONS.csv",
+      "archive_source": "R1/A_192_PAIRED_LOG_DESCRIPTIONS.csv",
+      "archive_source_sha256": "40b0ec2a4f6c4af550470dfc30d9a01f925ebd774dbdcc4e024d41d5eb67a53c",
+      "public_sha256": "40b0ec2a4f6c4af550470dfc30d9a01f925ebd774dbdcc4e024d41d5eb67a53c",
+      "bytes": 28890,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/A_24_COMPLETE_SCOPE_LOG_WEIGHTING_DESCRIPTIONS.csv",
+      "archive_source": "R1/A_24_COMPLETE_SCOPE_LOG_WEIGHTING_DESCRIPTIONS.csv",
+      "archive_source_sha256": "d9721d7aa31e7a0d6a910f818abf5a61b1305922beacc48e57db83fa74d3a76b",
+      "public_sha256": "d9721d7aa31e7a0d6a910f818abf5a61b1305922beacc48e57db83fa74d3a76b",
+      "bytes": 8440,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/dependency.csv",
+      "archive_source": "R1/full_precision_tables/dependency.csv",
+      "archive_source_sha256": "8057b68c0a6779160d557f644abd5005d2cdb4509d3c2b394058b7fb1b945f08",
+      "public_sha256": "8057b68c0a6779160d557f644abd5005d2cdb4509d3c2b394058b7fb1b945f08",
+      "bytes": 2225,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/detector.csv",
+      "archive_source": "R1/full_precision_tables/detector.csv",
+      "archive_source_sha256": "e797c336511f2a50acb8e2c840de33c02a471cfb54fddf1765c61ed04de78523",
+      "public_sha256": "e797c336511f2a50acb8e2c840de33c02a471cfb54fddf1765c61ed04de78523",
+      "bytes": 1344,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/event_rates.csv",
+      "archive_source": "R1/full_precision_tables/event_rates.csv",
+      "archive_source_sha256": "a01eaf4109c8b5f7ea9a8afed3d0882fb5172df4b4d764ba8a45e5a01cd836c9",
+      "public_sha256": "a01eaf4109c8b5f7ea9a8afed3d0882fb5172df4b4d764ba8a45e5a01cd836c9",
+      "bytes": 675,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/gate_a2.csv",
+      "archive_source": "R1/full_precision_tables/gate_a2.csv",
+      "archive_source_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "public_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "bytes": 3845,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/gate_a2_burden.csv",
+      "archive_source": "R1/full_precision_tables/gate_a2_burden.csv",
+      "archive_source_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "public_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "bytes": 3845,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/gate_a2_effects.csv",
+      "archive_source": "R1/full_precision_tables/gate_a2_effects.csv",
+      "archive_source_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "public_sha256": "ec398703bebcca917ac728da795908db783ab8e908f1319ddb0e27166175c078",
+      "bytes": 3845,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/gate_all.csv",
+      "archive_source": "R1/full_precision_tables/gate_all.csv",
+      "archive_source_sha256": "930125fa7ce2b6e8ac0d8c046153d5ad8313b8449b8b10444991fee009e5c1a2",
+      "public_sha256": "930125fa7ce2b6e8ac0d8c046153d5ad8313b8449b8b10444991fee009e5c1a2",
+      "bytes": 10298,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/limitations.csv",
+      "archive_source": "R1/full_precision_tables/limitations.csv",
+      "archive_source_sha256": "b9a1c41649d380d282e6b3eee0722bc5177893b91cfbba2aaf0f62b8cae677b2",
+      "public_sha256": "b9a1c41649d380d282e6b3eee0722bc5177893b91cfbba2aaf0f62b8cae677b2",
+      "bytes": 163,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/plan_outcomes.csv",
+      "archive_source": "R1/full_precision_tables/plan_outcomes.csv",
+      "archive_source_sha256": "6e1416375476b9b5f520d326cf6db5491001c16e92c62b241f3a7eaf10df8206",
+      "public_sha256": "6e1416375476b9b5f520d326cf6db5491001c16e92c62b241f3a7eaf10df8206",
+      "bytes": 372,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/risk_equal_log.csv",
+      "archive_source": "R1/full_precision_tables/risk_equal_log.csv",
+      "archive_source_sha256": "b0c73b91450be2065a0d072ea3b97da0f3459fd9d0a7a9d2dfe8f8c91f9ddcf3",
+      "public_sha256": "b0c73b91450be2065a0d072ea3b97da0f3459fd9d0a7a9d2dfe8f8c91f9ddcf3",
+      "bytes": 453,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/risk_full.csv",
+      "archive_source": "R1/full_precision_tables/risk_full.csv",
+      "archive_source_sha256": "d7c001a221496cca80ecfe01d167376fa3c96f27fd7365d80aa2f673b6b1e9dc",
+      "public_sha256": "d7c001a221496cca80ecfe01d167376fa3c96f27fd7365d80aa2f673b6b1e9dc",
+      "bytes": 612,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/risk_target.csv",
+      "archive_source": "R1/full_precision_tables/risk_target.csv",
+      "archive_source_sha256": "d7811b3dce32f05c891b3adc89f950774740d9c457432fcfa787822f01c3bb4a",
+      "public_sha256": "d7811b3dce32f05c891b3adc89f950774740d9c457432fcfa787822f01c3bb4a",
+      "bytes": 616,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "analysis/r1/full_precision_tables/verification.csv",
+      "archive_source": "R1/full_precision_tables/verification.csv",
+      "archive_source_sha256": "fe5f7c9f40675ad6215fba124e6bd3233be4009f663b62c63835cba326d825aa",
+      "public_sha256": "fe5f7c9f40675ad6215fba124e6bd3233be4009f663b62c63835cba326d825aa",
+      "bytes": 170,
+      "byte_identical": true,
+      "transformation": "Verbatim copy",
+      "path_fields_deidentified": []
+    }
+  ],
+  "count": 87,
+  "large_raw_predictions_checkpoints_or_execution_controls_included": false,
+  "original_PDF_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
+  "source_aliases": {
+    "P": "Accepted final eleven-page manuscript project",
+    "R1": "Original enhancement compact archive",
+    "R2": "Saved-count recovery compact archive",
+    "R3": "Frozen-score ranking compact archive"
+  }
+}

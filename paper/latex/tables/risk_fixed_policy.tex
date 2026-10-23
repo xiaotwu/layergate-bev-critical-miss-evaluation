@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\caption{Development-fixed alarm policy on all404 outer frames, eight logs per seed. Each fold's cutoff and tie probability use only development scores, aiming at $\lfloor0.2n_{dev}\rfloor$ alarms. Outer alarm volume is observed rather than forced to 20\%. $P$ is the original AnyMiss failure count (270/272/266). Every numerator with a decimal is an expected count under label-independent tie allocation, not a fractional physical frame. Last column is excess captured failures above analytic random alarms at that row's same outer alarm volume. Rates are ratios of expected counts, not expectations of ratios under a random policy. All baselines/seeds are retained. These retrospective descriptions have no deployment or calibration guarantees.}
+\label{tab:fixedpolicy}
+\centering\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{ccrrrrr}\toprule
+Seed & Score & Expected alarms/$N$ & Alarm \% & Expected capture/$P$ & Unflagged failures/frames & Excess vs. random\\\midrule
+0 & LR & 165.54/404 & 40.97 & 115.36/270 & 154.64/238.46 & +4.73 \\
+0 & Dev & 77.56/404 & 19.20 & 52.04/270 & 217.96/326.44 & +0.21 \\
+0 & Conf & 125.00/404 & 30.94 & 71.00/270 & 199.00/279.00 & -12.54 \\
+1 & LR & 96.54/404 & 23.90 & 78.18/272 & 193.82/307.46 & +13.18 \\
+1 & Dev & 77.56/404 & 19.20 & 52.45/272 & 219.55/326.44 & +0.23 \\
+1 & Conf & 126.00/404 & 31.19 & 66.00/272 & 206.00/278.00 & -18.83 \\
+2 & LR & 159.54/404 & 39.49 & 113.64/266 & 152.36/244.46 & +8.60 \\
+2 & Dev & 77.56/404 & 19.20 & 51.32/266 & 214.68/326.44 & +0.26 \\
+2 & Conf & 115.00/404 & 28.47 & 60.00/266 & 206.00/289.00 & -15.72 \\
+\bottomrule\end{tabular}
+\end{table*}

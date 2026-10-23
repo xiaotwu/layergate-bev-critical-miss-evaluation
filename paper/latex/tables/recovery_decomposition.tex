@@ -1,0 +1,15 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Exact saved-count decomposition of four diagnostic cases. C/L denote clean/LiDAR perturbation. A cases use 404 frames/eight logs, 198 pedestrian and 231 VRU instances; P2 is development-only (41 frames/one log/six pedestrian instances). G/D are sums of per-frame positive/negative pedestrian hit-count changes, not identified individual recovery/loss counts. Clear/New are exact joint-VRU frame transitions. Original detection metrics and output burden remain in Tables~\ref{tab:agates} and~\ref{tab:p}; the unavailable seed0/clean SDK effect remains null.}\label{tab:recovery}
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Case & Pedestrian hits $0\to1$/obs. & VRU hits $0\to1$/obs. & AnyMiss $0\to1$/target & Fewer/more frames & G/D & Clear/New & $\Delta$ped hits\\
+\midrule
+A2/s1/C & 1000$\to$1007/2923 & 1055$\to$1060/3333 & 288$\to$288/307 & 17/11 & 19/12 & 0/0 & +7\\
+A2/s0/L & 983$\to$977/2923 & 1015$\to$1008/3333 & 292$\to$292/307 & 16/24 & 19/25 & 0/0 & -6\\
+A2/s1/L & 960$\to$954/2923 & 996$\to$993/3333 & 292$\to$291/307 & 9/14 & 9/15 & 1/0 & -6\\
+P2/dev & 8$\to$15/67 & 8$\to$15/67 & 30$\to$30/31 & 9/2 & 9/2 & 1/1 & +7\\
+\bottomrule
+\end{tabular}
+\end{table*}

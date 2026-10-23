@@ -1,0 +1,83 @@
+{
+  "status": "PASS_SEPARATE_SAME_AUTHOR_NUMERICAL_IMPLEMENTATION_NOT_EXTERNAL_REPLICATION",
+  "at_utc": "2026-10-23T06:45:01.083810+00:00",
+  "checks": 27741,
+  "tie_label_configurations": 64,
+  "tie_permutation_orders": 496,
+  "source_reads": [
+    {
+      "path": "actual_compact_extraction\\FROZEN_ANALYSIS_SCORE_ROWS.json",
+      "bytes": 1134584,
+      "sha256": "20e78006ba147fa4fd3b7f4febbeb8e12a5c146cbfd09245de9d4ff850fce1ea"
+    },
+    {
+      "path": "analysis\\SCOPE_SCORE_METRICS.json",
+      "bytes": 8596,
+      "sha256": "41824dd1de9dca72a1e818bd2498b17b6c8664ad4cca98858ec1b4cc9b5d0187"
+    },
+    {
+      "path": "analysis\\PER_LOG_RANKING.csv",
+      "bytes": 21526,
+      "sha256": "c4f3667d83c53c215cdc66713ce7f392919ea08b1d91e291cf2a8c9a774fe8e3"
+    },
+    {
+      "path": "analysis\\PER_FOLD_RANKING.csv",
+      "bytes": 10054,
+      "sha256": "86fcd7aa9ae817217e319298567546267808e08e20c88cd64ca9bdef27e7545d"
+    },
+    {
+      "path": "analysis\\SCREENING_BUDGETS.json",
+      "bytes": 43597,
+      "sha256": "464afe8b16078e3f116105fe2bff7d27a3f711e5bb8aa04a0dc7020b7cc72b45"
+    },
+    {
+      "path": "analysis\\EQUAL_LOG_DESCRIPTIONS.json",
+      "bytes": 30459,
+      "sha256": "7a3fbfa0cd3c7eae884dcf010f57c73ef3ab6ecf0a40853747d850c982bc8307"
+    },
+    {
+      "path": "analysis\\DEVELOPMENT_FIXED_THRESHOLDS.json",
+      "bytes": 23028,
+      "sha256": "265d90a45779748036fccf18c467491b88c01b49d73388561227b3b98601d2f8"
+    },
+    {
+      "path": "analysis\\FIXED_POLICY_PER_FOLD.csv",
+      "bytes": 7389,
+      "sha256": "fb878acc609922e791c14a028b1bc6f99bcfb74a6860e5e4c55f1e49206a76d2"
+    },
+    {
+      "path": "analysis\\FIXED_POLICY_PER_LOG.csv",
+      "bytes": 15019,
+      "sha256": "73ec9b26aa4f743692904c5d4183ccdd8157a5a321a0ee7094905b11e00ff414"
+    },
+    {
+      "path": "analysis\\FIXED_POLICY_SEED_SUMMARY.json",
+      "bytes": 7952,
+      "sha256": "6664e322bdbf0f408272e8f8063e02a6d2c360b598ffcfb07e4252a1d2d2bd9e"
+    },
+    {
+      "path": "analysis\\EXPECTED_TIE_RISK_COVERAGE_CURVES.csv",
+      "bytes": 387285,
+      "sha256": "c53a437663ed50c4351cfcfcf9140e06852eeda47716c77cce7ebe6c0efdeffb"
+    },
+    {
+      "path": "analysis\\FIXED_POLICY_LOG_CONDITIONAL_DIAGNOSTIC.json",
+      "bytes": 3153,
+      "sha256": "01cfd32d94d07a2830d773cfa4fbfefaaf078313e4bcee046c1dbebbb8fdd89e"
+    },
+    {
+      "path": "analysis\\RESULTS_AND_STOP.json",
+      "bytes": 2446,
+      "sha256": "80dc34b35c4aa0fd7127398db3678719133eb7fc946ca059219b7f3539113733"
+    }
+  ],
+  "controlled_returned_read_bytes": 1695088,
+  "schema_and_code_read_bytes": 12336,
+  "source_sha256": "d5d693b1212bc405c8ab1a178801094edf62c71bd5d831cec3fb27f644c15a00",
+  "wall_seconds": 1.1089999999967404,
+  "new_model_fits_SDK_detector_inference_GT_rematching": 0,
+  "primary_consistency_passed": false,
+  "original_Brier_NLL_and_detector_endpoints_changed": false,
+  "threshold_selector_outcome_or_outer_access_detected": false,
+  "scope": "Compact R3 rows and outputs only. Pairwise AUROC, direct threshold AP, exact rational tie-prefix checks; no population inference."
+}

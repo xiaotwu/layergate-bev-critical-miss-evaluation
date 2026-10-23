@@ -1,0 +1,24 @@
+{
+  "scope": "Offline BibTeX record structure only; no online metadata or source/content verification inferred.",
+  "input_file": "paper/latex/references.bib",
+  "tool": "Academic Writing Toolkit verify_bibtex_references",
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"summary\": \"BibTeX reference verification: no issues found.\",\n  \"issue_count\": 0,\n  \"issues\": []\n}"
+      }
+    ],
+    "structuredContent": {
+      "schema_version": 1,
+      "entries": 10,
+      "issues": [],
+      "issue_count": 0,
+      "verified": [],
+      "metadata_checks": [],
+      "online_sources": [],
+      "summary": "BibTeX reference verification: no issues found."
+    },
+    "isError": false
+  }
+}

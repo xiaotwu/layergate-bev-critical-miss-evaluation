@@ -1,0 +1,12 @@
+\begin{table*}[t]
+\centering\footnotesize
+\caption{Frozen B1 clean selected outer values; no detector change in R1.}\label{tab:bclean}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{llrrrrrrr}\toprule
+Seed & mAP\% & NDS\% & PedAP\% & Ped hits & VRU hits & AnyMiss & Ped out. & All out.\\\midrule
+0 & 2.1147 & 10.9906 & 1.4518 & 1577/2923 & 1608/3333 & 270/307 & 27627 & 59639\\
+1 & 2.1850 & 9.9151 & 1.8108 & 1462/2923 & 1526/3333 & 272/307 & 26531 & 69373\\
+2 & 2.4518 & 11.3810 & 2.7050 & 1630/2923 & 1652/3333 & 266/307 & 26188 & 61793\\
+\bottomrule\end{tabular}
+\par\vspace{3pt}\begin{minipage}{0.98\textwidth}\footnotesize Each row: 404 frames, eight logs, one seed, 198 pedestrian/231 joint critical instances. AnyMiss has the same numerator over 404 all frames. Selected steps are mixed, not uniform fixed8k. Saved output counts at score$\geq0.1$ are all-range diagnostics, not FP/precision. Unmatched counts are null.\end{minipage}
+\end{table*}

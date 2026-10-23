@@ -1,0 +1,5 @@
+# R1 compact monitor and log-weighting records
+
+Run `python analysis/r1/verify_saved_risk.py` from the repository root. It reconstructs the saved outer probabilities from the twelve saved model/fallback records, verifies roles and Brier/NLL for every declared scope, and prints results without writing files or refitting. The optional refit branch present in the private historical portable helper is deliberately removed from this public wrapper; the original default inference/scoring formulas are unchanged and the source mapping records that adaptation.
+
+All three seeds, nine logistic models and three predetermined F3 constants are retained. `risk_pilot_actual_once/` is a preserved-name compact-record folder, not an instruction to execute a pilot. The public repository includes no original-data training/pilot executor. `full_precision_tables/` and the 192 log/24 scope CSVs retain original accepted detection, support, Brier/NLL and weighting descriptions. Log-level SDK AP was not run and stays null rather than being invented from fold means.

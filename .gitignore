@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+node_modules/
+*.ckpt
+*.pth
+*.pt
+data/raw/
+paper/latex/*.aux
+paper/latex/*.out
+paper/latex/*.log
+paper/latex/*.bbl
+paper/latex/*.blg

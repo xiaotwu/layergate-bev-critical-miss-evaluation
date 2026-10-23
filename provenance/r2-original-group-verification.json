@@ -1,0 +1,9 @@
+{
+  "status": "ALL_1056_LOG_AND_528_FOLD_CLASS_ROWS_RECONCILED_BY_SEPARATE_SQL_GROUPBY",
+  "scalar_checks": 28512,
+  "group_rows": 1584,
+  "endpoint_or_prediction_payload_read": 0,
+  "new_SDK_training_GT_matching": 0,
+  "same_author_independent_computation": true,
+  "external_independent_replication": false
+}

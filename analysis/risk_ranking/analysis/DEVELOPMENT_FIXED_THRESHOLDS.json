@@ -1,0 +1,794 @@
+[
+  {
+    "seed": 0,
+    "fold": "F0",
+    "score": "logistic",
+    "threshold": 0.900426204598,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F0",
+    "score": "dev_prevalence",
+    "threshold": 0.720930232558,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F0",
+    "score": "max_confidence_risk",
+    "threshold": 0.665922135115,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F1",
+    "score": "logistic",
+    "threshold": 0.574614345849,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 18,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F1",
+    "score": "dev_prevalence",
+    "threshold": 0.441860465116,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 18,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F1",
+    "score": "max_confidence_risk",
+    "threshold": 0.650242179632,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 18,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F2",
+    "score": "logistic",
+    "threshold": 0.797487109604,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F2",
+    "score": "dev_prevalence",
+    "threshold": 0.558139534884,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F2",
+    "score": "max_confidence_risk",
+    "threshold": 0.579288989305,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F3",
+    "score": "logistic",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F3",
+    "score": "dev_prevalence",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 0,
+    "fold": "F3",
+    "score": "max_confidence_risk",
+    "threshold": 0.578957080841,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 6,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F0",
+    "score": "logistic",
+    "threshold": 0.894738234014,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 28,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F0",
+    "score": "dev_prevalence",
+    "threshold": 0.674418604651,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 28,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F0",
+    "score": "max_confidence_risk",
+    "threshold": 0.701090604067,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 28,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F1",
+    "score": "logistic",
+    "threshold": 0.867479694495,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 33,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F1",
+    "score": "dev_prevalence",
+    "threshold": 0.790697674419,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 33,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F1",
+    "score": "max_confidence_risk",
+    "threshold": 0.694103449583,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 33,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F2",
+    "score": "logistic",
+    "threshold": 0.794215127396,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F2",
+    "score": "dev_prevalence",
+    "threshold": 0.558139534884,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F2",
+    "score": "max_confidence_risk",
+    "threshold": 0.604539722204,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F3",
+    "score": "logistic",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F3",
+    "score": "dev_prevalence",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 1,
+    "fold": "F3",
+    "score": "max_confidence_risk",
+    "threshold": 0.627195447683,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 6,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F0",
+    "score": "logistic",
+    "threshold": 0.906138315052,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F0",
+    "score": "dev_prevalence",
+    "threshold": 0.720930232558,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F0",
+    "score": "max_confidence_risk",
+    "threshold": 0.673991113901,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 30,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2"
+    ],
+    "test_logs": [
+      "53cf9c55dd8644bea67b9f009fc1ee38",
+      "8fefc430cbfa4c2191978c0df302eb98"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F1",
+    "score": "logistic",
+    "threshold": 0.911726637916,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 36,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F1",
+    "score": "dev_prevalence",
+    "threshold": 0.860465116279,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 36,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F1",
+    "score": "max_confidence_risk",
+    "threshold": 0.619447588921,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 36,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ],
+    "test_logs": [
+      "6f7fe59adf984e55a82571ab4f17e4e2",
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F2",
+    "score": "logistic",
+    "threshold": 0.614781411792,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F2",
+    "score": "dev_prevalence",
+    "threshold": 0.558139534884,
+    "boundary_alarm_probability": 0.1951219512195122,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 41,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F2",
+    "score": "max_confidence_risk",
+    "threshold": 0.600216299295,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 41,
+    "dev_alarm_budget": 8,
+    "development_scores_above_cutoff": 7,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 23,
+    "model_kind": "fixed_3feature_L2_logistic",
+    "fit_logs": [
+      "3a43824b84534c98bda1d07548db5817"
+    ],
+    "test_logs": [
+      "5bd40b613ac740cd9dbacdfbc3d68201",
+      "881dd2f8aaec49b681eb54be5bf3b3e2"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F3",
+    "score": "logistic",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F3",
+    "score": "dev_prevalence",
+    "threshold": 0.975609756098,
+    "boundary_alarm_probability": 0.1794871794871795,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 0,
+    "development_scores_equal_cutoff": 39,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  },
+  {
+    "seed": 2,
+    "fold": "F3",
+    "score": "max_confidence_risk",
+    "threshold": 0.625738173723,
+    "boundary_alarm_probability": 1.0,
+    "n_dev": 39,
+    "dev_alarm_budget": 7,
+    "development_scores_above_cutoff": 6,
+    "development_scores_equal_cutoff": 1,
+    "threshold_selection_uses_outcomes": false,
+    "threshold_selection_uses_outer": false,
+    "dev_events": 39,
+    "model_kind": "one_class_dev_constant_fallback",
+    "fit_logs": [
+      "7e25a2c8ea1f41c5b0da1e69ecfa71a2"
+    ],
+    "test_logs": [
+      "3a43824b84534c98bda1d07548db5817",
+      "8ff48ad1df8e4966a2151730c92b7f3c"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "ALL17_COMPACT_SOURCES_VERIFIED_AND_FROZEN_SCORE_ROWS_COMPLETE",
+  "at_utc": "2026-10-23T06:33:11.672246+00:00",
+  "source_files": 17,
+  "source_return_bytes": 2309190,
+  "rows": 1698,
+  "outer_rows": 1212,
+  "dev_saved_monitor_arithmetic_rows": 486,
+  "new_model_fits": 0,
+  "detector_inference": 0,
+  "SDK": 0,
+  "GPU": 0,
+  "GT_matching": 0,
+  "maximum_outer_probability_reconstruction_error": 1.6653345369377348e-16,
+  "maximum_score_rounding_error": 4.99933427988708e-13,
+  "wall_seconds_this_extractor": 0.125,
+  "total_task_CPU_or_physical_IO": null
+}

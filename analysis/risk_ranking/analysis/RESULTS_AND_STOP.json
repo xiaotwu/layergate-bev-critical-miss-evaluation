@@ -1,0 +1,59 @@
+{
+  "status": "COMPLETE_EXPLORATORY_FROZEN_SCORE_RANKING_AND_ALARM_ANALYSIS",
+  "at_utc": "2026-10-23T06:35:34.864169+00:00",
+  "primary_budget": 0.2,
+  "primary": [
+    {
+      "seed": 0,
+      "logistic_captured_failures": 57.58024691358025,
+      "development_prevalence_captured": 40.49382716049383,
+      "max_confidence_captured": 47.0,
+      "random_expected_captured": 53.46534653465346,
+      "beats_prevalence": true,
+      "beats_fixed_confidence": true,
+      "beats_random_expectation": true,
+      "equal_log_excess_random_not_reversed": false
+    },
+    {
+      "seed": 1,
+      "logistic_captured_failures": 43.55555555555556,
+      "development_prevalence_captured": 39.50617283950617,
+      "max_confidence_captured": 46.0,
+      "random_expected_captured": 53.86138613861386,
+      "beats_prevalence": true,
+      "beats_fixed_confidence": false,
+      "beats_random_expectation": false,
+      "equal_log_excess_random_not_reversed": true
+    },
+    {
+      "seed": 2,
+      "logistic_captured_failures": 51.46913580246914,
+      "development_prevalence_captured": 36.54320987654321,
+      "max_confidence_captured": 35.0,
+      "random_expected_captured": 52.67326732673267,
+      "beats_prevalence": true,
+      "beats_fixed_confidence": true,
+      "beats_random_expectation": false,
+      "equal_log_excess_random_not_reversed": false
+    }
+  ],
+  "consistent_internal_screening_advantage": false,
+  "decision": "Report complete results and stop candidate expansion; no additional features/refits/training regardless of ranking outcome.",
+  "rank_scope_rows": 18,
+  "per_log_rows": 144,
+  "per_fold_rows": 72,
+  "threshold_rules": 36,
+  "fixed_policy_fold_rows": 36,
+  "fixed_policy_log_rows": 72,
+  "fixed_policy_seed_rows": 9,
+  "curve_rows": 3636,
+  "score_input_sha256": "20e78006ba147fa4fd3b7f4febbeb8e12a5c146cbfd09245de9d4ff850fce1ea",
+  "source_entry_sha256": "b6d6386432af2949a2d2c9f8e87975ad79915557e5e83c4de8888438b56745ff",
+  "compact_read_bytes_this_pass": 1134584,
+  "wall_seconds_this_analysis": 0.34300000000803266,
+  "new_SDK_training_detector_inference_GT_matching_refits": 0,
+  "original_Brier_NLL_and_detection_metrics_changed": false,
+  "NO_PROMOTION_changed": false,
+  "automation": "PAUSED",
+  "interpretation": "Uniform tie expectations; descriptive mixed-fold outputs on historically exposed mini; no deployed or calibrated safety claim."
+}

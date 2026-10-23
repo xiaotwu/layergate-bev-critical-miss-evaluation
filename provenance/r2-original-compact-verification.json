@@ -1,0 +1,46 @@
+{
+  "status": "ALL_36_SCOPES_FOUR_CLASSES_AND_LOCAL_P2_SCALAR_DECOMPOSITIONS_VERIFIED",
+  "at_utc": "2026-10-23T00:28:26.122799+00:00",
+  "scalar_checks": 3996,
+  "enumerated_sharp_bound_cases": 140,
+  "summary": {
+    "full404_scopes": 24,
+    "ped_positive_scopes": 9,
+    "ped_negative_scopes": 15,
+    "joint_AnyMiss_unchanged": 14,
+    "unchanged_with_no_frame_transitions": 13,
+    "unchanged_with_canceling_transitions": 1,
+    "scope_count_not_independent_replicates": true,
+    "complete_ped_improved_frame_comparison_occurrences": 268,
+    "complete_ped_improved_and_joint_recovered_occurrences": 6,
+    "complete_ped_improved_still_ped_missed_occurrences": 258,
+    "complete_ped_improved_ped_clear_other_VRU_missed_occurrences": 4
+  },
+  "sources": [
+    {
+      "path": "archive://A_PAIRED_FRAME_COUNTS.csv",
+      "bytes": 2131444,
+      "sha256": "9def9ced1a0465dbe19a1c010da0ecd2b54f137918f7e68d7ece1bb8e9a249db"
+    },
+    {
+      "path": "archive://P2_PAIRED_FRAME_COUNTS.csv",
+      "bytes": 7754,
+      "sha256": "64c2306232a6bee9137df1e2401e8882c8f269d6a741a200d0d8b8c4aad20f8c"
+    },
+    {
+      "path": "archive://A_36_SCOPE_CLASS_DECOMPOSITIONS.json",
+      "bytes": 396972,
+      "sha256": "9a2da678a185cc289d41db84a495e9bce33373b688aa18788e45eae1c2acc73f"
+    },
+    {
+      "path": "archive://P2_DEVELOPMENT_DECOMPOSITION.json",
+      "bytes": 7520,
+      "sha256": "b65bf19d04b86c9359a5f8da6827da3ab5ea099cff69c48355c0c1af1c3c805f"
+    }
+  ],
+  "compact_return_bytes": 2543690,
+  "same_author_separate_implementation": true,
+  "external_independent_replication": false,
+  "raw_source_replayed": false,
+  "SDK_training_GT_matching": 0
+}

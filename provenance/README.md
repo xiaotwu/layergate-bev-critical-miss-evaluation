@@ -1,0 +1,7 @@
+# Provenance and publication transformations
+
+`SOURCE_COPY_RECORD.json` maps each selected source using an archive-neutral R1/R2/R3/P identifier, its original SHA256, the public SHA256, and whether bytes are identical. Any absolute local path string in a public JSON copy is replaced by an `archive://basename` reference. Numerical values, labels, seed/fold/log/sample IDs and scientific outputs are not changed. Such a transformed JSON file has a new hash and is not claimed byte-identical. Public copies are never written back into the original archive.
+
+The R1 public scoring wrapper removes only an optional refit interface/branch and updates its docstring/import; its default saved-model scoring arithmetic is unchanged. R2 and R3 compact verifiers are otherwise retained as documented. The final paper PDF, LaTeX main/bibliography and manuscript tables/vector figures are exact copies.
+
+`PUBLIC_RELEASE_MANIFEST.json` binds the public source scope, excluding itself and the standard SHA256 list to avoid circular hashes. `PORTABILITY_CHECKS.json` records the actual new-repository smoke checks; these do not represent new experiments. `academic-writing-toolkit/` records offline text/BibTeX checks, with their exact scope. The complete local historical archive, all original failures and Windows native proof are preserved locally; the public companion deliberately omits machine/process/session controls and original raw data.

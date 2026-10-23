@@ -1,0 +1,243 @@
+{
+  "scope": "Actual new public-repository copies, documented read-only commands. Publication portability checks, not new experiments or external independent replication.",
+  "new_training_model_fits_detector_SDK_GT_matching": 0,
+  "runs": [
+    {
+      "command": "python analysis/r1/verify_saved_risk.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS",
+        "saved_probabilities": 1212,
+        "max_probability_error": 1.6653345369377348e-16,
+        "scopes_reproduced": 6,
+        "optional_logistic_refits": 0,
+        "SDK": 0,
+        "GPU": 0,
+        "original_payload_read": 0,
+        "RSS_actual": null,
+        "results": [
+          {
+            "seed": 0,
+            "scope": "all404",
+            "metrics": {
+              "logistic_p": {
+                "n": 404,
+                "positive": 270,
+                "negative": 134,
+                "Brier": 0.3729997199583942,
+                "NLL": 1.2731680043355305
+              },
+              "dev_prevalence_p": {
+                "n": 404,
+                "positive": 270,
+                "negative": 134,
+                "Brier": 0.27534992195860597,
+                "NLL": 0.8844443027659483
+              },
+              "uninformative_p": {
+                "n": 404,
+                "positive": 270,
+                "negative": 134,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599454
+              }
+            }
+          },
+          {
+            "seed": 0,
+            "scope": "original_target_frames_only",
+            "metrics": {
+              "logistic_p": {
+                "n": 307,
+                "positive": 270,
+                "negative": 37,
+                "Brier": 0.27384369272962056,
+                "NLL": 0.9094213229393245
+              },
+              "dev_prevalence_p": {
+                "n": 307,
+                "positive": 270,
+                "negative": 37,
+                "Brier": 0.17102391198753072,
+                "NLL": 0.5357394672433954
+              },
+              "uninformative_p": {
+                "n": 307,
+                "positive": 270,
+                "negative": 37,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599453
+              }
+            }
+          },
+          {
+            "seed": 1,
+            "scope": "all404",
+            "metrics": {
+              "logistic_p": {
+                "n": 404,
+                "positive": 272,
+                "negative": 132,
+                "Brier": 0.2806159046048254,
+                "NLL": 0.9198900795740732
+              },
+              "dev_prevalence_p": {
+                "n": 404,
+                "positive": 272,
+                "negative": 132,
+                "Brier": 0.2588676447818189,
+                "NLL": 0.8554983510446306
+              },
+              "uninformative_p": {
+                "n": 404,
+                "positive": 272,
+                "negative": 132,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599454
+              }
+            }
+          },
+          {
+            "seed": 1,
+            "scope": "original_target_frames_only",
+            "metrics": {
+              "logistic_p": {
+                "n": 307,
+                "positive": 272,
+                "negative": 35,
+                "Brier": 0.1947013014377886,
+                "NLL": 0.603868032365511
+              },
+              "dev_prevalence_p": {
+                "n": 307,
+                "positive": 272,
+                "negative": 35,
+                "Brier": 0.14336181605408094,
+                "NLL": 0.4847794307870635
+              },
+              "uninformative_p": {
+                "n": 307,
+                "positive": 272,
+                "negative": 35,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599453
+              }
+            }
+          },
+          {
+            "seed": 2,
+            "scope": "all404",
+            "metrics": {
+              "logistic_p": {
+                "n": 404,
+                "positive": 266,
+                "negative": 138,
+                "Brier": 0.24992736433094787,
+                "NLL": 0.8566937686844317
+              },
+              "dev_prevalence_p": {
+                "n": 404,
+                "positive": 266,
+                "negative": 138,
+                "Brier": 0.2591720836732539,
+                "NLL": 0.86752168385982
+              },
+              "uninformative_p": {
+                "n": 404,
+                "positive": 266,
+                "negative": 138,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599454
+              }
+            }
+          },
+          {
+            "seed": 2,
+            "scope": "original_target_frames_only",
+            "metrics": {
+              "logistic_p": {
+                "n": 307,
+                "positive": 266,
+                "negative": 41,
+                "Brier": 0.12962841212202791,
+                "NLL": 0.43505604962948086
+              },
+              "dev_prevalence_p": {
+                "n": 307,
+                "positive": 266,
+                "negative": 41,
+                "Brier": 0.13197686923741336,
+                "NLL": 0.4683137941187219
+              },
+              "uninformative_p": {
+                "n": 307,
+                "positive": 266,
+                "negative": 41,
+                "Brier": 0.25,
+                "NLL": 0.6931471805599453
+              }
+            }
+          }
+        ]
+      },
+      "tool_wall_seconds": 0.1374714
+    },
+    {
+      "command": "python analysis/recovery/reproduce_recovery_compact.py",
+      "exit_code": 0,
+      "output": {
+        "checks": 3996,
+        "bound_cases": 140,
+        "summary": {
+          "full404_scopes": 24,
+          "ped_positive_scopes": 9,
+          "ped_negative_scopes": 15,
+          "joint_AnyMiss_unchanged": 14,
+          "unchanged_with_no_frame_transitions": 13,
+          "unchanged_with_canceling_transitions": 1,
+          "scope_count_not_independent_replicates": true,
+          "complete_ped_improved_frame_comparison_occurrences": 268,
+          "complete_ped_improved_and_joint_recovered_occurrences": 6,
+          "complete_ped_improved_still_ped_missed_occurrences": 258,
+          "complete_ped_improved_ped_clear_other_VRU_missed_occurrences": 4
+        }
+      },
+      "tool_wall_seconds": 0.24908
+    },
+    {
+      "command": "python analysis/recovery/verify_group_tables_sqlite.py --read-only",
+      "exit_code": 0,
+      "output": {
+        "status": "ALL_1056_LOG_AND_528_FOLD_CLASS_ROWS_RECONCILED_BY_SEPARATE_SQL_GROUPBY",
+        "scalar_checks": 28512,
+        "group_rows": 1584,
+        "endpoint_or_prediction_payload_read": 0,
+        "new_SDK_training_GT_matching": 0,
+        "same_author_independent_computation": true,
+        "external_independent_replication": false
+      },
+      "tool_wall_seconds": 0.2957941
+    },
+    {
+      "command": "python analysis/risk_ranking/verify_ranking_alarm.py",
+      "exit_code": 0,
+      "output": {
+        "status": "PASS_SEPARATE_SAME_AUTHOR_NUMERICAL_IMPLEMENTATION_NOT_EXTERNAL_REPLICATION",
+        "at_utc": "2026-10-23T22:28:25.608421+00:00",
+        "checks": 27741,
+        "tie_label_configurations": 64,
+        "tie_permutation_orders": 496,
+        "controlled_returned_read_bytes": 1695088,
+        "schema_and_code_read_bytes": 12336,
+        "source_sha256": "d5d693b1212bc405c8ab1a178801094edf62c71bd5d831cec3fb27f644c15a00",
+        "wall_seconds": 1.0780000000086147,
+        "new_model_fits_SDK_detector_inference_GT_rematching": 0,
+        "primary_consistency_passed": false,
+        "original_Brier_NLL_and_detector_endpoints_changed": false,
+        "threshold_selector_outcome_or_outer_access_detected": false,
+        "scope": "Compact R3 rows and outputs only. Pairwise AUROC, direct threshold AP, exact rational tie-prefix checks; no population inference."
+      },
+      "tool_wall_seconds": 1.228409
+    }
+  ]
+}
