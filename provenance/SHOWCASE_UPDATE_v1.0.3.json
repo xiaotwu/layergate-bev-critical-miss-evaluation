@@ -1,0 +1,12 @@
+{
+  "version": "v1.0.3",
+  "scope": "Research summary and presentation update only; no new experiments or scientific-result changes.",
+  "summary_pdf_sha256": "35d0043c7f3176fe7680b23829d19266fd97c7420619da49043f96f396c31abd",
+  "summary_pages": 1,
+  "paper_pdf_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715",
+  "existing_source_copies_sha_verified_unchanged": 85,
+  "AI_assisted_code_development_disclosed_by_author": true,
+  "specific_individual_research_roles_not_inferred": true,
+  "future_study_is_proposed_not_executed": true,
+  "new_training_fits_inference_SDK_matching": 0
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "release": "v1.0.2",
-  "prepared_at_utc": "2026-10-23T23:47:41.104523+00:00",
-  "scope": "Curated public compact-analysis companion. Published scientific results, author metadata, paper PDF, LaTeX, tables and figures unchanged. No raw sensor, full annotation, checkpoint, large prediction payload or private orchestration.",
-  "count": 108,
-  "bytes": 7310099,
+  "release": "v1.0.3",
+  "prepared_at_utc": "2026-10-24T00:12:18.778166+00:00",
+  "scope": "Curated public research companion with a one-page project-level summary. Scientific inputs/results and the full paper unchanged; no new experiments.",
+  "count": 114,
+  "bytes": 7401800,
   "files": [
     {
       "path": ".gitattributes",
@@ -348,13 +348,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1411,
-      "sha256": "f7bbf6bcedd813a910e41f4988c34b55ae9be14325258f3dbb4fd417fa1ad5a5"
+      "bytes": 1443,
+      "sha256": "b3ddc5f3e6e3c721e6ae615bb0ee9e4aa3d30ab877db6cf28a798f7292c116f0"
     },
     {
       "path": "CITATION.cff",
       "bytes": 1072,
-      "sha256": "40ff7f74884d57bfdbe3e28209fca3c57fad1190e483cb6f9eff850163d428d9"
+      "sha256": "57db0e2a39569d1a6dd9dfc19c4f9c7979cb4a2a5696e61de70e1a713da2ac05"
     },
     {
       "path": "docs/figures/miss-transitions.png",
@@ -377,6 +377,11 @@
       "sha256": "e718fe8d631badd39cf66ee04a7f9472c010f4530dbd649b2d64acace5083b9c"
     },
     {
+      "path": "docs/release-notes-v1.0.3.md",
+      "bytes": 7,
+      "sha256": "e718fe8d631badd39cf66ee04a7f9472c010f4530dbd649b2d64acace5083b9c"
+    },
+    {
       "path": "docs/release-notes.md",
       "bytes": 1219,
       "sha256": "b620c7af59a0d14725de0993c5ed07129f45363e5b735d37db8bc3c07b4a601a"
@@ -385,6 +390,21 @@
       "path": "docs/reproducibility.md",
       "bytes": 3687,
       "sha256": "47bf48c391febbc16d7b558708303c7540a44444c6b9c34fd943893f3e3b0a64"
+    },
+    {
+      "path": "docs/research-development-plan.md",
+      "bytes": 4970,
+      "sha256": "71ab12ac306e256acde2775449976dc36c5690a3055ae056aebae0ba7ca67354"
+    },
+    {
+      "path": "docs/research-summary.md",
+      "bytes": 3925,
+      "sha256": "c7280a6cc5593f1be560bc54ed32ae561c4dd639bb76b462de3ba62af467c5b4"
+    },
+    {
+      "path": "docs/research-summary.pdf",
+      "bytes": 77680,
+      "sha256": "35d0043c7f3176fe7680b23829d19266fd97c7420619da49043f96f396c31abd"
     },
     {
       "path": "docs/study-status.md",
@@ -498,8 +518,13 @@
     },
     {
       "path": "provenance/academic-writing-toolkit/REVIEW_SCOPE.md",
-      "bytes": 1485,
-      "sha256": "979185b2a89eb2067472e8952ce92f3f6a30f5d83e45c56acdab64f9dd98952d"
+      "bytes": 2012,
+      "sha256": "f260bf13ec563452a19694adc880cb5d139f9362c88cbc835bf0b7a6d99b4c82"
+    },
+    {
+      "path": "provenance/academic-writing-toolkit/SHOWCASE_PARAGRAPH_LOGIC.json",
+      "bytes": 808,
+      "sha256": "5479984b6671774eb616af7512c1ef97a96ea5c1ebda94e3f54b1522b3d298a2"
     },
     {
       "path": "provenance/AUTHOR_METADATA_v1.0.1.json",
@@ -532,14 +557,19 @@
       "sha256": "5609615898faf7012f61b631d8f8be0b475e739ae30f4296590e95117ac87fd3"
     },
     {
+      "path": "provenance/SHOWCASE_UPDATE_v1.0.3.json",
+      "bytes": 612,
+      "sha256": "7ace6a6ab52c8ad035e76309117f0cdac889e8201e141cba46f26af84bb9dace"
+    },
+    {
       "path": "provenance/SOURCE_COPY_RECORD.json",
       "bytes": 41887,
       "sha256": "a65856bd98965e41bd644b88c60e10d56023c06b96eb3ea627d1b068195ba7f9"
     },
     {
       "path": "README.md",
-      "bytes": 8977,
-      "sha256": "4d3bf48444bc365361fc067abff9979bbcfb34f8ad88472f968de122ee6e1909"
+      "bytes": 12117,
+      "sha256": "53e7ba6344403c705bf3fca9a9a2534e0a0cef329f542fa4931fb89c625d44db"
     },
     {
       "path": "scripts/verify_release.py",

@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"summary\": \"Paragraph logic review: 1 issue found.\",\n  \"issue_count\": 1,\n  \"issues\": [\n    {\n      \"kind\": \"short-paragraph\",\n      \"severity\": \"medium\",\n      \"location\": \"chapters/input.md:3\",\n      \"message\": \"Paragraph is very short and may need integration with neighbouring prose.\"\n    }\n  ]\n}"
+    }
+  ],
+  "structuredContent": {
+    "schema_version": 1,
+    "issues": [
+      {
+        "kind": "short-paragraph",
+        "severity": "medium",
+        "location": "chapters/input.md:3",
+        "message": "Paragraph is very short and may need integration with neighbouring prose."
+      }
+    ],
+    "issue_count": 1,
+    "summary": "Paragraph logic review: 1 issue found."
+  },
+  "isError": false
+}
