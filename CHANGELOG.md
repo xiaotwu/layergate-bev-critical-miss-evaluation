@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.0 - 2026-10-28
+
+update
+
+Separate bounded matched-conditioning study, new paper/LaTeX and refreshed one-page summary; full new identity/count companion. Original eleven-page paper, archived summary, failures/nulls/stops and NO_PROMOTION preserved.
+
+
 ## v1.0.3 - 2026-10-23
 
 update

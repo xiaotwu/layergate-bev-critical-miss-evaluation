@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "release": "v1.0.3",
-  "prepared_at_utc": "2026-10-24T00:12:18.778166+00:00",
-  "scope": "Curated public research companion with a one-page project-level summary. Scientific inputs/results and the full paper unchanged; no new experiments.",
-  "count": 114,
-  "bytes": 7401800,
+  "release": "v1.1.0",
+  "prepared_at_utc": "2026-10-28T23:23:03.423267+00:00",
+  "scope": "Verified new bounded gate follow-up plus preserved historical compact evidence; no raw sensor/checkpoint/full annotation redistribution",
+  "count": 195,
+  "bytes": 22083838,
   "files": [
     {
       "path": ".gitattributes",
@@ -348,18 +348,43 @@
     },
     {
       "path": "CHANGELOG.md",
-      "bytes": 1443,
-      "sha256": "b3ddc5f3e6e3c721e6ae615bb0ee9e4aa3d30ab877db6cf28a798f7292c116f0"
+      "bytes": 1700,
+      "sha256": "90f5f3f2b664cd1edf8f5f97943d24d3fcc602ebf09367cca79fbaa5673868fa"
     },
     {
       "path": "CITATION.cff",
-      "bytes": 1072,
-      "sha256": "57db0e2a39569d1a6dd9dfc19c4f9c7979cb4a2a5696e61de70e1a713da2ac05"
+      "bytes": 1075,
+      "sha256": "820d8a4f02f1c6f77c1ab01a9effc746ea59440ce5822f35e12c88df850fca59"
+    },
+    {
+      "path": "docs/archive/research-summary-v1.0.3.md",
+      "bytes": 3942,
+      "sha256": "6bdb0b8f976fa009fe619eb27507ebafc8b8c34c4c223ecc4f76a769d4770fb0"
+    },
+    {
+      "path": "docs/archive/research-summary-v1.0.3.pdf",
+      "bytes": 77680,
+      "sha256": "35d0043c7f3176fe7680b23829d19266fd97c7420619da49043f96f396c31abd"
+    },
+    {
+      "path": "docs/figures/decoder_intervention.png",
+      "bytes": 61517,
+      "sha256": "f851dcb758b4577945ad38c80edb893dd00cc5203e96a13ccf1184a691f8856e"
+    },
+    {
+      "path": "docs/figures/matched_architecture.png",
+      "bytes": 112447,
+      "sha256": "7aca8b4e1ac9cf7a1a26134bd1748a30506ef79af599b1d374c398c9c578cd4f"
     },
     {
       "path": "docs/figures/miss-transitions.png",
       "bytes": 114330,
       "sha256": "bc846604d0afc546769e0d5531c5daae1fd80a3ac42e549ebf4c364cee5f09ec"
+    },
+    {
+      "path": "docs/figures/primary_identity_effects.png",
+      "bytes": 67762,
+      "sha256": "0170e7140ffef18796c39e2df4d1e0f7470428e18337f7e175d7d6c5f8f1d45f"
     },
     {
       "path": "docs/figures/risk-coverage.png",
@@ -388,33 +413,33 @@
     },
     {
       "path": "docs/reproducibility.md",
-      "bytes": 3687,
-      "sha256": "47bf48c391febbc16d7b558708303c7540a44444c6b9c34fd943893f3e3b0a64"
+      "bytes": 4689,
+      "sha256": "4c273c31d800604200099b639a20086e9b3d4c7744b128564d153ddf4f78e44b"
     },
     {
       "path": "docs/research-development-plan.md",
-      "bytes": 4970,
-      "sha256": "71ab12ac306e256acde2775449976dc36c5690a3055ae056aebae0ba7ca67354"
+      "bytes": 5499,
+      "sha256": "04d2aa62d6eba09ae32b5ef6906b9b2b82087ca633daa5443e6acf40cdbeff24"
     },
     {
       "path": "docs/research-summary.md",
-      "bytes": 3925,
-      "sha256": "c7280a6cc5593f1be560bc54ed32ae561c4dd639bb76b462de3ba62af467c5b4"
+      "bytes": 3152,
+      "sha256": "0b3dbe5a77c4d890f295e1d95742a59162afa9f88df3e2686a14e39fd9c60354"
     },
     {
       "path": "docs/research-summary.pdf",
-      "bytes": 77680,
-      "sha256": "35d0043c7f3176fe7680b23829d19266fd97c7420619da49043f96f396c31abd"
+      "bytes": 4670,
+      "sha256": "619104274f93f4387bb098a7edda35d3786f3ac68a0309e138160829f4e217fc"
     },
     {
       "path": "docs/study-status.md",
-      "bytes": 2818,
-      "sha256": "6a97bf2a130b825e7dad869d6c9ae1ab4c5326aa3732351168cf6d14917e37a5"
+      "bytes": 3484,
+      "sha256": "f93e9bf8ec1b425cd703f87f91e6cd0c5356ddf9b0bb2dcd802fb70e48b46fb7"
     },
     {
       "path": "LICENSES_AND_DATA.md",
-      "bytes": 3130,
-      "sha256": "b86f1500ec29bb2adde4510a1eb95783f456be14722ee504e0ed41f014dc1f65"
+      "bytes": 3724,
+      "sha256": "5fe4ea519d8ce0ecb1665f5c89f06b692c91252a5ff358cd74d0ca41539641d6"
     },
     {
       "path": "paper/critical-miss-evaluation.pdf",
@@ -507,6 +532,116 @@
       "sha256": "e39e42062f28b8f20351d812aafad70e643960892ff01bb48c3bb4b154eb85e5"
     },
     {
+      "path": "paper/matched-conditioning-study.pdf",
+      "bytes": 161765,
+      "sha256": "271b38f0899e08253415c97ecad5d413734c8c643a89c3b0434174e2d0a8664a"
+    },
+    {
+      "path": "paper/mechanism-latex/discussion.tex",
+      "bytes": 1737,
+      "sha256": "a696a3439cd4f5f1ae0ac9225686a0c3adf3ab5d902558b6b1fe46063809e55a"
+    },
+    {
+      "path": "paper/mechanism-latex/images/decoder_intervention.pdf",
+      "bytes": 16688,
+      "sha256": "120ed0d8d383ba1c61a3d01bc8b6cb6141163eebe87924b0ab4ac013660a4ab7"
+    },
+    {
+      "path": "paper/mechanism-latex/images/decoder_intervention.png",
+      "bytes": 61517,
+      "sha256": "f851dcb758b4577945ad38c80edb893dd00cc5203e96a13ccf1184a691f8856e"
+    },
+    {
+      "path": "paper/mechanism-latex/images/identity_case.pdf",
+      "bytes": 19451,
+      "sha256": "9e63ce260208f6cc9323c938f4e95925e50601263575255f278cf567266d8afa"
+    },
+    {
+      "path": "paper/mechanism-latex/images/identity_case.png",
+      "bytes": 97217,
+      "sha256": "c4f337231e7152757a770295af3bafe17f8a91a6d7dc7a868a69cff4775531eb"
+    },
+    {
+      "path": "paper/mechanism-latex/images/matched_architecture.pdf",
+      "bytes": 35020,
+      "sha256": "bac0ae3c6e6ad8e6ee7fb84f4af60cdb3b5516717e561d61f5e96fcb01671132"
+    },
+    {
+      "path": "paper/mechanism-latex/images/matched_architecture.png",
+      "bytes": 112447,
+      "sha256": "7aca8b4e1ac9cf7a1a26134bd1748a30506ef79af599b1d374c398c9c578cd4f"
+    },
+    {
+      "path": "paper/mechanism-latex/images/primary_identity_effects.pdf",
+      "bytes": 20245,
+      "sha256": "6a9db36f23c1a2369f89305e86614875e05e97a6a870d30c21ea3ae5a4ca7f85"
+    },
+    {
+      "path": "paper/mechanism-latex/images/primary_identity_effects.png",
+      "bytes": 67762,
+      "sha256": "0170e7140ffef18796c39e2df4d1e0f7470428e18337f7e175d7d6c5f8f1d45f"
+    },
+    {
+      "path": "paper/mechanism-latex/limitations.tex",
+      "bytes": 1563,
+      "sha256": "ecbd990fb0e82d19da730e64c16aa55737f060dc288fea40d1c0b736286cd00c"
+    },
+    {
+      "path": "paper/mechanism-latex/main.tex",
+      "bytes": 3127,
+      "sha256": "9f156a66baac6d2408d2dcb8443fb5a884ba4d3752db58141a6f6bbe81790b68"
+    },
+    {
+      "path": "paper/mechanism-latex/methods.tex",
+      "bytes": 14774,
+      "sha256": "bf3128b16756b6d70be212d043ce75effd9293db5d64d80b24a32da95a04de91"
+    },
+    {
+      "path": "paper/mechanism-latex/README.md",
+      "bytes": 1167,
+      "sha256": "25ef3cf8d93e16a6d94276ebfd7ca12b629a92a01c1f48c06021a23deeeb21ef"
+    },
+    {
+      "path": "paper/mechanism-latex/references.bib",
+      "bytes": 3629,
+      "sha256": "68cc8cb654986e560aae9aacbb3c1f0dce73675bb1e44da7cbffb0982fbd124b"
+    },
+    {
+      "path": "paper/mechanism-latex/reproducibility.tex",
+      "bytes": 3044,
+      "sha256": "009e9494444b075bf00575a2809c93d291780d2a5c2bf5a503712225ef25f0ea"
+    },
+    {
+      "path": "paper/mechanism-latex/results.tex",
+      "bytes": 7810,
+      "sha256": "cfc5dd3e74d5a01f41e59daa7c1ab70443dcf4cfd5d6093a73263b0a9205a077"
+    },
+    {
+      "path": "paper/mechanism-latex/tables/main_clean.tex",
+      "bytes": 2157,
+      "sha256": "2494c99c260ad272178f591122d123d6689a1591e65cdf3a76629c775ab03f5b"
+    },
+    {
+      "path": "paper/mechanism-latex/tables/mechanisms.tex",
+      "bytes": 1714,
+      "sha256": "4e935e8746cdd0a712c0010a9ce43d3eb454326bf59f5d1a3e845e04de3815e0"
+    },
+    {
+      "path": "paper/mechanism-latex/tables/primary_decomposition.tex",
+      "bytes": 1440,
+      "sha256": "e2c592094fe1e4f3e16d334782651eea0dda66ee48f5a4f6910bf2aa4dc2a54d"
+    },
+    {
+      "path": "paper/mechanism-latex/tables/primary_per_log.tex",
+      "bytes": 2036,
+      "sha256": "4875a8ec64656a970d141e0e06233f12d15c3e52af6380f9d99afdcdd81c67fb"
+    },
+    {
+      "path": "paper/mechanism-latex/tables/secondary.tex",
+      "bytes": 2364,
+      "sha256": "43cc6cfd571912a1856b76dd4722cb04bba33194c8b664511f85435f29f0df38"
+    },
+    {
       "path": "provenance/academic-writing-toolkit/BIBTEX_OFFLINE_STRUCTURE.json",
       "bytes": 733,
       "sha256": "01fa5c4d259c22c299403f1c8f32d32c89bbd97c0288d84e736e868c465abbd0"
@@ -530,6 +665,11 @@
       "path": "provenance/AUTHOR_METADATA_v1.0.1.json",
       "bytes": 1205,
       "sha256": "095c16f2bb3c66591b3ef9481fe79fed9218ea3a08cfc1032a8a390c7950129f"
+    },
+    {
+      "path": "provenance/FOLLOWUP_UPDATE_v1.1.0.json",
+      "bytes": 7817,
+      "sha256": "17c8d34518341da352c900262c958a0c4ff1f53ad5a581b38d262f1172bc8c05"
     },
     {
       "path": "provenance/PORTABILITY_CHECKS.json",
@@ -563,18 +703,283 @@
     },
     {
       "path": "provenance/SOURCE_COPY_RECORD.json",
-      "bytes": 41887,
-      "sha256": "a65856bd98965e41bd644b88c60e10d56023c06b96eb3ea627d1b068195ba7f9"
+      "bytes": 43840,
+      "sha256": "161f6ac5a7b9efdd1e9ab56862d5a319492e2b33a0f541140ab3f900fb9691d7"
     },
     {
       "path": "README.md",
-      "bytes": 12117,
-      "sha256": "53e7ba6344403c705bf3fca9a9a2534e0a0cef329f542fa4931fb89c625d44db"
+      "bytes": 5966,
+      "sha256": "3ed0792a1e6429b6ff004fc0d9bd4d8fd65be786ee92d7672280445d313d3db7"
     },
     {
       "path": "scripts/verify_release.py",
       "bytes": 2097,
       "sha256": "a8422dc56eaa8995e83143cedc69c04f77de7a0e20db59ad4c489b3ee22349cf"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 12709,
+      "sha256": "65daff3b6bdfa347fad97c0f04f3554554b1c4385f649be39fbcd94acd676f90"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/compact_index.json",
+      "bytes": 28058,
+      "sha256": "8fcad88fc4f8f84f416d66550b7bc018d06e16dca16d07662bdadc8a57fb91ca"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/compact_verification.json",
+      "bytes": 594,
+      "sha256": "dd3a53fcebd51fbb343e79ed832e0010373a2d3f9d00b0ca5f4e3715aba0e101"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/EMPTY_CAMERA_FALLBACK_CHECK.json",
+      "bytes": 2453,
+      "sha256": "6f1d71fe10a006c9a0724a82079afeac10913a2efa3f9b1152eb489636137bf0"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/FINAL_ARTIFACT_REVIEW.json",
+      "bytes": 2774,
+      "sha256": "4db4277b550b0bb690a4cf1db7df4fe8f149f7e22664fed0d149b2151b2bbca6"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/gates.py",
+      "bytes": 7616,
+      "sha256": "8267fa1a8ee4d8082d55f4821b3a3fc95a91e853bd46210fdc4b2dfec74bb223"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__constant__development_clean.json",
+      "bytes": 56922,
+      "sha256": "e7326696db6f11dde5739e75dbd2f05630a8127936c3f90fc49e6143c90cbe1c"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__constant__outer_clean.json",
+      "bytes": 201214,
+      "sha256": "2b4a792dd31eb1b47a0e50ff8a5dbbb59adfaf7b5ec5c3f9851d10e35442d582"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__constant__outer_clean_decoder_lidar_zero.json",
+      "bytes": 200922,
+      "sha256": "41aa9645641431f582d36f4f38fe5d60be55cc8c413d857e525eb8312beef4a4"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__constant__outer_lidar_50.json",
+      "bytes": 200835,
+      "sha256": "1cc8aafb8758d3ce472918d02c0d0a6d83320a3b608365ad1fd2d2a292b710df"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__dynamic__development_clean.json",
+      "bytes": 56872,
+      "sha256": "08658c1330be3356e97be7ff006610bf0cf2eacba073a3be5b8d6c5033c05d8c"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__dynamic__outer_clean.json",
+      "bytes": 201336,
+      "sha256": "57986cf69174c0c0b1750839c132f110da0fb4ad122e2863fe814371e61e0fd4"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__dynamic__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201057,
+      "sha256": "100a49ab7ecbe53f102c67ad4a2ff13e33ad1da150048783befc104ed70fde7c"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__dynamic__outer_lidar_50.json",
+      "bytes": 200815,
+      "sha256": "22abbfc69d12aa17586906ae89721402aac134abc240ae64c70a4bd1f472c198"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__neutral__outer_clean.json",
+      "bytes": 202145,
+      "sha256": "88bbda1926a41c0e387784625a5811c8c63bb2b00e2dfe3129cfa02ae5bea1c1"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_0__neutral__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201466,
+      "sha256": "70cdbdb20791a8cbfcebcc4725bf440bef09ea5b420363415087319c8722de58"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__constant__development_clean.json",
+      "bytes": 57532,
+      "sha256": "bdb6d54a3e14513efcaa8c098259553230a978748a56ea234a9a7fb23fd730f6"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__constant__outer_clean.json",
+      "bytes": 202990,
+      "sha256": "8cfe14fffd4ea7e0196949ae454745a81590d245067aea0135d3a95f001a9963"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__constant__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201329,
+      "sha256": "0cffdd7864f854c69e618f962c3f8c4c4ce8724d017b4acb21f1b776e0642b07"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__constant__outer_lidar_50.json",
+      "bytes": 201569,
+      "sha256": "85a24ee26114d9241d218daa75b34476024a5e28e9a414c731cb2cccb5bdacde"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__dynamic__development_clean.json",
+      "bytes": 57710,
+      "sha256": "099668084726c6ae0653ca2390e2acd701e68ba2c872a1c46b9566d6ec48d64e"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__dynamic__outer_clean.json",
+      "bytes": 203285,
+      "sha256": "5a77b541bac871c080ee7a79caf70542ae28bcada4429fbfa39d7b11f08554a0"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__dynamic__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201600,
+      "sha256": "722aa670f945869f454b2e3c37346cb518dd422f21f5f9dba7ae7cb535a611ec"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__dynamic__outer_lidar_50.json",
+      "bytes": 201778,
+      "sha256": "4dbe2f200154e19a5cbec21e782eb234a6dfadf4f8e662fd804d183c303afd1c"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__neutral__outer_clean.json",
+      "bytes": 203925,
+      "sha256": "c819af4b5d6ad46390846daa1c48c9355ae03ba058c616000d99396871b31631"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_1__neutral__outer_clean_decoder_lidar_zero.json",
+      "bytes": 202300,
+      "sha256": "af6ba7053daa47fdf5ecd27634c7f4918c782a18f9cbd6d5455d78e6f93b8b56"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__constant__development_clean.json",
+      "bytes": 57395,
+      "sha256": "797f0b7737f40c89835ed1c1169074033cd2304fe53f53b860f03b32a90a2e29"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__constant__outer_clean.json",
+      "bytes": 201303,
+      "sha256": "c5804b035bd41dd03c0c34df6595bb9cea994ca9ef13bad66b1fa656dd9448f3"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__constant__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201611,
+      "sha256": "4e0dce848295bc9146ba14c18fa8fb14cf12a2bf1de5e70b6479f3e396a5d1b5"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__constant__outer_lidar_50.json",
+      "bytes": 200572,
+      "sha256": "379bf8b3008e211480b69efd51d89430769a5de6b9ac67506ff1b7454f284f17"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__dynamic__development_clean.json",
+      "bytes": 57372,
+      "sha256": "942cf082e5d4aa85c98a81f1269161d4e56ea9d131725ec3a9f340fbaf351af4"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__dynamic__outer_clean.json",
+      "bytes": 201575,
+      "sha256": "f92474abb247085fff9301b3c38227fbc2b8cacb8f51becf3520aba4d180c358"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__dynamic__outer_clean_decoder_lidar_zero.json",
+      "bytes": 201719,
+      "sha256": "3b924698ed70088d77d8aadbe2b6fb6853c22ff37d788153448ff0999614e4e4"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__dynamic__outer_lidar_50.json",
+      "bytes": 200717,
+      "sha256": "127af7faa835127302701849a7dcff56486249ed8372b2b1a20d6fbeb892acb2"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__neutral__outer_clean.json",
+      "bytes": 202335,
+      "sha256": "58f55b8647d43be6c9d45c69562525a6a9799df221f1c45e44cc0f37d7f6a6a2"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/inputs/seed_2__neutral__outer_clean_decoder_lidar_zero.json",
+      "bytes": 202251,
+      "sha256": "128872f45dceac9423ebfed1ba4c870f195ffc8dedd2dc3ff85c833b6084e1e9"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/manifest.json",
+      "bytes": 7103,
+      "sha256": "f573d855c8fdf23d18ecd7ad1d1c210aeb4a156e9b9f7bae49cab4a5a3148ad1"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/protocol.json",
+      "bytes": 84395,
+      "sha256": "f14ed0fd2d313bafe2bc42c7ad03f0bc4b75f41f1746aa9ede14861bdd4c86e3"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/provenance.json",
+      "bytes": 14166,
+      "sha256": "818884f98e67fd996f28283110f1a3b538de514c9a3b7cc85ab8445590359fb0"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/public_reproduce_compact.py",
+      "bytes": 21688,
+      "sha256": "93d87102512357e223c2d3a9fd9e9ae732673edff7703041a51e479a857fa575"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/README.md",
+      "bytes": 5815,
+      "sha256": "1c17e92cb53cd9965af70ce4d7ca3a6f94579bb59343d9721c0c0cf3612f1f56"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/source_verification.json",
+      "bytes": 2526,
+      "sha256": "b3361d105a8df5581256a8333e3bcd3311f545ce00e6d30a2d6b8d2b1130c61a"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/summary_results.json",
+      "bytes": 7713083,
+      "sha256": "bc0c19fa48cf293d6c839c88b417a4c4a95056b7604a4f95ae4cb991ea6732be"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/COMPUTE_AND_MECHANISM.json",
+      "bytes": 4684,
+      "sha256": "3c491671a72237b819dfa725a969a978ade9430f347126e4bc921b0f9215186f"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/DECODER_PREMASK_RMS.csv",
+      "bytes": 22341,
+      "sha256": "c48f98728fa517279488f3b0f0886871ffa08ebdab73b39663e4235cec470356"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/GRADIENT_MECHANISM.csv",
+      "bytes": 19049,
+      "sha256": "f9530ae01e190b69acabd8949a317f0080342ad8030ce7c4a39a2809c6a61397"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/INFERENCE_GATE_PER_LOG.csv",
+      "bytes": 135649,
+      "sha256": "ad40671bf372b65688e129704faa94c3be99c5a1e7a140893f0b7d87131a3921"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/INFERENCE_GATE_STATISTICS.csv",
+      "bytes": 67938,
+      "sha256": "445a4a298458eaf9d99f4981eca4be1b3ae5389261a8e0870aab6ee421249b43"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/NEUTRAL_AND_DECODER_INTERVENTIONS.csv",
+      "bytes": 2968,
+      "sha256": "93fe320093e1cf3e6c96e562ec2ced592b9a16a49ece3a5bf63fda1459129595"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/PER_LOG_SDK.json",
+      "bytes": 419694,
+      "sha256": "594b0c093d7dba8ff8ec919b998633da5bbf7215e013ca4f243c04109eea739f"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/RECOVERY_CONTEXT.json",
+      "bytes": 8901,
+      "sha256": "114e3c8aed1fb0fe84706346e50d8ba7aa378ab2976bab6f5679cd8b4a88c746"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/supplement/TRAINING_RUNTIME.csv",
+      "bytes": 2758,
+      "sha256": "93dfbfcb48c7ac6ceed46e87a2648560bf0d23d9512013309394942f3f6fca21"
+    },
+    {
+      "path": "studies/gate-mechanism-20261028/verification_greedy_final.json",
+      "bytes": 15715,
+      "sha256": "04869af99dfdc17a574117a273463ea318b50db90a7820a50eecebe1929b33b5"
     }
   ]
 }

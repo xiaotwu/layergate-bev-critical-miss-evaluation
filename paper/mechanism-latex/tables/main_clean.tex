@@ -1,0 +1,26 @@
+% Generated from analysis/results.json SHA256 da5dbfb0c658a72ddddfcfc12c54ac1523bfc23094f806cef8627830b8c851da
+% Generated from mechanism/RESULTS.json SHA256 3c491671a72237b819dfa725a969a978ade9430f347126e4bc921b0f9215186f
+% Generated from mechanism/INFERENCE_GATE_STATISTICS.csv SHA256 445a4a298458eaf9d99f4981eca4be1b3ae5389261a8e0870aab6ee421249b43
+% Generated from make_paper_tables.py SHA256 c0379ecdaac1296f16b841f096afbfa02ce6dc80253739e3b3da0d99554dfba0
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.3pt}
+\caption{Fixed clean outer panel on historically exposed nuScenes mini: all 162 frames/four logs, separately for every seed. SDK mAP/NDS/pedAP are percentages computed from pooled boxes, never fold-averaged AP. Pedestrian/joint hits and joint AnyMiss retain their observation/target-frame denominators. Saved and all-range unmatched pedestrian outputs use score $\geq0.1$; they are output burden, not official false positives or precision. Neutral has no new adaptation and is not an equal-update control. The three seeds reuse the same logs; their counts must not be summed as independent data. NA denotes unavailable or unsupported values.}
+\label{tab:new_main_clean}
+\begin{tabular}{clrrrrrrrr}
+\toprule
+Seed & Arm & mAP & NDS & PedAP & Ped. hits & Joint hits & AnyMiss & Saved ped. & Unmatched ped. \\
+\midrule
+0 & Neutral & 1.671 & 8.606 & 2.950 & 442/1347 & 478/1590 & 128/137 & 5836 & 5374 \\
+0 & Constant & 1.621 & 8.675 & 2.419 & 410/1347 & 448/1590 & 131/137 & 4898 & 4471 \\
+0 & Dynamic & 1.617 & 8.605 & 2.447 & 408/1347 & 446/1590 & 131/137 & 4920 & 4494 \\
+1 & Neutral & 1.698 & 8.042 & 3.974 & 513/1347 & 542/1590 & 122/137 & 7512 & 6975 \\
+1 & Constant & 1.713 & 7.826 & 3.693 & 486/1347 & 520/1590 & 124/137 & 6537 & 6030 \\
+1 & Dynamic & 1.710 & 7.843 & 3.681 & 488/1347 & 523/1590 & 125/137 & 6529 & 6020 \\
+2 & Neutral & 1.935 & 7.811 & 3.978 & 462/1347 & 488/1590 & 127/137 & 6305 & 5822 \\
+2 & Constant & 1.880 & 7.002 & 3.662 & 424/1347 & 453/1590 & 130/137 & 5527 & 5085 \\
+2 & Dynamic & 1.879 & 6.998 & 3.721 & 433/1347 & 462/1590 & 130/137 & 5553 & 5102 \\
+\bottomrule
+\end{tabular}
+\end{table*}

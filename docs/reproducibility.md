@@ -1,3 +1,9 @@
+# New follow-up reproduction scope
+
+Run `python studies/gate-mechanism-20261028/public_reproduce_compact.py` from the repository root. This standard-library check reconstructs all new compact scope/class/log/instance counts, target/frame transitions and the frozen criterion. It performs no model fitting, GPU work, GT rematching, SDK replay or old-job execution. Copied SDK metrics/support are explicitly outside compact recomputation; pooled AP is never averaged from folds. The new module `gates.py`, derived protocol, exact role/sampler audit, source hashes and numerical receipts accompany the records. Full local detector/checkpoint/prediction artifacts remain outside this public compact release. Same-process verification is not external replication.
+
+The new [LaTeX project](../paper/mechanism-latex/README.md) and [paper](../paper/matched-conditioning-study.pdf) coexist with the original eleven-page report. The original read-only reproduction scope below remains historical and unchanged.
+
 # Reproduction scope and commands
 
 The repository reproduces compact-record analysis, not original detector training/inference. Install Python 3.11+ and clone the repository; the default scientific checks need only the standard library. They read released compact copies and print results. They do not need a GPU, torch, nuScenes SDK, NumPy, model fitting or network access.

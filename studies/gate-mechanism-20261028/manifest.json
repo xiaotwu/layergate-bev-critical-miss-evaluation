@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "study_id": "gate_mechanism_20261028_v1",
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1c17e92cb53cd9965af70ce4d7ca3a6f94579bb59343d9721c0c0cf3612f1f56",
+      "bytes": 5815
+    },
+    {
+      "path": "compact_index.json",
+      "sha256": "8fcad88fc4f8f84f416d66550b7bc018d06e16dca16d07662bdadc8a57fb91ca",
+      "bytes": 28058
+    },
+    {
+      "path": "compact_verification.json",
+      "sha256": "dd3a53fcebd51fbb343e79ed832e0010373a2d3f9d00b0ca5f4e3715aba0e101",
+      "bytes": 594
+    },
+    {
+      "path": "gates.py",
+      "sha256": "8267fa1a8ee4d8082d55f4821b3a3fc95a91e853bd46210fdc4b2dfec74bb223",
+      "bytes": 7616
+    },
+    {
+      "path": "inputs/seed_0__constant__development_clean.json",
+      "sha256": "e7326696db6f11dde5739e75dbd2f05630a8127936c3f90fc49e6143c90cbe1c",
+      "bytes": 56922
+    },
+    {
+      "path": "inputs/seed_0__constant__outer_clean.json",
+      "sha256": "2b4a792dd31eb1b47a0e50ff8a5dbbb59adfaf7b5ec5c3f9851d10e35442d582",
+      "bytes": 201214
+    },
+    {
+      "path": "inputs/seed_0__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "41aa9645641431f582d36f4f38fe5d60be55cc8c413d857e525eb8312beef4a4",
+      "bytes": 200922
+    },
+    {
+      "path": "inputs/seed_0__constant__outer_lidar_50.json",
+      "sha256": "1cc8aafb8758d3ce472918d02c0d0a6d83320a3b608365ad1fd2d2a292b710df",
+      "bytes": 200835
+    },
+    {
+      "path": "inputs/seed_0__dynamic__development_clean.json",
+      "sha256": "08658c1330be3356e97be7ff006610bf0cf2eacba073a3be5b8d6c5033c05d8c",
+      "bytes": 56872
+    },
+    {
+      "path": "inputs/seed_0__dynamic__outer_clean.json",
+      "sha256": "57986cf69174c0c0b1750839c132f110da0fb4ad122e2863fe814371e61e0fd4",
+      "bytes": 201336
+    },
+    {
+      "path": "inputs/seed_0__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "100a49ab7ecbe53f102c67ad4a2ff13e33ad1da150048783befc104ed70fde7c",
+      "bytes": 201057
+    },
+    {
+      "path": "inputs/seed_0__dynamic__outer_lidar_50.json",
+      "sha256": "22abbfc69d12aa17586906ae89721402aac134abc240ae64c70a4bd1f472c198",
+      "bytes": 200815
+    },
+    {
+      "path": "inputs/seed_0__neutral__outer_clean.json",
+      "sha256": "88bbda1926a41c0e387784625a5811c8c63bb2b00e2dfe3129cfa02ae5bea1c1",
+      "bytes": 202145
+    },
+    {
+      "path": "inputs/seed_0__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "70cdbdb20791a8cbfcebcc4725bf440bef09ea5b420363415087319c8722de58",
+      "bytes": 201466
+    },
+    {
+      "path": "inputs/seed_1__constant__development_clean.json",
+      "sha256": "bdb6d54a3e14513efcaa8c098259553230a978748a56ea234a9a7fb23fd730f6",
+      "bytes": 57532
+    },
+    {
+      "path": "inputs/seed_1__constant__outer_clean.json",
+      "sha256": "8cfe14fffd4ea7e0196949ae454745a81590d245067aea0135d3a95f001a9963",
+      "bytes": 202990
+    },
+    {
+      "path": "inputs/seed_1__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "0cffdd7864f854c69e618f962c3f8c4c4ce8724d017b4acb21f1b776e0642b07",
+      "bytes": 201329
+    },
+    {
+      "path": "inputs/seed_1__constant__outer_lidar_50.json",
+      "sha256": "85a24ee26114d9241d218daa75b34476024a5e28e9a414c731cb2cccb5bdacde",
+      "bytes": 201569
+    },
+    {
+      "path": "inputs/seed_1__dynamic__development_clean.json",
+      "sha256": "099668084726c6ae0653ca2390e2acd701e68ba2c872a1c46b9566d6ec48d64e",
+      "bytes": 57710
+    },
+    {
+      "path": "inputs/seed_1__dynamic__outer_clean.json",
+      "sha256": "5a77b541bac871c080ee7a79caf70542ae28bcada4429fbfa39d7b11f08554a0",
+      "bytes": 203285
+    },
+    {
+      "path": "inputs/seed_1__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "722aa670f945869f454b2e3c37346cb518dd422f21f5f9dba7ae7cb535a611ec",
+      "bytes": 201600
+    },
+    {
+      "path": "inputs/seed_1__dynamic__outer_lidar_50.json",
+      "sha256": "4dbe2f200154e19a5cbec21e782eb234a6dfadf4f8e662fd804d183c303afd1c",
+      "bytes": 201778
+    },
+    {
+      "path": "inputs/seed_1__neutral__outer_clean.json",
+      "sha256": "c819af4b5d6ad46390846daa1c48c9355ae03ba058c616000d99396871b31631",
+      "bytes": 203925
+    },
+    {
+      "path": "inputs/seed_1__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "af6ba7053daa47fdf5ecd27634c7f4918c782a18f9cbd6d5455d78e6f93b8b56",
+      "bytes": 202300
+    },
+    {
+      "path": "inputs/seed_2__constant__development_clean.json",
+      "sha256": "797f0b7737f40c89835ed1c1169074033cd2304fe53f53b860f03b32a90a2e29",
+      "bytes": 57395
+    },
+    {
+      "path": "inputs/seed_2__constant__outer_clean.json",
+      "sha256": "c5804b035bd41dd03c0c34df6595bb9cea994ca9ef13bad66b1fa656dd9448f3",
+      "bytes": 201303
+    },
+    {
+      "path": "inputs/seed_2__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "4e0dce848295bc9146ba14c18fa8fb14cf12a2bf1de5e70b6479f3e396a5d1b5",
+      "bytes": 201611
+    },
+    {
+      "path": "inputs/seed_2__constant__outer_lidar_50.json",
+      "sha256": "379bf8b3008e211480b69efd51d89430769a5de6b9ac67506ff1b7454f284f17",
+      "bytes": 200572
+    },
+    {
+      "path": "inputs/seed_2__dynamic__development_clean.json",
+      "sha256": "942cf082e5d4aa85c98a81f1269161d4e56ea9d131725ec3a9f340fbaf351af4",
+      "bytes": 57372
+    },
+    {
+      "path": "inputs/seed_2__dynamic__outer_clean.json",
+      "sha256": "f92474abb247085fff9301b3c38227fbc2b8cacb8f51becf3520aba4d180c358",
+      "bytes": 201575
+    },
+    {
+      "path": "inputs/seed_2__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "3b924698ed70088d77d8aadbe2b6fb6853c22ff37d788153448ff0999614e4e4",
+      "bytes": 201719
+    },
+    {
+      "path": "inputs/seed_2__dynamic__outer_lidar_50.json",
+      "sha256": "127af7faa835127302701849a7dcff56486249ed8372b2b1a20d6fbeb892acb2",
+      "bytes": 200717
+    },
+    {
+      "path": "inputs/seed_2__neutral__outer_clean.json",
+      "sha256": "58f55b8647d43be6c9d45c69562525a6a9799df221f1c45e44cc0f37d7f6a6a2",
+      "bytes": 202335
+    },
+    {
+      "path": "inputs/seed_2__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "128872f45dceac9423ebfed1ba4c870f195ffc8dedd2dc3ff85c833b6084e1e9",
+      "bytes": 202251
+    },
+    {
+      "path": "protocol.json",
+      "sha256": "f14ed0fd2d313bafe2bc42c7ad03f0bc4b75f41f1746aa9ede14861bdd4c86e3",
+      "bytes": 84395
+    },
+    {
+      "path": "provenance.json",
+      "sha256": "818884f98e67fd996f28283110f1a3b538de514c9a3b7cc85ab8445590359fb0",
+      "bytes": 14166
+    },
+    {
+      "path": "public_reproduce_compact.py",
+      "sha256": "93d87102512357e223c2d3a9fd9e9ae732673edff7703041a51e479a857fa575",
+      "bytes": 21688
+    },
+    {
+      "path": "source_verification.json",
+      "sha256": "b3361d105a8df5581256a8333e3bcd3311f545ce00e6d30a2d6b8d2b1130c61a",
+      "bytes": 2526
+    },
+    {
+      "path": "summary_results.json",
+      "sha256": "bc0c19fa48cf293d6c839c88b417a4c4a95056b7604a4f95ae4cb991ea6732be",
+      "bytes": 7713083
+    }
+  ],
+  "scope": "Published bytes only; this manifest is not a scientific or safety certification."
+}

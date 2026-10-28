@@ -1,0 +1,605 @@
+{
+  "schema_version": 1,
+  "scopes": {
+    "seed_0/constant/development_clean": {
+      "path": "inputs/seed_0__constant__development_clean.json",
+      "sha256": "e7326696db6f11dde5739e75dbd2f05630a8127936c3f90fc49e6143c90cbe1c",
+      "bytes": 56922,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/constant/development_clean/identity_records.json",
+          "sha256": "61b9619f35d36d945b5780feb51fb7d90d687df02d39646c03ab405223fd7ebe",
+          "bytes": 7532924
+        },
+        {
+          "label": "eval/F2/seed_0/constant/development_clean/identity_records.json",
+          "sha256": "24eea0eb5a904389f51befbec4724fa3f62a6928b94f03cac48bf043b5512e45",
+          "bytes": 6690730
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/constant/outer_clean": {
+      "path": "inputs/seed_0__constant__outer_clean.json",
+      "sha256": "2b4a792dd31eb1b47a0e50ff8a5dbbb59adfaf7b5ec5c3f9851d10e35442d582",
+      "bytes": 201214,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/constant/outer_clean/identity_records.json",
+          "sha256": "77aac71ebadef8b9aab7dcf7776881fa3009f968760688c37b8d92e4170ae324",
+          "bytes": 16443726
+        },
+        {
+          "label": "eval/F2/seed_0/constant/outer_clean/identity_records.json",
+          "sha256": "d4b70d8e32536685cb10e177c4b4b70de699b0d2780a057df0e0cdfb68966ad0",
+          "bytes": 14189692
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/constant/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_0__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "41aa9645641431f582d36f4f38fe5d60be55cc8c413d857e525eb8312beef4a4",
+      "bytes": 200922,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "10a92d0abbcb4d5509969e4bddfef91b0bce5246738d2801e5b7c790f7e20673",
+          "bytes": 16950470
+        },
+        {
+          "label": "eval/F2/seed_0/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "f98545d50a833ced9ad15b5b71eadce0104b498eabcb4ea34919d37113fc7901",
+          "bytes": 14617384
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/constant/outer_lidar_50": {
+      "path": "inputs/seed_0__constant__outer_lidar_50.json",
+      "sha256": "1cc8aafb8758d3ce472918d02c0d0a6d83320a3b608365ad1fd2d2a292b710df",
+      "bytes": 200835,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/constant/outer_lidar_50/identity_records.json",
+          "sha256": "85280d82f659748e6f70484eb8e4a33cab402bc5b708861fbe5bc0f5589d7683",
+          "bytes": 16500858
+        },
+        {
+          "label": "eval/F2/seed_0/constant/outer_lidar_50/identity_records.json",
+          "sha256": "97dcec29a17f547e71d8e4f56621b29255d5142a847455616b718a294f08c14d",
+          "bytes": 14132115
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/dynamic/development_clean": {
+      "path": "inputs/seed_0__dynamic__development_clean.json",
+      "sha256": "08658c1330be3356e97be7ff006610bf0cf2eacba073a3be5b8d6c5033c05d8c",
+      "bytes": 56872,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/dynamic/development_clean/identity_records.json",
+          "sha256": "d5cddd4f655c8d192ba78691e8195bd89d0691b372d808174a5b83ae4f5a8dde",
+          "bytes": 7500808
+        },
+        {
+          "label": "eval/F2/seed_0/dynamic/development_clean/identity_records.json",
+          "sha256": "c7bc9316f1d74d9a2ad4fd83ad3edefc9b5587d8150682c1bb93592a39ef1dc6",
+          "bytes": 6675431
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/dynamic/outer_clean": {
+      "path": "inputs/seed_0__dynamic__outer_clean.json",
+      "sha256": "57986cf69174c0c0b1750839c132f110da0fb4ad122e2863fe814371e61e0fd4",
+      "bytes": 201336,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/dynamic/outer_clean/identity_records.json",
+          "sha256": "b5bb191c002a0ef26bcb7b4495f533e61e46f1a8c2352033a201507d7acd2fb7",
+          "bytes": 16386359
+        },
+        {
+          "label": "eval/F2/seed_0/dynamic/outer_clean/identity_records.json",
+          "sha256": "2f4aa4986c217af87ab08cc275a513619b7e3179372a1a55a308e0d99ef82a4a",
+          "bytes": 14148406
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/dynamic/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_0__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "100a49ab7ecbe53f102c67ad4a2ff13e33ad1da150048783befc104ed70fde7c",
+      "bytes": 201057,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "b752754417ba46bf0a85b17073f8b0114d95696ab34fe0c36799dcab47769a25",
+          "bytes": 16899044
+        },
+        {
+          "label": "eval/F2/seed_0/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "068a43278fac689d11132d390ba717c0da97993e308276b48a3a9da7c24fc0c0",
+          "bytes": 14580033
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/dynamic/outer_lidar_50": {
+      "path": "inputs/seed_0__dynamic__outer_lidar_50.json",
+      "sha256": "22abbfc69d12aa17586906ae89721402aac134abc240ae64c70a4bd1f472c198",
+      "bytes": 200815,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "0c743eba4cce54f330eccd1f300386ab9716a21a952ea0435ceebb6e2d545546",
+          "bytes": 16443925
+        },
+        {
+          "label": "eval/F2/seed_0/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "b95e820f79a101e3dc943233f884a88c2c547b56a58a998a3b368d3b40354e29",
+          "bytes": 14095904
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/neutral/outer_clean": {
+      "path": "inputs/seed_0__neutral__outer_clean.json",
+      "sha256": "88bbda1926a41c0e387784625a5811c8c63bb2b00e2dfe3129cfa02ae5bea1c1",
+      "bytes": 202145,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/neutral/outer_clean/identity_records.json",
+          "sha256": "a6477e592f44c8fef8180e2ea23be446d9a68718aadc27f74ad1c0b33fb3ae1f",
+          "bytes": 16410375
+        },
+        {
+          "label": "eval/F2/seed_0/neutral/outer_clean/identity_records.json",
+          "sha256": "45aaf198b6c389947cf3231f83d3eb9557cc9b74f2703490089195918454bbfd",
+          "bytes": 14102108
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_0/neutral/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_0__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "70cdbdb20791a8cbfcebcc4725bf440bef09ea5b420363415087319c8722de58",
+      "bytes": 201466,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_0/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "cd5b4ad451a9b44cb721faf8108a99e4d6bc88e489a08b3319a539d11af49ca2",
+          "bytes": 16917855
+        },
+        {
+          "label": "eval/F2/seed_0/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "d9782cacadc0af8d3e7c4502d7ed53ab907b531561c2f2f4d5a233c03a293011",
+          "bytes": 14545992
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/constant/development_clean": {
+      "path": "inputs/seed_1__constant__development_clean.json",
+      "sha256": "bdb6d54a3e14513efcaa8c098259553230a978748a56ea234a9a7fb23fd730f6",
+      "bytes": 57532,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/constant/development_clean/identity_records.json",
+          "sha256": "a3ba2d728edd2120f18e2a077ea31f3c75491bec08f2245f0e0f5b49e5c500ab",
+          "bytes": 7637072
+        },
+        {
+          "label": "eval/F2/seed_1/constant/development_clean/identity_records.json",
+          "sha256": "95b8894d219c1f1004adff4cc1b4311b369fcfe8bee402880cc5bfe1c31d46fe",
+          "bytes": 6951154
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/constant/outer_clean": {
+      "path": "inputs/seed_1__constant__outer_clean.json",
+      "sha256": "8cfe14fffd4ea7e0196949ae454745a81590d245067aea0135d3a95f001a9963",
+      "bytes": 202990,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/constant/outer_clean/identity_records.json",
+          "sha256": "713e8159d6216cb8bad3397dca1c1ad81c2e3be50d0f2feec1e3ee3617dabe08",
+          "bytes": 16449664
+        },
+        {
+          "label": "eval/F2/seed_1/constant/outer_clean/identity_records.json",
+          "sha256": "11f7cb7235fefb1b52e5937bfb3a61fd8b02fb6e7fafb656d804c4d590874d2e",
+          "bytes": 14763180
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/constant/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_1__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "0cffdd7864f854c69e618f962c3f8c4c4ce8724d017b4acb21f1b776e0642b07",
+      "bytes": 201329,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "280b1977e766a98876d363b02d37afe138848455a6e7c89e2adee36bc9ef9927",
+          "bytes": 17012092
+        },
+        {
+          "label": "eval/F2/seed_1/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "83bd808ae289b28f81ce7561ef5cf9200f4b70d1232a96efe4989a2c04d16737",
+          "bytes": 15216152
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/constant/outer_lidar_50": {
+      "path": "inputs/seed_1__constant__outer_lidar_50.json",
+      "sha256": "85a24ee26114d9241d218daa75b34476024a5e28e9a414c731cb2cccb5bdacde",
+      "bytes": 201569,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/constant/outer_lidar_50/identity_records.json",
+          "sha256": "baabfd2f18fa0211810affb65972c3a9a7ecd5651cb82041123dab4c2666d3f0",
+          "bytes": 16535062
+        },
+        {
+          "label": "eval/F2/seed_1/constant/outer_lidar_50/identity_records.json",
+          "sha256": "21923f392ee9106ceface5692870a09923750fc1b2f55bad4dbba9f7506b2328",
+          "bytes": 14676818
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/dynamic/development_clean": {
+      "path": "inputs/seed_1__dynamic__development_clean.json",
+      "sha256": "099668084726c6ae0653ca2390e2acd701e68ba2c872a1c46b9566d6ec48d64e",
+      "bytes": 57710,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/dynamic/development_clean/identity_records.json",
+          "sha256": "b96b2f70354004c86819a72d60c1f45499071f3a11d448e1eeb9b9601c20f983",
+          "bytes": 7612660
+        },
+        {
+          "label": "eval/F2/seed_1/dynamic/development_clean/identity_records.json",
+          "sha256": "b815f5ac4c9acb610a51354ae59fc7f13aa5de719d249decb912ed92297a93f3",
+          "bytes": 6931328
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/dynamic/outer_clean": {
+      "path": "inputs/seed_1__dynamic__outer_clean.json",
+      "sha256": "5a77b541bac871c080ee7a79caf70542ae28bcada4429fbfa39d7b11f08554a0",
+      "bytes": 203285,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/dynamic/outer_clean/identity_records.json",
+          "sha256": "b2f3a05119e917737278e9184cd9dd0f4097d3b610debbf1185dfb97ca86c9fa",
+          "bytes": 16399340
+        },
+        {
+          "label": "eval/F2/seed_1/dynamic/outer_clean/identity_records.json",
+          "sha256": "9ef37ba02b0d6156278ec393c9dc5bd01859bca52638a16d568fc4de4ffa8a85",
+          "bytes": 14727257
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/dynamic/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_1__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "722aa670f945869f454b2e3c37346cb518dd422f21f5f9dba7ae7cb535a611ec",
+      "bytes": 201600,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "a00aa69a184a02ce07c626004ae34bee3fdf8de79dc05e98d6cdf439f8c178d4",
+          "bytes": 16959552
+        },
+        {
+          "label": "eval/F2/seed_1/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "67140824077292fba0bc5dc38500dfd0b2c0fb7808496b09a0b7f866faf24d09",
+          "bytes": 15178685
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/dynamic/outer_lidar_50": {
+      "path": "inputs/seed_1__dynamic__outer_lidar_50.json",
+      "sha256": "4dbe2f200154e19a5cbec21e782eb234a6dfadf4f8e662fd804d183c303afd1c",
+      "bytes": 201778,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "9d2427916f34b6d1d193b239e29ee96a6befae3cff8bdebe3a54507e92e438cb",
+          "bytes": 16490171
+        },
+        {
+          "label": "eval/F2/seed_1/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "cc1e19d6242f3c1772552e4e01f6ba50aa37ddc3c249b62e64517ca36793a543",
+          "bytes": 14640264
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/neutral/outer_clean": {
+      "path": "inputs/seed_1__neutral__outer_clean.json",
+      "sha256": "c819af4b5d6ad46390846daa1c48c9355ae03ba058c616000d99396871b31631",
+      "bytes": 203925,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/neutral/outer_clean/identity_records.json",
+          "sha256": "69dac7c425c5d930e4b5ba5f733c43f0ec009fa949dd08c18f153f8e0fead6c8",
+          "bytes": 16394617
+        },
+        {
+          "label": "eval/F2/seed_1/neutral/outer_clean/identity_records.json",
+          "sha256": "b5295a611ea119a2b07d4b92ad8d1e50bc8006c4cdc6db96dd975425d6a2498a",
+          "bytes": 14711810
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_1/neutral/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_1__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "af6ba7053daa47fdf5ecd27634c7f4918c782a18f9cbd6d5455d78e6f93b8b56",
+      "bytes": 202300,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_1/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "bae3533994bdccdabc7c0ef4b2f6e76292d4434cce11426dea1b48ca41ad3f0d",
+          "bytes": 16956515
+        },
+        {
+          "label": "eval/F2/seed_1/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "86dc834cae83b91574286d45388025456f401597ad3cb43557800a91f6006166",
+          "bytes": 15179410
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/constant/development_clean": {
+      "path": "inputs/seed_2__constant__development_clean.json",
+      "sha256": "797f0b7737f40c89835ed1c1169074033cd2304fe53f53b860f03b32a90a2e29",
+      "bytes": 57395,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/constant/development_clean/identity_records.json",
+          "sha256": "e3b3f66a12137903df81f7541fb9ddcd6627bac4616551585c7da1b106c9196d",
+          "bytes": 7421459
+        },
+        {
+          "label": "eval/F2/seed_2/constant/development_clean/identity_records.json",
+          "sha256": "11777e353d9e1ae1784391a632af3c615f96702ced0ed6f19714aa8dc40ff2d1",
+          "bytes": 6828259
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/constant/outer_clean": {
+      "path": "inputs/seed_2__constant__outer_clean.json",
+      "sha256": "c5804b035bd41dd03c0c34df6595bb9cea994ca9ef13bad66b1fa656dd9448f3",
+      "bytes": 201303,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/constant/outer_clean/identity_records.json",
+          "sha256": "da4ec9cc4760be032f5da42d1a3a7479be63ffcf415f6615e603ec3a3162784e",
+          "bytes": 16530206
+        },
+        {
+          "label": "eval/F2/seed_2/constant/outer_clean/identity_records.json",
+          "sha256": "af2b4cc5ac514ee98b927e44ae54db22caf5eeb53073ce13662a9ed2a79ed927",
+          "bytes": 14664522
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/constant/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_2__constant__outer_clean_decoder_lidar_zero.json",
+      "sha256": "4e0dce848295bc9146ba14c18fa8fb14cf12a2bf1de5e70b6479f3e396a5d1b5",
+      "bytes": 201611,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "7b32b8de440aa94d0c5ddcd873f37d1276700c2ec922a76626dbe880bb0cc8c7",
+          "bytes": 17018836
+        },
+        {
+          "label": "eval/F2/seed_2/constant/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "bc2f8df9c4b42551bd2613b3df22e7970e8c839b2c4774387e2caf0270f23155",
+          "bytes": 14943601
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/constant/outer_lidar_50": {
+      "path": "inputs/seed_2__constant__outer_lidar_50.json",
+      "sha256": "379bf8b3008e211480b69efd51d89430769a5de6b9ac67506ff1b7454f284f17",
+      "bytes": 200572,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/constant/outer_lidar_50/identity_records.json",
+          "sha256": "96ec8f8244a638fc2d97715a8122d628fffa18b589761e289dc34b953da08d67",
+          "bytes": 16598234
+        },
+        {
+          "label": "eval/F2/seed_2/constant/outer_lidar_50/identity_records.json",
+          "sha256": "a7efae217b512cda83d3ddddf59e7c68812e4fc4066f60b91b6846eeacb05b79",
+          "bytes": 14648590
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/dynamic/development_clean": {
+      "path": "inputs/seed_2__dynamic__development_clean.json",
+      "sha256": "942cf082e5d4aa85c98a81f1269161d4e56ea9d131725ec3a9f340fbaf351af4",
+      "bytes": 57372,
+      "frames": 82,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/dynamic/development_clean/identity_records.json",
+          "sha256": "b808d4787d5b6ca74206756249f7126a6c14c43a1a43281f95cbf82efd7c016c",
+          "bytes": 7391082
+        },
+        {
+          "label": "eval/F2/seed_2/dynamic/development_clean/identity_records.json",
+          "sha256": "536b6cf80645d036711b5041fc26cd00c602e6a6dd89fd9fd40b6a37c2f03c46",
+          "bytes": 6814011
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/dynamic/outer_clean": {
+      "path": "inputs/seed_2__dynamic__outer_clean.json",
+      "sha256": "f92474abb247085fff9301b3c38227fbc2b8cacb8f51becf3520aba4d180c358",
+      "bytes": 201575,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/dynamic/outer_clean/identity_records.json",
+          "sha256": "fb69814ad92a167a08020e3ca0f366e710a953307c4ca5a2d177115d7cc84dd2",
+          "bytes": 16475199
+        },
+        {
+          "label": "eval/F2/seed_2/dynamic/outer_clean/identity_records.json",
+          "sha256": "bd5cd8d33e3eaf5c07102441a5fa7680b1e484c4191d2629dfd910ee67875e0e",
+          "bytes": 14636102
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/dynamic/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_2__dynamic__outer_clean_decoder_lidar_zero.json",
+      "sha256": "3b924698ed70088d77d8aadbe2b6fb6853c22ff37d788153448ff0999614e4e4",
+      "bytes": 201719,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "ff6fb4c8ec2dfe961b57e0189a2dea2a148cd751ebcc9f6ee9f1785b739571a9",
+          "bytes": 16960045
+        },
+        {
+          "label": "eval/F2/seed_2/dynamic/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "7b6922c1c0cf38bf67a909c4b25336220ed39fb4cb01a816205181c0eac04ec3",
+          "bytes": 14912792
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/dynamic/outer_lidar_50": {
+      "path": "inputs/seed_2__dynamic__outer_lidar_50.json",
+      "sha256": "127af7faa835127302701849a7dcff56486249ed8372b2b1a20d6fbeb892acb2",
+      "bytes": 200717,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "5faa261db41f1dbaa6dee4418ab3cc63188f18d4870e0e1a996eccae274e224b",
+          "bytes": 16547607
+        },
+        {
+          "label": "eval/F2/seed_2/dynamic/outer_lidar_50/identity_records.json",
+          "sha256": "2ea7552836b4f235ecab74f01bdd4febfcd85e55198de414cebf7c67b8a1d6c6",
+          "bytes": 14620561
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/neutral/outer_clean": {
+      "path": "inputs/seed_2__neutral__outer_clean.json",
+      "sha256": "58f55b8647d43be6c9d45c69562525a6a9799df221f1c45e44cc0f37d7f6a6a2",
+      "bytes": 202335,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/neutral/outer_clean/identity_records.json",
+          "sha256": "9ad0ba6b646ed2472ba2453f29709144f7cbe0c0f3e735b8a82743f20052f8c9",
+          "bytes": 16501178
+        },
+        {
+          "label": "eval/F2/seed_2/neutral/outer_clean/identity_records.json",
+          "sha256": "6c22548f7a6427645b3f916b3be839e2fbb4ff173fef9f8fe2dac72c9990c2be",
+          "bytes": 14605564
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    },
+    "seed_2/neutral/outer_clean_decoder_lidar_zero": {
+      "path": "inputs/seed_2__neutral__outer_clean_decoder_lidar_zero.json",
+      "sha256": "128872f45dceac9423ebfed1ba4c870f195ffc8dedd2dc3ff85c833b6084e1e9",
+      "bytes": 202251,
+      "frames": 162,
+      "source_identity_files": [
+        {
+          "label": "eval/F1/seed_2/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "727b9701fa82e4e7431fc58ec3aa76d4230b13fc19e2c9181c239a20617bc356",
+          "bytes": 16998825
+        },
+        {
+          "label": "eval/F2/seed_2/neutral/outer_clean_decoder_lidar_zero/identity_records.json",
+          "sha256": "54532a082fc850bc9068eada024a1cc372e6a9d977611ddc3ebe171f02856ec0",
+          "bytes": 14901340
+        }
+      ],
+      "byte_identical": false,
+      "transformation": "Two fold files pooled; critical-only identity/status tuples retained; GT geometry/full tables and prediction boxes removed; own published hash."
+    }
+  }
+}

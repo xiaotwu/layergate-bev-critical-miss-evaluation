@@ -1,0 +1,26 @@
+% Generated from analysis/results.json SHA256 da5dbfb0c658a72ddddfcfc12c54ac1523bfc23094f806cef8627830b8c851da
+% Generated from mechanism/RESULTS.json SHA256 3c491671a72237b819dfa725a969a978ade9430f347126e4bc921b0f9215186f
+% Generated from mechanism/INFERENCE_GATE_STATISTICS.csv SHA256 445a4a298458eaf9d99f4981eca4be1b3ae5389261a8e0870aab6ee421249b43
+% Generated from make_paper_tables.py SHA256 c0379ecdaac1296f16b841f096afbfa02ce6dc80253739e3b3da0d99554dfba0
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3.5pt}
+\caption{All fixed secondary dynamic-minus-constant views; SDK differences and pedestrian recall changes are pp. L50: outer LiDAR retention 0.5; Dec0: clean outer inference with decoder LiDAR input half zeroed; Dev: the original development roles, with different support shown explicitly. The support column is frames/pedestrian observations/joint-VRU observations. AnyMiss shows C$\to$D divided by target-containing frames, and burden is saved-pedestrian D/C. Dec0 is an inference intervention, not a retrained path-free comparison; Dev is descriptive and does not select checkpoints. These historically exposed, repeated seed populations are not independent data. NA denotes undefined, unavailable or unsupported values.}
+\label{tab:new_secondary}
+\begin{tabular}{ccrrrrrrr}
+\toprule
+View & Seed & Frames/Ped/Joint & $\Delta$ mAP & $\Delta$ NDS & $\Delta$ PedAP & $\Delta R_{\rm ped}$ & AnyMiss C$\to$D / N & Burden D/C \\
+\midrule
+L50 & 0 & 162/1347/1590 & +0.005 & -0.013 & +0.014 & -0.371 & $131\!\to\!131\;/\;137$ & 1.005 \\
+L50 & 1 & 162/1347/1590 & +0.001 & +0.172 & -0.005 & +0.223 & $125\!\to\!124\;/\;137$ & 0.998 \\
+L50 & 2 & 162/1347/1590 & -0.002 & +0.002 & +0.068 & +0.371 & $128\!\to\!127\;/\;137$ & 1.008 \\
+Dec0 & 0 & 162/1347/1590 & -0.002 & +0.007 & +0.038 & -0.148 & $134\!\to\!134\;/\;137$ & 0.998 \\
+Dec0 & 1 & 162/1347/1590 & -0.002 & +0.168 & +0.013 & +0.223 & $127\!\to\!127\;/\;137$ & 0.996 \\
+Dec0 & 2 & 162/1347/1590 & 0.000 & +0.054 & +0.039 & +0.297 & $128\!\to\!128\;/\;137$ & 1.002 \\
+Dev & 0 & 82/315/336 & +0.020 & +0.018 & -0.054 & -1.270 & $61\!\to\!61\;/\;65$ & 0.999 \\
+Dev & 1 & 82/315/336 & +0.014 & -0.008 & +0.131 & +0.952 & $64\!\to\!64\;/\;65$ & 1.002 \\
+Dev & 2 & 82/315/336 & +0.077 & +0.035 & +0.231 & 0.000 & $57\!\to\!57\;/\;65$ & 1.004 \\
+\bottomrule
+\end{tabular}
+\end{table*}

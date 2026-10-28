@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETE_FIXED_MECHANISM_DESCRIPTION",
+  "study_id": "gate_mechanism_20261028_v1",
+  "protocol_sha256": "b368607bb33f5c5721b1060431db22f266275f1143c6f0525e9c9885689ffd1f",
+  "analysis_source_sha256": "4e79e9a4005e1407e4a0dc59f3306973e43fa2be9a9bbeeb770404242c72e5b7",
+  "cost": {
+    "engineering_completed_updates": 3,
+    "scientific_completed_updates": 7200,
+    "all_completed_updates": 7203,
+    "completed_scientific_runs": 12,
+    "unknown_optimizer_starts": 0,
+    "active_compute_actions": 0,
+    "mode_costs": {
+      "engineer": {
+        "actions_started": 1,
+        "actions_completed": 1,
+        "actions_failed": 0,
+        "reserved_wall_seconds_completed_actions": 26.980293039000003
+      },
+      "evaluate": {
+        "actions_started": 1,
+        "actions_completed": 1,
+        "actions_failed": 0,
+        "reserved_wall_seconds_completed_actions": 1748.4838571970004
+      },
+      "run": {
+        "actions_started": 12,
+        "actions_completed": 12,
+        "actions_failed": 0,
+        "reserved_wall_seconds_completed_actions": 3400.253187849
+      }
+    },
+    "total_reserved_wall_seconds": 5175.717338085,
+    "total_reserved_gpu_hours": 1.4376992605791667,
+    "new_execution_storage_bytes": 7305942301,
+    "first_compute_utc": "2026-10-28T21:33:53.192044+00:00",
+    "last_compute_end_utc": "2026-10-28T23:02:19.240787+00:00",
+    "compute_span_wall_seconds": 5306.048743,
+    "cost_scope": "New compute only; conservative single-GPU reserved wall includes CPU/I/O. Original U8000 training is reused, not counted as new work.",
+    "active_cost_limit": "Progress snapshots omit still-running elapsed actions from completed reserved totals.",
+    "ledger_sha256": "a2812a09f7657154d8476673f3b3b53c90670a2cd71920ecbffd4ba2da1e685d"
+  },
+  "training_mechanism": {
+    "completed_runs": 12,
+    "gate_parameter_counts": [
+      29380
+    ],
+    "first_update_positive_output_runs": 12,
+    "first_update_zero_descriptor_module_rows": 36,
+    "first_update_descriptor_module_rows": 36,
+    "subsequent_hidden_projection_positive_runs": 12,
+    "gradient_interpretation": "Zero output weights make earlier descriptor gradients zero on the first update; later nonzero gradients show learning paths become active. This is implementation behavior, not evidence of useful conditioning.",
+    "training_gate_range_interpretation": "Training ranges combine changing parameters and changing frames; they are not fixed-checkpoint frame sensitivity."
+  },
+  "evaluation_scopes": 60,
+  "coefficient_units": "Weights and shifts are fractions; _pp fields multiply by100. Maximum allowed absolute change is10 percentage points per layer, possibly less near a boundary.",
+  "boundary_fraction_definition": "abs(weight-baseline)>=0.099 and separately >=99% of that layer's allowed amplitude; each denominator is the corresponding recorded frames/updates, not independent observations.",
+  "baseline_rounding_tolerance": 1e-07,
+  "decoder_rms_interpretation": "Telemetry is measured immediately before the diagnostic mask and fusion linear, so masked-view telemetry still describes the pre-mask input. The archived LayerNorm-times-five branch does not guarantee an RMS of five: small pre-normalization variance relative to epsilon can yield a smaller RMS. Describe inputs using the saved observed RMS statistics, not the scale factor. Input RMS does not quantify predictive contribution, modality dominance, or a causal gate effect.",
+  "neutral_interpretation": "Trained-minus-neutral combines encoder and gate adaptation. Neutral is not an equal-update control. Dynamic-minus-constant is the matched conditioning contrast conditional on the shared enabled decoder route.",
+  "original_decoder_path_clarification": "Original A0-A3 also share the same encoder_decoder architecture through common config inheritance; their adaptation guards freeze decoder parameters. The shared route is conditional mechanism context, not by itself a differential architectural confound. Static-four-logit versus dynamic-MLP parameterization differs. See MECHANISM_AUDIT.md for exact source evidence.",
+  "intervention_interpretation": "Decoder-zero is an inference-only input intervention on a decoder-route-trained checkpoint; resulting sensitivity is not retrained path-free efficacy or a causal gate estimate.",
+  "evidence_limit": "Historically exposed mini; two folds/six trained replicas reuse the same four outer logs. Sameprocess AI review is not external independent replication; no iidframe CI/pvalue, causal/SOTA/calibratedsafety/collisionrisk/externalgeneralization claim.",
+  "new_fit_or_inference": false,
+  "winning_seed_or_condition_selected": false
+}

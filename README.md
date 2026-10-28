@@ -1,105 +1,54 @@
-# Layer-Gate BEV: critical-miss evaluation
+# Layer-Gate BEV: matched conditioning and critical misses
 
-[One-page research summary](docs/research-summary.pdf) · [Summary text](docs/research-summary.md) · [Paper PDF](paper/critical-miss-evaluation.pdf) · [LaTeX](paper/latex/) · [Reproduction guide](docs/reproducibility.md) · [Versioned release](https://github.com/xiaotwu/layergate-bev-critical-miss-evaluation/releases/tag/v1.0.3)
+[One-page research summary](docs/research-summary.pdf) · [New mechanism paper](paper/matched-conditioning-study.pdf) · [LaTeX](paper/mechanism-latex/) · [Compact reproduction](studies/gate-mechanism-20261028/README.md) · [Historical eleven-page report](paper/critical-miss-evaluation.pdf)
 
-**Critical-Miss Evaluation in Small-Sample BEV: Log-Weight Sensitivity and Risk-Monitor Limits**
+**Author:** Xiaotong Wu<br>
+Illinois Risk Lab (IRisk Lab), University of Illinois Urbana-Champaign<br>
+xiaotongwu116@gmail.com | Research Advisor: Dr. Zhiyu Quan
 
-**Author:** Xiaotong Wu  
-**Affiliation:** Illinois Risk Lab (IRisk Lab), University of Illinois Urbana-Champaign  
-**Email:** [xiaotongwu116@gmail.com](mailto:xiaotongwu116@gmail.com)  
-**Research Advisor:** Dr. Zhiyu Quan
+## Bounded mechanism follow-up: 2026-10-28
 
-## Research question
+**Question:** with the same inherited detector, sampling, updates, parameter shapes and inference paths, does bounded frame conditioning recover critical pedestrians beyond an input-independent gate?
 
-**When do improvements in aggregate detection metrics fail to describe critical-target recovery, and can a frozen risk score identify missed-target frames at a stated alarm cost?**
+The new study **did not meet the frozen useful-effect criterion; candidate expansion stops**. It uses the same historically exposed nuScenes mini data: 162 outer frames from four capture logs, 1,347 critical pedestrian observations and 1,590 joint-VRU observations. Seeds 0/1/2 are model replicas on these same logs, not independent datasets. No fresh-data, causal, SOTA, calibrated-safety or collision-risk result is claimed.
 
-This completed exploratory study examines three linked questions: how log weighting changes an apparent gate effect; why more pedestrian hits can leave frame-level failures unchanged; and whether probability accuracy, ranking quality and alarm utility support the same conclusion. The contribution is a reproducible case analysis of established evaluation principles in a small-sample BEV pipeline. It does not introduce a new estimator or establish stable gate efficacy.
+Twelve matched trajectories use existing same-fold/seed U8000 parents and exactly 200 gate-only plus 400 encoder/gate updates. Dynamic and constant-descriptor gates each have 29,380 parameters and execute actual feature pooling. Decoder LiDAR processing is identical and frozen. No new development/outer result chooses a checkpoint or candidate; all trained results use final600. The neutral reference is the already trained U8000 detector with no new adaptation, not a random untrained network.
 
-## Study at a glance
+### All primary seed results
 
-| Element | Scope |
-|---|---|
-| Formal exploratory data | 404 nuScenes mini frames from eight capture logs; custom capture-log partition |
-| Gate comparison | 176/192 primary groups retained; complete full404 effects use seeds0/1; seed2 has a separate 243-frame/six-log valid-fold cohort |
-| Risk monitor | One fixed three-feature model; nine logistic fits and three predetermined one-class F3 fallbacks; all three seeds use the same logs |
-| Follow-up analysis | Saved-count frame transitions and frozen-score ranking/alarm descriptions; no new detector outputs in R1–R3 |
-| Public artifacts | Compiled report, authored LaTeX build inputs, compact records, full-precision outputs and read-only numerical reproduction commands |
+C is the constant-descriptor control; D is the bounded dynamic gate. Recall changes are percentage points. AnyMiss means at least one critical VRU missed in a target-containing frame. Recovered/newly lost counts are annotation observations, not distinct people.
 
-The three seeds are model replicas on the same logs, not three independent datasets. **AnyMiss means at least one critical vulnerable road user (VRU) is missed in a frame.** It is not a collision-risk label and does not mean that every target was missed.
+|Seed|Pedestrian hits C to D|Recall change (pp)|Joint AnyMiss C to D|Pedestrian recovered / newly lost|
+|---|---|---:|---|---|
+|0|410 to 408 / 1347|-0.148|131 to 131 / 137|5 / 7|
+|1|486 to 488 / 1347|+0.148|124 to 125 / 137|5 / 3|
+|2|424 to 433 / 1347|+0.668|130 to 130 / 137|9 / 0|
 
-## Key findings
+![Complete primary matched effects and identity turnover](docs/figures/primary_identity_effects.png)
 
-1. **Aggregation can change the direction of a reported effect.** For A2/seed0/LiDAR, pooled pedestrian recall changes by −0.2053 percentage points, while equal-log weighting gives +0.0756 points. Both describe the same 404 frames/eight logs under different weights; neither establishes external benefit. The complete paired descriptions retain all candidates and denominators.
-2. **More target hits can leave exactly the same frames failed.** For A2/seed1/clean, pedestrian hits increase from 1,000/2,923 to 1,007/2,923, but all 17 count-improved frames still miss a pedestrian. Joint-VRU AnyMiss stays 288/307 target-containing frames, with exactly the same failed-frame identities. A separate local P2 development case recovers one frame and creates one new failure. Residual misses and offsetting transitions are different explanations for an unchanged total.
-3. **A weak baseline can overstate screening value.** At the primary 80/404-alarm budget, the frozen logistic/fallback score exceeds the development-prevalence comparator in all three seeds, but exceeds same-volume random expectation only in seed0. Development-fixed thresholds show limited internal enrichment with substantial alarm drift. Probability losses, ranking and alarm cost therefore require separate evaluation.
+Every log, seed, fixed secondary view, exact target/frame transition, SDK mAP/NDS/pedestrian AP and support, and saved/unmatched output burden is retained in the new paper and companion. SDK metrics are evaluated on pooled boxes, not averaged fold AP. Separate per-log SDK descriptions retain class support. Saved/unmatched outputs at score >=0.1 are burden diagnostics, not official false positives or precision. All outputs remain uncalibrated; old monitor scores are not transferred to changed boxes.
 
-Unsaved individual match identities prevent exact claims about which people were recovered or lost. Observed frame-count transitions and explicit target-turnover bounds are retained; these bounds are identification limits, not confidence intervals.
+### What the mechanism audit clarifies
 
-### Local detection-metric disagreement
+- The original gate already had neutral initialization and a same-sized A3 constant-descriptor control. This follow-up adds a bounded coefficient residual, common actual pooling and exact new identity records; capacity matching itself is not a novelty claim.
+- All original A arms shared the frozen decoder LiDAR path. Its presence alone is not a differential architectural confound. The new contrast is conditional on that shared path; inference-only masking measures sensitivity, not retrained path-free efficacy.
+- An isolated CPU execution of the customized attention method confirms an all-empty geometric camera-mask fallback doubles the residual. Its real-frame incidence and detection impact are not evaluated. This is implementation evidence, not a detector benefit or identified cause of the results.
 
-A matched fixed-8,000-update, uncalibrated clean **development** comparison (F0/seed0; 41 frames, one log, six pedestrian instances/67 critical observations) changes mAP from **2.1758% to 2.5328%** and NDS from **7.2406% to 9.2326%**. Pedestrian AP remains **0**, critical pedestrian/joint-VRU hits rise from **8/67 to 15/67**, and AnyMiss remains **30/31** target-containing frames: one frame recovers and one newly fails. Aggregate AP gains come from car/cone, with truck decreasing. Saved pedestrian outputs at score ≥0.1 change **2,175→2,177**; all-range unmatched outputs change **2,165→2,160**, which are not official false-positive or precision measures. Motorcycle/bicycle support is absent. This small historically exposed case is descriptive and does not support outer promotion.
+New computation: 7,200 scientific optimizer updates plus three engineering updates; 1.438 conservative single-GPU reserved hours including CPU/I/O and inference. The original U8000 training is reused and not counted as new work. The fixed budget is closed after the declared comparisons; unused ceilings are not a further search allocation.
 
-## Frozen risk-score results: signal and operating limits
-
-LR is the saved logistic/one-class-fallback score; Dev is the same-fold development prevalence; Conf is one minus maximum pedestrian confidence. At the primary fixed budget of **80/404 alarms (19.802%)**, each seed covers the same 404 frames/eight logs:
-
-| Seed | LR expected capture / failures | Dev capture | Conf capture | Same-volume random expectation |
-|---|---:|---:|---:|---:|
-| 0 | 57.58/270 | 40.49 | 47.00 | 53.47 |
-| 1 | 43.56/272 | 39.51 | 46.00 | 53.86 |
-| 2 | 51.47/266 | 36.54 | 35.00 | 52.67 |
-
-Equal-log descriptions also lack a consistent advantage. The frozen consistency criterion **fails**; no winning seed or alarm budget is selected afterward. The original fixed monitor's Brier/NLL improvements are inconsistent.
-
-When thresholds use development scores alone and are then held fixed, LR captures **+4.73/+13.18/+8.60** failures above random at each actual alarm volume. This is limited internal enrichment. Outer alarm fractions drift to **40.97%/23.90%/39.49%**, with gains concentrated in a few logs. Unflagged failure ratios remain **64.85%/63.04%/62.32%**. Increased capture at a larger alarm volume does not establish improvement at a fixed 20% budget.
-
-Fractional alarm/capture counts are analytic expectations under uniform, label-independent boundary-tie allocation. Fixed-policy rates are ratios of expected counts, not expectations of ratios from an executed random policy. No randomized alarm system was deployed. Failure-event `AP_risk` is distinct from detector mAP/pedestrian AP; original detector outputs and metrics do not change in R1–R3.
-
-![All three frozen-score risk–coverage descriptions](docs/figures/risk-coverage.png)
-
-## Scope and limitations
-
-- Mini is the formal exploratory dataset, using a custom capture-log partition rather than the official challenge evaluation. Repeated frames/instances, overlapping fold training populations and historical/adaptive exposure limit inference. No new external logs or independent replication are available.
-- The sixteen missing F0/seed2 groups are not filled. Full404 gate effects use only seeds0/1; the incomplete seed2 cohort is reported separately and does not form a three-seed full404 mean.
-- One-log development fitting and detector checkpoint selection on that log limit monitor evaluation; all three predetermined one-class F3 fallbacks remain in the results.
-- Detection baselines have low absolute AP and controls differ in parameterization. The A implementation has an additional decoder LiDAR path. B1 is LiDAR-only; camera/clean equality is an expected negative control, not implemented fusion evidence. B1 selections mix six 8k, three 6k and three 4k checkpoints, not uniform fixed8k controls.
-- Mandatory P1 execution failure preserves the original **NO_PROMOTION** decision. B2/B3 retain their conditional stops for resource/support/implementation limits. Missing SDK effects and original risk fields retain their nulls.
-- **Not established:** stable gate efficacy, consistent fixed-budget screening, calibrated safety risk, deployed alarm benefit, collision-risk reduction, causal effects, significance or external generalization. No iid-frame confidence intervals or p-values are supplied.
-
-This is a learning/research technical report; no peer-reviewed acceptance, DOI or SOTA result is claimed. See [study status](docs/study-status.md), [risk-ranking analysis](analysis/risk_ranking/README.md), [matched recovery analysis](analysis/recovery/README.md) and the full-precision outputs for complete results.
-
-## Explore and reproduce
-
-Start with the [one-page summary](docs/research-summary.pdf) for the research question and findings, then the [paper](paper/critical-miss-evaluation.pdf) for methods, scope and limitations. The [reproduction guide](docs/reproducibility.md) maps the compact inputs and checks.
-
-Python **3.11+**, standard library only; the documented commands require no GPU, SDK, model/data download or new training:
+Python 3.11+, standard library only for compact arithmetic reproduction:
 
 ```bash
 python scripts/verify_release.py
-python analysis/r1/verify_saved_risk.py
-python analysis/recovery/reproduce_recovery_compact.py
-python analysis/recovery/verify_group_tables_sqlite.py --read-only
-python analysis/risk_ranking/verify_ranking_alarm.py
+python studies/gate-mechanism-20261028/public_reproduce_compact.py
 ```
 
-These are same-author numerical reproduction and publication portability checks, **not external independent replication**. The archived R3 verifier reports 27,741 checks; R2 includes saved-count decompositions and finite identification-bound enumerations. No old evaluator, fit, source-capture or raw-backup operation is replayed. Candidate expansion is stopped.
+The public package reproduces saved identity/count arithmetic. Detector checkpoints, full predictions, sensor data and full annotation tables are retained locally and are not redistributed. This is a compact analysis companion, not an end-to-end detector training release. Same-process AI code/protocol/numerical checks are not external researcher replication. Code development used AI assistance.
 
-The public release is a **compact analysis companion**, not an end-to-end detector training release. Raw sensor data, full nuScenes annotation tables, detector checkpoints, large prediction payloads and private execution controls are not redistributed. The complete local historical archive is retained separately. See [data and rights](LICENSES_AND_DATA.md).
+## Preserved historical study
 
-## Further research questions
+The [original eleven-page report](paper/critical-miss-evaluation.pdf) and [historical summary](docs/archive/research-summary-v1.0.3.pdf) remain byte-preserved. Its full404 gate effects use seeds0/1; seed2 retains a separate incomplete 243-frame/six-log cohort. The 176/192 A matrix, original failures and nulls, permanent original NO_PROMOTION, and B2/B3 conditional stops are unchanged. No old launcher, failed experiment, damaged group, risk monitor or raw backup was restarted.
 
-The [research development plan](docs/research-development-plan.md) separates applicant-led reasoning, external critique and future empirical work. These are prospective questions, not completed experiments or authorization to restart the stopped study:
+The original case analysis documented log-weight sign sensitivity, additional pedestrian hits without fewer failed-frame identities, and inconsistent fixed-budget risk screening. Those conclusions are not replaced by the smaller new panel. See [study status](docs/study-status.md), [reproduction scope](docs/reproducibility.md), [research development plan](docs/research-development-plan.md), and the complete R1-R3 artifacts under `analysis/`.
 
-- **Transfer:** does a policy frozen before evaluation retain failure-capture value and a manageable alarm burden on genuinely new capture logs? Another split of the already inspected mini logs cannot supply that external evidence.
-- **Identification:** how do per-target recoveries, newly lost matches and within-frame identity swaps change the frame-level explanation when immutable match identities are saved during a future endpoint computation?
-- **Attribution:** do the metric disagreements persist with stronger detectors and matched control parameterization, under a bounded design fixed before examining outcomes?
-
-Independent compact-record reproduction and detailed reviewer feedback can strengthen confidence in the present analysis. They would not substitute for fresh-data validation or establish safety effectiveness.
-
-## Provenance and citation
-
-The [source-copy record](provenance/SOURCE_COPY_RECORD.json) maps accepted inputs and publication transformations; the [release manifest](provenance/PUBLIC_RELEASE_MANIFEST.json) binds current public bytes. Path-redacted or text-updated copies have their own hashes and are not represented as byte-identical to their archive sources. The original failures, versions, nulls and stopped experiments remain preserved. Publication history is in [the changelog](CHANGELOG.md).
-
-The authored [LaTeX source](paper/latex/) uses IEEEtran from a normal TeX distribution; third-party class/style files are not vendored. See [build instructions](paper/latex/README.md) and [references.bib](paper/latex/references.bib). Use [CITATION.cff](CITATION.cff) for a versioned citation. The research advisor is not listed as a coauthor. **Code development used AI assistance.**
-
-Academic Writing Toolkit's initial offline language-logic/BibTeX checks retain their historical scope in `provenance/academic-writing-toolkit/`. They are document assistance, not scientific peer review, online result verification or external replication. No repository-wide relicensing of the paper, code or upstream data is implied.
+This is an exploratory research technical report. No peer-reviewed acceptance or DOI is asserted. The research advisor is not listed as a coauthor; no advisor review or endorsement is inferred. See [rights and data attribution](LICENSES_AND_DATA.md), [citation metadata](CITATION.cff), and [publication provenance](provenance/FOLLOWUP_UPDATE_v1.1.0.json).

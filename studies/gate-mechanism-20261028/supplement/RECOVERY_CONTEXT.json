@@ -1,0 +1,223 @@
+{
+  "status": "COMPLETE_FIXED_CONTEXT_DESCRIPTION",
+  "scope": "All declared dynamic/constant views and seeds; no new matching, prediction, fitting, selection or old identity repair",
+  "source_results_sha256": "da5dbfb0c658a72ddddfcfc12c54ac1523bfc23094f806cef8627830b8c851da",
+  "contexts": [
+    {
+      "seed": 0,
+      "view": "outer_clean",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 3,
+      "residual_categories": {
+        "retain_pedestrian_miss": 3,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 5,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 4,
+      "pedestrian_equal_count_exchange_frames": 2,
+      "pedestrian_recovered_and_lost_sameframe": 2,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 7,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 0,
+      "view": "outer_lidar_50",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 2,
+      "residual_categories": {
+        "retain_pedestrian_miss": 2,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 3,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 6,
+      "pedestrian_equal_count_exchange_frames": 0,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 8,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 0,
+      "view": "outer_clean_decoder_lidar_zero",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 3,
+      "residual_categories": {
+        "retain_pedestrian_miss": 3,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 6,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 6,
+      "pedestrian_equal_count_exchange_frames": 2,
+      "pedestrian_recovered_and_lost_sameframe": 2,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 8,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 0,
+      "view": "development_clean",
+      "frames": 82,
+      "pedestrian_count_improved_frames": 0,
+      "residual_categories": {
+        "retain_pedestrian_miss": 0,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 1,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 4,
+      "pedestrian_equal_count_exchange_frames": 0,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 5,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 1,
+      "view": "outer_clean",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 4,
+      "residual_categories": {
+        "retain_pedestrian_miss": 4,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 5,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 2,
+      "pedestrian_equal_count_exchange_frames": 1,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 2,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 1
+    },
+    {
+      "seed": 1,
+      "view": "outer_lidar_50",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 7,
+      "residual_categories": {
+        "retain_pedestrian_miss": 6,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 1
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 7,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 1,
+      "pedestrian_count_worsened_frames": 4,
+      "pedestrian_equal_count_exchange_frames": 1,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 5,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 1,
+      "view": "outer_clean_decoder_lidar_zero",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 3,
+      "residual_categories": {
+        "retain_pedestrian_miss": 3,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 3,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 0,
+      "pedestrian_equal_count_exchange_frames": 0,
+      "pedestrian_recovered_and_lost_sameframe": 0,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 0,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 1,
+      "view": "development_clean",
+      "frames": 82,
+      "pedestrian_count_improved_frames": 3,
+      "residual_categories": {
+        "retain_pedestrian_miss": 3,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 4,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 0,
+      "pedestrian_equal_count_exchange_frames": 1,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 1,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 2,
+      "view": "outer_clean",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 8,
+      "residual_categories": {
+        "retain_pedestrian_miss": 8,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 9,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 0,
+      "pedestrian_equal_count_exchange_frames": 0,
+      "pedestrian_recovered_and_lost_sameframe": 0,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 0,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 2,
+      "view": "outer_lidar_50",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 8,
+      "residual_categories": {
+        "retain_pedestrian_miss": 7,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 1
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 8,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 1,
+      "pedestrian_count_worsened_frames": 3,
+      "pedestrian_equal_count_exchange_frames": 1,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 4,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 2,
+      "view": "outer_clean_decoder_lidar_zero",
+      "frames": 162,
+      "pedestrian_count_improved_frames": 7,
+      "residual_categories": {
+        "retain_pedestrian_miss": 7,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 8,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 3,
+      "pedestrian_equal_count_exchange_frames": 1,
+      "pedestrian_recovered_and_lost_sameframe": 1,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 4,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    },
+    {
+      "seed": 2,
+      "view": "development_clean",
+      "frames": 82,
+      "pedestrian_count_improved_frames": 1,
+      "residual_categories": {
+        "retain_pedestrian_miss": 1,
+        "only_other_vru_misses": 0,
+        "joint_all_clear": 0
+      },
+      "recovered_pedestrian_observations_on_still_joint_failed_frames": 1,
+      "recovered_pedestrian_observations_on_joint_all_clear_frames": 0,
+      "pedestrian_count_worsened_frames": 1,
+      "pedestrian_equal_count_exchange_frames": 0,
+      "pedestrian_recovered_and_lost_sameframe": 0,
+      "pedestrian_lost_observations_on_already_failed_joint_frames": 1,
+      "pedestrian_lost_observations_on_previously_allclear_joint_frames": 0
+    }
+  ]
+}

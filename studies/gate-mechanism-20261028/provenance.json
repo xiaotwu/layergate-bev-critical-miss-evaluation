@@ -1,0 +1,370 @@
+{
+  "schema_version": 1,
+  "study_id": "gate_mechanism_20261028_v1",
+  "source_results": {
+    "label": "local accepted analysis/results.json",
+    "sha256": "da5dbfb0c658a72ddddfcfc12c54ac1523bfc23094f806cef8627830b8c851da",
+    "bytes": 249367773
+  },
+  "source_protocol": {
+    "label": "frozen local protocol.json",
+    "sha256": "b368607bb33f5c5721b1060431db22f266275f1143c6f0525e9c9885689ffd1f",
+    "bytes": 8110
+  },
+  "source_verification": {
+    "label": "actual local new-result verification receipt",
+    "sha256": "b3361d105a8df5581256a8333e3bcd3311f545ce00e6d30a2d6b8d2b1130c61a",
+    "bytes": 2526
+  },
+  "source_metadata": [
+    {
+      "label": "configs/a_execution_protocol.json",
+      "sha256": "72930c26bba71b13d0131097267fe210eeb111fd562162f3601eb471ba941d09",
+      "bytes": 26072
+    },
+    {
+      "label": "v1.0-mini/scene.json",
+      "sha256": "cc4dfeac83ac4f5d3e7fc899f90156891a21fa08bc0f8a1ac0e0a27cc1a0bfa6",
+      "bytes": 3513
+    },
+    {
+      "label": "configs/sampling/F1.json",
+      "sha256": "58f16cbc375bf4b58364d17b581f4619e8aa590ecf2d7a5427ca2a395d4f1041",
+      "bytes": 73915
+    },
+    {
+      "label": "configs/sampling/F2.json",
+      "sha256": "139329e7ebdd9641d4d5eb09cf24c9191a5ff54aa9a8730761d1b8893c4278d8",
+      "bytes": 77418
+    }
+  ],
+  "source_sdk_copies": [
+    {
+      "label": "pooled_sdk/seed_0/constant/development_clean/metrics.json",
+      "sha256": "0e0ab1c4fb9384e65a44e7678976dec6ce7bd98570461aa0b1190bbd8abf9352",
+      "bytes": 4406
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/development_clean/scope.json",
+      "sha256": "d556bf247b16b55ed34cf254096f3b57a86dcd271b5e38c60a43ae338376e499",
+      "bytes": 1029
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_clean/metrics.json",
+      "sha256": "f862c98b4edd71b76cd4b4c8341d0794e7a1f61546b7bbd74f17cc990d2f8654",
+      "bytes": 4452
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_clean/scope.json",
+      "sha256": "323b5b0e025cff98e2ac4539dbc2c7b6887c68151aaf30345462ea6bc8300aa8",
+      "bytes": 1070
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "bde29c1bf67525191756b1bb17716955cc9052857ccee8b76fd209fb77c667fc",
+      "bytes": 4421
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "75ca1d2c9d019a35e0f4410ed77b095678787b7870f6f02fea3b8f4befdef9d9",
+      "bytes": 1089
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_lidar_50/metrics.json",
+      "sha256": "517038bdb30402fdd832e991f7ed798bd53de042cefdc43e7a3598ec656672f0",
+      "bytes": 4481
+    },
+    {
+      "label": "pooled_sdk/seed_0/constant/outer_lidar_50/scope.json",
+      "sha256": "3ad0dbe8a8e33c8d7dbbaba2ed3ef6ed9ec9ff7d120972251d1ce6c80cf2a796",
+      "bytes": 1073
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/development_clean/metrics.json",
+      "sha256": "e83519639d5202b131e2bdd4113617378de10bf22990a495a28a6b958d741c76",
+      "bytes": 4406
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/development_clean/scope.json",
+      "sha256": "57dd57972eb37ba6818ad6e243dea62e8f7b9539cf11387a39eceea07ea224be",
+      "bytes": 1028
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_clean/metrics.json",
+      "sha256": "6db9f9c4b3680c379a4c5155d95789c1705706999a28e9ce532beaf5dc52d2ae",
+      "bytes": 4447
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_clean/scope.json",
+      "sha256": "df5b6bf0b751fe24c4354f8e38ffef938aa64d368b04a06103c11f7262bab28f",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "3995e2eb3a4b62061d038cadfafba7a6410463490927625446bd471bb5de4764",
+      "bytes": 4417
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "40f053769060dcbe241d48f00b70370273930fdea67cc431fd02484ddd7dc76e",
+      "bytes": 1088
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_lidar_50/metrics.json",
+      "sha256": "216ad56d6d01b889779603d03e47a0ad8147abb3f17038031f1591696e4b4b1a",
+      "bytes": 4484
+    },
+    {
+      "label": "pooled_sdk/seed_0/dynamic/outer_lidar_50/scope.json",
+      "sha256": "4e4fc83a0ab27338f1c9b26b85539e033d2e6afc8a3d52cdf6322261a480c003",
+      "bytes": 1072
+    },
+    {
+      "label": "pooled_sdk/seed_0/neutral/outer_clean/metrics.json",
+      "sha256": "f7537d70c32c52033c757b8f2babb404ec62b5df59cd920a38ab3d1e3c3a6418",
+      "bytes": 4451
+    },
+    {
+      "label": "pooled_sdk/seed_0/neutral/outer_clean/scope.json",
+      "sha256": "fa640267f6ef885952f007954358b66742793ea82635e39a7cb7c36dc6f0baeb",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_0/neutral/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "2a1427ca5814ee8d108f1e07a0327d7c3a0eb440506ff90fc62a3162c6f93c9f",
+      "bytes": 4386
+    },
+    {
+      "label": "pooled_sdk/seed_0/neutral/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "7e46ae2770b62bbd55d7b3caec975712f4b79f5786f3363bafdd0a0c741f4feb",
+      "bytes": 1088
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/development_clean/metrics.json",
+      "sha256": "76d126ba6f41c9a4d7401b19adccca9ecde160501d8e6faadd6b90c849279247",
+      "bytes": 4398
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/development_clean/scope.json",
+      "sha256": "e1fbb82e718482b543c34e6448b96302961ff4ef5622c37176fc9d8df0ffbdf5",
+      "bytes": 1029
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_clean/metrics.json",
+      "sha256": "6b64cad76dae4aab12e6a085f879e760396f0405c72640a2b88b8a7a629242b8",
+      "bytes": 4479
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_clean/scope.json",
+      "sha256": "6a3e86d3664c4aa2676553656465e67351454a8f1da3991b998481580d289fda",
+      "bytes": 1070
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "033fe621708a712ba4d749f2e3f355eb2057eda99bea78a97e307e3dae1d53b7",
+      "bytes": 4412
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "45fe772f045c6599d5b068601e9e80843850df80c5b75b44193a90783196c852",
+      "bytes": 1089
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_lidar_50/metrics.json",
+      "sha256": "53950c24007da7a6dfa11adc6073f0a2d2320c268df797657243749b54e24bb0",
+      "bytes": 4464
+    },
+    {
+      "label": "pooled_sdk/seed_1/constant/outer_lidar_50/scope.json",
+      "sha256": "0749339aabe4a9956e2d932abfa02333d9ab0ea69eedb1ce40f1cf80d32296da",
+      "bytes": 1073
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/development_clean/metrics.json",
+      "sha256": "5a6e565620e4a2829ad6284c5605aee01ff81ab009530678614caca2e467b1c5",
+      "bytes": 4400
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/development_clean/scope.json",
+      "sha256": "63d6271aad273ef76b718336dbff31c26a443113756563517cf13f128622cd56",
+      "bytes": 1028
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_clean/metrics.json",
+      "sha256": "f3148584123669db0c6b2bea319662afdf83db3f643ccc5e5f30d134d08cf4df",
+      "bytes": 4472
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_clean/scope.json",
+      "sha256": "003f9e58e83ac537d8b60266c8d3c092ffeb93e5215284a71b80427c5b4122e3",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "8d5ec262123955896006a3aee99d18bdcfebd26f980fdb629d8e6d061b6e7fbd",
+      "bytes": 4436
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "81849878252f4307a14700be82954e0132c80f9c9c27f81f0e026d63628d86c9",
+      "bytes": 1088
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_lidar_50/metrics.json",
+      "sha256": "ff5307d8fa362b773e1100abb1cd658969a8c3915811ec73a71b73c834b58fd4",
+      "bytes": 4477
+    },
+    {
+      "label": "pooled_sdk/seed_1/dynamic/outer_lidar_50/scope.json",
+      "sha256": "3728ee5f9f2218714bd24d0728d7cfffbe47a16bb342f7bc15e7ca63936a6cd6",
+      "bytes": 1072
+    },
+    {
+      "label": "pooled_sdk/seed_1/neutral/outer_clean/metrics.json",
+      "sha256": "8e63a26587baed86c1e75a67c3c15505371cec59002f36ad858883b09eb072f8",
+      "bytes": 4466
+    },
+    {
+      "label": "pooled_sdk/seed_1/neutral/outer_clean/scope.json",
+      "sha256": "5ce63a1a4243801c39e480976796db1eec1b1765743710613489c7ea7b325f17",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_1/neutral/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "1cd1e162968d300053fd737d16f8e26d2b8fb7b30dd426c052b02dbe0d34c58f",
+      "bytes": 4380
+    },
+    {
+      "label": "pooled_sdk/seed_1/neutral/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "a05ca73d0de78d5e97dfdd9c66ad5f8ecc5d3e7a695bd1edd1bd6f04c07d7d51",
+      "bytes": 1088
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/development_clean/metrics.json",
+      "sha256": "4c33a245e3bedbae8455e08547fe44edd700742a08fe4e4b5d8da5b3b93b382f",
+      "bytes": 4439
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/development_clean/scope.json",
+      "sha256": "7593f65d711035911798fe2ddddf07f8ae82d77a74a5aa390a01f7328e3d6e8b",
+      "bytes": 1029
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_clean/metrics.json",
+      "sha256": "86eb4eae6c2af90002844b9c6df69964411a4b16a6a17e9b20d5584e50a95bfc",
+      "bytes": 4408
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_clean/scope.json",
+      "sha256": "8620d6a9370561712204172b499812be8f93d9bda5ca1c71d3f8d534b4ac3165",
+      "bytes": 1070
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "c9e680723e5e292f7daf776557f2b5a0a66cb8b05d36e988eaa4aa862dc79e0b",
+      "bytes": 4298
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "c9384a333e6e33dd6ffaccf8864a843d3e63d521bb1773f1fa47312d00644a80",
+      "bytes": 1089
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_lidar_50/metrics.json",
+      "sha256": "65f9f1296aad0edb9651f19eb280548f6f1e871026116663659347a2ec4200e2",
+      "bytes": 4373
+    },
+    {
+      "label": "pooled_sdk/seed_2/constant/outer_lidar_50/scope.json",
+      "sha256": "2bb181a99c7101d79acf8df5a2e1e89de3335e34fc6a5e12c0fe72a9e3ef59ea",
+      "bytes": 1073
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/development_clean/metrics.json",
+      "sha256": "2e8b9d0dad4f40c24acd18104e3c7dcfa286c67292a1b1b9203f481c05ab84b8",
+      "bytes": 4438
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/development_clean/scope.json",
+      "sha256": "17c4e1d558141bab254bdf7892cd0e7565edf646e76650705863055e66a47490",
+      "bytes": 1028
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_clean/metrics.json",
+      "sha256": "e78579054ed32c42fbe56c4ce65a50e4f477e19e0cb53bf17d78546ef3d45f3d",
+      "bytes": 4407
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_clean/scope.json",
+      "sha256": "91433aaaa3dc9205ff8c18f615eca712e6ae230c8d29c79d6709c1e76b171e4f",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "9986bf7f8a3e7fcf382a9d9f3bdd1d84c6e8960b6a72b71fffcab7119107f225",
+      "bytes": 4300
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "3a6bc3cb7e8c28744d4dfbedf5aa8620c33e344fe7cc9e07faa07b44aa7faf2f",
+      "bytes": 1088
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_lidar_50/metrics.json",
+      "sha256": "4647ab751a34607d6afd5a6f4bbafacb5a0659d5d89a81bb11b0eefff0e9db38",
+      "bytes": 4374
+    },
+    {
+      "label": "pooled_sdk/seed_2/dynamic/outer_lidar_50/scope.json",
+      "sha256": "e0d3a12d39b39af0a51078c2d8e48d24fd791c56901bb379802392aec318f938",
+      "bytes": 1072
+    },
+    {
+      "label": "pooled_sdk/seed_2/neutral/outer_clean/metrics.json",
+      "sha256": "6c27e82440b2c7ee7dbefad43728ea883bae8ce1162fe8cc931f5da9b525c4d5",
+      "bytes": 4478
+    },
+    {
+      "label": "pooled_sdk/seed_2/neutral/outer_clean/scope.json",
+      "sha256": "b66eb441f5cfbb4da9b90d7794011f08d1ff2ece0713865b8b05994542f6ee69",
+      "bytes": 1069
+    },
+    {
+      "label": "pooled_sdk/seed_2/neutral/outer_clean_decoder_lidar_zero/metrics.json",
+      "sha256": "d8cd839ac5d166c48983727cbe6148c3f5f423ca8440fdbe1b71ad71935af212",
+      "bytes": 4277
+    },
+    {
+      "label": "pooled_sdk/seed_2/neutral/outer_clean_decoder_lidar_zero/scope.json",
+      "sha256": "40613dd517f2308de19dd628024c117ce5f0f75f9486dfda3fc7fd61511b2915",
+      "bytes": 1088
+    }
+  ],
+  "byte_identical_code_copies": [
+    {
+      "label": "gates.py",
+      "sha256": "8267fa1a8ee4d8082d55f4821b3a3fc95a91e853bd46210fdc4b2dfec74bb223",
+      "bytes": 7616
+    },
+    {
+      "label": "public_reproduce_compact.py",
+      "sha256": "93d87102512357e223c2d3a9fd9e9ae732673edff7703041a51e479a857fa575",
+      "bytes": 21688
+    }
+  ],
+  "transformations": {
+    "protocol.json": "Machine root paths replaced and public role audit appended; not byte-identical.",
+    "summary_results.json": "Per-target/per-frame and instance-observation lists removed; numerical aggregates retained; local paths redacted if present; not byte-identical.",
+    "source_verification.json": "Portable JSON serialization of actual PASS receipt; any local paths redacted; own hash.",
+    "inputs/*.json": "Derived critical-only pooled match-status copies; source files and hashes recorded per scope."
+  },
+  "excluded": [
+    "sensor payload",
+    "full annotation tables",
+    "GT XY",
+    "all prediction boxes",
+    "detector checkpoints",
+    "private execution controls"
+  ],
+  "scientific_scope": "Same historically exposed mini, fixed new study. No old failure/status is repaired. Numerical reproduction of saved statuses is not SDK recomputation or external replication."
+}

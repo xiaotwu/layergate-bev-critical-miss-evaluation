@@ -1,3 +1,7 @@
+# New bounded follow-up, separately completed
+
+The 2026-10-28 matched conditioning study completed twelve final600 trajectories (7,200 new scientific updates), three engineering updates and all fixed new evaluation views. It did not meet the frozen useful-effect criterion; candidate expansion stops. Its outer panel is 162 frames/four historically exposed logs; three seeds are replicas on the same data. [New paper](../paper/matched-conditioning-study.pdf) and [complete compact records](../studies/gate-mechanism-20261028/README.md) retain unfavorable results, identities, support and burden. This does not reopen or reverse the original closed decisions below.
+
 # Completed evidence and retained limits
 
 | Component | Actual status and interpretation |

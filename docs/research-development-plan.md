@@ -1,3 +1,7 @@
+# Update: bounded mechanism study completed
+
+An independently authorized 2026-10-28 follow-up executed the finite matched gate study described in the [new paper](../paper/matched-conditioning-study.pdf). It did not meet the frozen useful-effect criterion; candidate expansion stops. It retains historical mini exposure and supplies no fresh external validation. The prospective priorities and closed original-study statements below retain their historical meaning; the original failures and conditional stops were not reopened.
+
 # Research development plan
 
 **Status: proposed work, not executed results.** The present study is closed. This document identifies research questions and evidence that could strengthen a future application or study; it does not reopen stopped experiments or change current conclusions.

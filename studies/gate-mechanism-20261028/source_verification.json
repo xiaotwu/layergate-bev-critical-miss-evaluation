@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": 9042589,
+  "evaluation_groups": 60,
+  "training_cost": {
+    "scientific_updates": 7200,
+    "engineering_updates": 3,
+    "scientific_runs": 12,
+    "conservative_reserved_gpu_seconds": 5175.717338085,
+    "engineering_seconds": 26.980293039000003,
+    "first_to_final_compute_seconds": 5306.048743,
+    "execution_tree_storage_bytes": 7283907097,
+    "scope": "Recorded new compute actions; excludes preparation, analysis and report work."
+  },
+  "criterion_all_seeds_pass": false,
+  "criterion_per_seed": [
+    {
+      "seed": 0,
+      "conditions": {
+        "pedestrian_recall_at_least_1pp": false,
+        "joint_failure_frames_do_not_increase": true,
+        "equal_log_pedestrian_effect_nonnegative": false,
+        "saved_pedestrian_increase_at_most_5percent": true
+      },
+      "passes": false,
+      "pedestrian_recall_difference": -0.0014847809948032586,
+      "equal_log_difference": -0.001565150273484417,
+      "joint_failure_difference": 0,
+      "saved_pedestrian_dynamic": 4920,
+      "saved_pedestrian_constant": 4898
+    },
+    {
+      "seed": 1,
+      "conditions": {
+        "pedestrian_recall_at_least_1pp": false,
+        "joint_failure_frames_do_not_increase": false,
+        "equal_log_pedestrian_effect_nonnegative": false,
+        "saved_pedestrian_increase_at_most_5percent": true
+      },
+      "passes": false,
+      "pedestrian_recall_difference": 0.0014847809948033142,
+      "equal_log_difference": -0.0022678237113704716,
+      "joint_failure_difference": 1,
+      "saved_pedestrian_dynamic": 6529,
+      "saved_pedestrian_constant": 6537
+    },
+    {
+      "seed": 2,
+      "conditions": {
+        "pedestrian_recall_at_least_1pp": false,
+        "joint_failure_frames_do_not_increase": true,
+        "equal_log_pedestrian_effect_nonnegative": true,
+        "saved_pedestrian_increase_at_most_5percent": true
+      },
+      "passes": false,
+      "pedestrian_recall_difference": 0.006681514476614692,
+      "equal_log_difference": 0.007963865456725921,
+      "joint_failure_difference": 0,
+      "saved_pedestrian_dynamic": 5553,
+      "saved_pedestrian_constant": 5527
+    }
+  ],
+  "checkpoint_bytes_hashed": true,
+  "analysis_results_compared": true,
+  "verifier_sha256": "f9fc932801886009ed77ff460d1b13625130895af8ded4d21c0d132eddcce5c6",
+  "scope": "Independent same-process scalar verification of new outputs and saved training receipts; not external replication. No detector, SDK, monitor, historical predictions, or torch tensor recomputation."
+}

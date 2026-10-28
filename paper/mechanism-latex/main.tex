@@ -1,0 +1,25 @@
+\documentclass[conference]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx,amsmath,amssymb,booktabs,array,graphicx,url,balance}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Xiaotong Wu},pdftitle={Matched Conditioning in Layer-Gate BEV: A Bounded Study of Critical Misses},pdfsubject={Exploratory research report; Research Advisor: Dr. Zhiyu Quan}}
+\setlength{\emergencystretch}{1.5em}
+\title{Matched Conditioning in Layer-Gate BEV:\\A Bounded Study of Critical Misses}
+\author{\IEEEauthorblockN{Xiaotong Wu}\IEEEauthorblockA{Illinois Risk Lab (IRisk Lab)\\University of Illinois Urbana-Champaign\\xiaotongwu116@gmail.com\\\textit{Research Advisor: Dr. Zhiyu Quan}}}
+\pagestyle{plain}
+\begin{document}
+\maketitle
+\begin{abstract}
+Does current-frame conditioning improve critical pedestrian matching beyond an equally sized input-independent gate? We test a bounded residual around an inherited camera/LiDAR mixture in a BEVFormer-derived detector. Dynamic and constant-descriptor gates each have 29,380 parameters and use common feature pooling, inherited checkpoints, data draws, adaptation updates, and a frozen decoder LiDAR route. Twelve fixed trajectories cover two original folds and three seeds on historically exposed nuScenes mini. The 162-frame, four-log outer panel contains 1,347 critical pedestrian observations. Dynamic-minus-constant pedestrian hit changes are $-2,+2,+9$ across the three seeds, or $-0.148,+0.148,+0.668$ percentage points. Exact annotation matching reveals recovery/loss pairs of $5/7,5/3,9/0$; joint-VRU AnyMiss failures change from $131,124,130$ to $131,125,130$ of 137 target-containing frames. All seeds fail the frozen useful-effect screen. Realized coefficients vary across frames, yet none of the primary count-improved frames becomes all-clear. Decoder-input masking, per-log SDK metrics, neutral-parent comparisons, and exact identity turnover delimit interpretation without establishing causal contributions or fresh-data efficacy. The completed finite study supports no stable practical advantage for conditioning under this implementation and budget. It preserves historical failures and provides compact arithmetic reproduction with explicit limits.
+\end{abstract}
+\begin{IEEEkeywords}bird's-eye view, multimodal fusion, critical misses, conditional gating, reproducibility\end{IEEEkeywords}
+\input{methods}
+\input{results}
+\input{discussion}
+\input{limitations}
+\input{reproducibility}
+\section{Conclusion}
+The bounded frame-conditioned gate is operational, but its matched comparison does not meet the frozen useful-effect criterion on the four-log mini panel. Small observation-level recoveries coexist with new losses, persistent failed frames, and heterogeneous log effects. Neither additional updates nor the shared decoder route can be assigned causal responsibility from this design. The appropriate completed outcome is a negative practical screen with mixed descriptive changes, preserved identities and costs, and no candidate expansion or promotion claim.
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

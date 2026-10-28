@@ -1,6 +1,6 @@
 {
   "at_utc": "2026-10-23T23:47:40.990782+00:00",
-  "scope": "Curated publication copies; v1.0.1 updates only user-supplied authorship metadata and compiled layout, preserving the R3 scientific text and results.",
+  "scope": "Preserved historical publication copies plus verified new follow-up outputs; original scientific bytes remain unchanged.",
   "source_files": [
     {
       "path": "paper/critical-miss-evaluation.pdf",
@@ -865,9 +865,39 @@
       "byte_identical": true,
       "transformation": "Verbatim copy",
       "path_fields_deidentified": []
+    },
+    {
+      "path": "docs/archive/research-summary-v1.0.3.md",
+      "archive_source": "publication-v1.0.3/docs/research-summary.md",
+      "archive_source_sha256": "c7280a6cc5593f1be560bc54ed32ae561c4dd639bb76b462de3ba62af467c5b4",
+      "public_sha256": "6bdb0b8f976fa009fe619eb27507ebafc8b8c34c4c223ecc4f76a769d4770fb0",
+      "bytes": 3942,
+      "byte_identical": false,
+      "transformation": "Relative-link relocation and equivalent Markdown line-break formatting of the historical summary; scientific prose and values unchanged. Historical PDF remains byte-identical.",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "paper/matched-conditioning-study.pdf",
+      "archive_source": "gate_mechanism_20261028_v1/paper/matched-conditioning-study.pdf",
+      "archive_source_sha256": "271b38f0899e08253415c97ecad5d413734c8c643a89c3b0434174e2d0a8664a",
+      "public_sha256": "271b38f0899e08253415c97ecad5d413734c8c643a89c3b0434174e2d0a8664a",
+      "bytes": 161765,
+      "byte_identical": true,
+      "transformation": "Verbatim copy of verified new follow-up output; historical report remains separately preserved.",
+      "path_fields_deidentified": []
+    },
+    {
+      "path": "docs/research-summary.pdf",
+      "archive_source": "gate_mechanism_20261028_v1/summary_final/research-summary.pdf",
+      "archive_source_sha256": "619104274f93f4387bb098a7edda35d3786f3ac68a0309e138160829f4e217fc",
+      "public_sha256": "619104274f93f4387bb098a7edda35d3786f3ac68a0309e138160829f4e217fc",
+      "bytes": 4670,
+      "byte_identical": true,
+      "transformation": "Verbatim copy of verified new follow-up output; historical report remains separately preserved.",
+      "path_fields_deidentified": []
     }
   ],
-  "count": 85,
+  "count": 88,
   "large_raw_predictions_checkpoints_or_execution_controls_included": false,
   "original_PDF_sha256": "04c99bb514d78699bccf9b31c3a9d251396018f4e433104c61cd26fb8ddb0654",
   "source_aliases": {
@@ -876,5 +906,7 @@
     "R2": "Saved-count recovery compact archive",
     "R3": "Frozen-score ranking compact archive"
   },
-  "current_author_metadata_pdf_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715"
+  "current_author_metadata_pdf_sha256": "4bf6837b1223024e2c7cc509015dfe80fb476d487e141be74f0432ca5953b715",
+  "historical_scope_before_followup": "Curated publication copies; v1.0.1 updates only user-supplied authorship metadata and compiled layout, preserving the R3 scientific text and results.",
+  "followup_append_utc": "2026-10-28T23:23:02.614905+00:00"
 }

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checks": 202056,
+  "pooled_scopes": 30,
+  "comparisons": 39,
+  "criterion": "CRITERION_FAILED_STOP_CANDIDATE_EXPANSION",
+  "synthetic_self_test": {
+    "status": "PASS",
+    "finite_hit_set_configurations": 341,
+    "scope": "Synthetic arithmetic, not real efficacy"
+  },
+  "scope": "Saved critical matching-status and gate/count arithmetic only. SDK mAP/NDS/pedAP, SDK filtered support and decoder RMS are copied local outputs, not recomputed. Burden is saved input, not official FP/precision. No GT rematching, detector training/inference or external replication."
+}

@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-28T23:21:50.650901+00:00",
+  "paper_sha256": "271b38f0899e08253415c97ecad5d413734c8c643a89c3b0434174e2d0a8664a",
+  "summary_sha256": "619104274f93f4387bb098a7edda35d3786f3ac68a0309e138160829f4e217fc",
+  "paper_pages": 8,
+  "visually_reviewed_paper_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "summary_pages": 1,
+  "summary_visually_reviewed": true,
+  "root_visual_review": {
+    "paper_pages": [
+      1,
+      2
+    ],
+    "summary_pages": [
+      1
+    ],
+    "findings": "Actual final PNG inspection: readable text and equations, legible complete architecture figure, complete one-page summary/table; no clipping, overlap or missing glyphs."
+  },
+  "render_sha256": {
+    "1": "cf3bf9d75f98204ff4d5ba96ea621c181a740757577482fb45f2691efedf5b3f",
+    "2": "c980e03c3357158e69dfa8eece71503472ef63cc831cd6e45600b7d64b36d697",
+    "3": "15aea665c92220d7bb8db72acc4237edab486ec089fea5155261dd1dd6b8b58e",
+    "4": "c16d2d9593f7f06911977d02e21ec91a898e7c067b637093af1797ac304b1701",
+    "5": "d6a9df0bf76eaf9f5a2861e234a85720c2901fc7ff11283e3898e7d1e98097b9",
+    "6": "11a67b1d50efd232221c961fc8caa8ef7981b6e0617d0d7f80079a8981022ac4",
+    "7": "5238774c139286cc7808c972c7ab1911f3f9fb3867492068cf985c5a737e540e",
+    "8": "76dbb40384c7fb59ac073790a5d7ee27672b1978bbaa1022ad0051168d3625f8"
+  },
+  "summary_render_sha256": "8826c09bc40bdccee55e782508c24b0666108a86ac077120465a600aba148e51",
+  "review_receipts": {
+    "FINAL_PAPER_CLAIM_REVIEW.md": {
+      "sha256": "a4981e5ab006deacc821e15497f065c5fe50d3514b9051bf165e62952d162a6f",
+      "actual_visual_pages": [
+        3,
+        7
+      ]
+    },
+    "FINAL_VISUAL_REVIEW_MECHANISM.md": {
+      "sha256": "de7c548ded795235856d631135f4e031bc7c3aab5d6e03bdc0107fa65bb9c82e",
+      "actual_visual_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    "FINAL_EDITORIAL_REVIEW.md": {
+      "sha256": "e4d19fad33c7385da380457c0b30a067f5bf3727fa9fc060b985e7a98547727e",
+      "actual_visual_pages": [
+        8
+      ]
+    }
+  },
+  "numeric_verification_sha256": "b3361d105a8df5581256a8333e3bcd3311f545ce00e6d30a2d6b8d2b1130c61a",
+  "greedy_verification_sha256": "04869af99dfdc17a574117a273463ea318b50db90a7820a50eecebe1929b33b5",
+  "mechanism_result_sha256": "3c491671a72237b819dfa725a969a978ade9430f347126e4bc921b0f9215186f",
+  "compact_verification_sha256": "dd3a53fcebd51fbb343e79ed832e0010373a2d3f9d00b0ca5f4e3715aba0e101",
+  "scope": "Same-process AI-assisted artifact/numerical/visual review; not external replication, scientific peer review, advisor review, or fresh-data validation.",
+  "operational_release_gate": "Hash-verified incremental backup and successful public commit/release/assets must be recorded separately before final delivery."
+}

@@ -1,0 +1,47 @@
+\section{Completed results}
+\subsection{Primary clean comparison}
+All twelve scientific trajectories complete their declared 600 updates, and all sixty fold-specific evaluation groups are retained. Thirty pooled SDK scopes merge unique-token boxes; no fold AP is averaged. Tables~\ref{tab:new_main_clean}--\ref{tab:new_primary_per_log} report every primary seed, arm, and capture log. The custom outer support is 1,347 pedestrian and 1,590 joint-VRU annotation observations in 162 frames, with 137 joint-target frames. The same observations recur across seeds.
+
+\input{tables/main_clean}
+\input{tables/primary_decomposition}
+\input{tables/primary_per_log}
+
+Dynamic-minus-constant pedestrian recall changes are $-0.148$, $+0.148$, and $+0.668$ percentage points (pp), corresponding to $-2,+2,+9$ hits. None reaches the required $+1$ pp. Joint AnyMiss remains $131/137$ for seed~0 and $130/137$ for seed~2, but rises from $124/137$ to $125/137$ for seed~1. Saved pedestrian-output ratios are 1.00449, 0.99878, and 1.00470, below the burden ceiling. Passing that ceiling does not rescue failure of the other conjunctive conditions.
+
+Equal-log pedestrian changes are $-0.157,-0.227,+0.796$ pp. Seed~1 therefore reverses sign between pooled and equal-log summaries. Table~\ref{tab:new_primary_per_log} makes the log denominators and heterogeneous changes visible; neither a favorable pooled seed nor an individual log replaces the prespecified panel. There are four logs rather than four independent experimental datasets.
+
+The absolute SDK metrics remain low: primary mAP spans approximately 1.62--1.94\% across all three arms. Dynamic-minus-constant changes are small and mixed across mAP, NDS, and pedestrian AP. These SDK endpoints use their own filtering and class support, so their numerical values are not interchangeable with the critical custom recall. Full per-class filtered support, per-fold metrics, and 108 per-log SDK evaluations are retained in the companion. Unsupported classes and empty per-log support remain explicit; no favorable supported subset is promoted as an alternative headline.
+
+\subsection{Recovery, loss, and persistent failures}
+The pedestrian recovered/newly-lost pairs are $5/7$, $5/3$, and $9/0$. Joint-VRU pairs are $6/8$, $6/3$, and $9/0$. There are no joint all-clear recoveries in any primary seed, with one new joint failure in seed~1. Equal-count pedestrian identity exchanges occur in two, one, and zero frames, respectively. Thus identical hit counts and unchanged AnyMiss totals do not establish identical matched targets.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{images/primary_identity_effects.pdf}
+\caption{All three primary clean seeds: pooled and equal-log pedestrian effects, exact recovered/newly-lost annotation observations, and joint failed-frame changes. The same 162-frame historical panel is reused. Counts refer to matcher assignments, not distinct people or independently sampled frames.}\label{fig:primary}
+\end{figure*}
+
+The number of frames with improved pedestrian hit counts is three, four, and eight. Every such frame still misses at least one pedestrian. All five, five, and nine recovered pedestrian observations, respectively, occur on frames that remain joint failures, including recoveries in equal-count exchange frames. Seed~2 is especially instructive: nine recovered observations and no newly lost pedestrians improve recall, yet all nine occur on still-failed frames and AnyMiss remains unchanged. This is direct endpoint accounting, not evidence about the physical severity of those misses.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=0.96\textwidth]{images/identity_case.pdf}
+\caption{Deterministically selected identity illustration: seed~0, clean F1 frame \texttt{be99ffc878b24aca8956bbb4e0f97d0c}. Among 14 critical pedestrian annotations, both arms match four and miss ten; one annotation is recovered and another newly lost. The left panel locates annotations in ego coordinates; the right panel shows the 14 matched-status assignments. P denotes pedestrian and suffixes abbreviate annotation IDs. Selection uses the first lexicographic qualifying frame with at most 20 targets, prioritizing equal-count identity exchange; it selects an illustration, not a model or outcome estimate. Colors encode the declared matcher, without image-based adjudication or cross-run prediction tracking.}\label{fig:case}
+\end{figure*}
+
+\subsection{Secondary views and the neutral parent}
+\input{tables/secondary}
+Table~\ref{tab:new_secondary} preserves every fixed secondary row. Under 50\% LiDAR retention, the three pedestrian effects are $-0.371,+0.223,+0.371$ pp, with joint failure changes $0,-1,-1$. Decoder-half masking gives $-0.148,+0.223,+0.297$ pp and no dynamic--constant failure-count changes. Development effects are $-1.270,+0.952,0.000$ pp; none changes joint failure counts. These views were completed without adapting the schedule, gate, or checkpoint to their outcomes.
+
+\begin{figure*}[t]
+\centering\includegraphics[width=\textwidth]{images/decoder_intervention.pdf}
+\caption{Same-checkpoint decoder LiDAR input intervention for all evaluated clean arms and seeds. Encoder LiDAR remains enabled. Changes measure sensitivity to this masking operation on a detector trained with the route, not the effect of retraining without it or a decomposition of predictive contribution.}\label{fig:decoder}
+\end{figure*}
+
+Compared with its unadapted U8000 parent, each adapted arm has fewer primary pedestrian and joint hits and more joint failed frames (Table~\ref{tab:new_main_clean}). Saved outputs also decrease. This establishes no practical improvement over the inherited detector under the chosen short adaptation schedule. The neutral parent has zero new updates rather than 600; the comparison cannot isolate the gate, encoder adaptation, optimization schedule, or their interaction as the cause. Reduced output burden is not an official precision improvement.
+
+\section{Observed gate and path behavior}
+\input{tables/mechanisms}
+Training telemetry agrees with neutral initialization: all twelve runs have positive first-update output-head gradient norms, while all 36 recorded descriptor/projection/hidden module groups have zero first-update gradients. Earlier module gradients subsequently become positive in all twelve runs. These observations verify that the intended learning paths activate; they do not establish useful conditioning.
+
+At the fixed final checkpoints, the largest across-frame coefficient SD among four layers ranges from 0.17068 to 0.34008 pp over the six dynamic fold/seed models. The largest absolute departure from an inherited coefficient ranges from 1.130 to 2.633 pp. Constant descriptors yield zero across-frame coefficient SD. No recorded clean outer coefficient reaches 99\% of its allowed amplitude. The realized dynamic gate is therefore frame-dependent and remains well inside its bound on these frames; bound saturation does not describe the observed weak result. No matched unbounded experiment identifies what an alternative amplitude would do.
+
+The same checkpoint produces identical coefficients before and after decoder-input masking because the intervention occurs downstream of gate computation. The recorded pre-mask encoder and decoder-LiDAR input norms establish that both inputs are present. LayerNorm scaling and norms are not calibrated contribution fractions: their magnitude cannot establish LiDAR dominance, gate redundancy, or causal responsibility. Masking changes detector outcomes, but a retrained route-free model could behave differently. The isolated all-camera-masks-empty forward check returns exactly $2q$ in evaluation; this narrowly verifies the audited branch and says nothing about its frequency or metric impact in the real panel.

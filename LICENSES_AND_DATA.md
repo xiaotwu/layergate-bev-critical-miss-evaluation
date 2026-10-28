@@ -19,3 +19,7 @@ The original detector implementation includes limitations described in the manus
 ## Document review
 
 Academic Writing Toolkit is used only for offline paragraph-logic and BibTeX-record structure checks. Tool receipts are recorded as document-assistance provenance, not authorship, peer review, external scientific replication, certification or endorsement by the tool provider or cited researchers.
+
+## New identity-preserving follow-up
+
+The new compact package also contains derived annotation/instance identities, endpoint match statuses, scores/distances, gates and burden counts. Illustrative paper figures may show limited derived GT coordinates. These are nuScenes-derived research records subject to applicable upstream terms; they are not a newly unrestricted dataset. Full annotation tables and detector predictions are not redistributed. The new authored LaTeX does not vendor IEEEtran class/style files. FiLM and ReZero are credited design precedents, not evidence of BEV efficacy.
